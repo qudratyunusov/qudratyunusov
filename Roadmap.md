@@ -12,8 +12,9 @@ Thank you for supporting RPCS3!
 * Add remaining SPU instructions: _Magn3s1um_
 
 ### Medium term goals
-* cellJpgDec: Allow to resize JPG while decoding.
-* cellFs: Add/Improve handling of streams and folders.
+* cellJpgDec: Allow to downscale JPG images while decoding them.
+* cellFs: Add/Improve the handling of streams and folders.
+* Implement more lv2 SysCalls
 * Find bugs and fix them.
 
 ### Long term goals
