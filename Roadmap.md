@@ -8,13 +8,13 @@ Thank you for supporting RPCS3!
 ***
 ### Short term goals
 * PKG Installer: _Oil_
-* Add SDATA decryption: _AlexAltea_
+* Add SDATA and PSARC decryption: _AlexAltea_
 * Add remaining SPU instructions: _Magn3s1um_
 
 ### Medium term goals
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * cellFs: Add/Improve the handling of streams and folders.
-* Implement more lv2 SysCalls
+* Implement more lv2 SysCalls.
 * Find bugs and fix them.
 
 ### Long term goals
