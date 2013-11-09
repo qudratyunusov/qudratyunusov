@@ -9,9 +9,9 @@ Thank you for supporting RPCS3!
 ### Short term goals
 * PKG Installer: _Oil_
 * Work in SPU: _Magn3s1um_
+* Add support for encrypted/compressed SDATA files: _Hykem_
 
 ### Medium term goals
-* Add support for encrypted/compressed SDATA files. (See https://github.com/AlexAltea/sdata-tool)
 * cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * cellFs: Add/Improve the handling of streams and folders.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
