@@ -8,15 +8,17 @@ Thank you for supporting RPCS3!
 ***
 ### Short term goals
 * PKG Installer: _Oil_
-* Add SDATA and PSARC decryption: _AlexAltea_
-* Add remaining SPU instructions: _Magn3s1um_
+* Work in SPU: _Magn3s1um_
 
 ### Medium term goals
-* cellJpgDec: Allow to downscale JPG images while decoding them.
+* Add support for encrypted/compressed SDATA files. (See https://github.com/AlexAltea/sdata-tool)
+* cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * cellFs: Add/Improve the handling of streams and folders.
+* cellJpgDec: Allow to downscale JPG images while decoding them.
 * Implement more lv2 SysCalls.
 * Find bugs and fix them.
 
+
 ### Long term goals
 * Implement a JIT compiler for PPU / SPU.
-* Fix wxWidgets 2.8.12 problem (https://github.com/DHrpcs3/rpcs3/issues/6)
+* Fix wxWidgets 2.8.12 problem (See https://github.com/DHrpcs3/rpcs3/issues/6)
