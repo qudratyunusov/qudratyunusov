@@ -7,9 +7,11 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
+* Implement post-drwaing (and more): _[DH]_
 * PKG Installer: _Oil_
 * Work in SPU: _Magn3s1um_
 * Add support for encrypted/compressed SDATA files: _Hykem_
+
 
 ### Medium term goals
 * cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
