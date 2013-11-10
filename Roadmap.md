@@ -11,6 +11,7 @@ Thank you for supporting RPCS3!
 * PKG Installer: _Oil_
 * Work in SPU: _Magn3s1um_
 * Add support for encrypted/compressed SDATA files: _Hykem_
+* Implement cellResc functions: _AlexAltea_
 
 
 ### Medium term goals
