@@ -8,7 +8,6 @@ Thank you for supporting RPCS3!
 ***
 ### Short term goals
 * Implement post-drawing, vfsDir (and more): _[DH]_
-* PKG Installer: _Oil_
 * Work in SPU: _Magn3s1um_
 * Add support for encrypted/compressed SDATA files: _Hykem_
 * Implement cellResc functions: _AlexAltea_
@@ -18,6 +17,7 @@ Thank you for supporting RPCS3!
 * cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * cellFs: Add/Improve the handling of streams and folders.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
+* Change PKG installation directory to dev_hdd0/game.
 * Implement more lv2 SysCalls.
 * Find bugs and fix them.
 
