@@ -10,7 +10,7 @@ Thank you for supporting RPCS3!
 * Implement post-drawing, vfsDir (and more): _[DH]_
 * Work in SPU: _Magn3s1um_
 * Add support for encrypted/compressed SDATA files: _Hykem_
-* Implement cellResc functions: _AlexAltea_
+* Add support for PSARC containers: _AlexAltea_
 
 
 ### Medium term goals
@@ -20,6 +20,7 @@ Thank you for supporting RPCS3!
 * Change PKG installation directory to dev_hdd0/game.
 * Implement more lv2 SysCalls.
 * Find bugs and fix them.
+* Add PRX support.
 
 
 ### Long term goals
