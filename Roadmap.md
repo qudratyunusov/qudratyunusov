@@ -9,7 +9,7 @@ Thank you for supporting RPCS3!
 ### Short term goals
 * Implement post-drawing, vfsDir (and more): _[DH]_
 * Work in SPU: _Magn3s1um_
-* Add support for encrypted/compressed SDATA files: _Hykem_
+* Add support for compressed SDATA files: _Hykem_
 * Add support for PSARC containers: _AlexAltea_
 
 
