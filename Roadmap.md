@@ -25,5 +25,6 @@ Thank you for supporting RPCS3!
 
 
 ### Long term goals
+* Implement PSGL.
 * Implement a JIT compiler for PPU / SPU.
 * Fix wxWidgets 2.8.12 problem (See https://github.com/DHrpcs3/rpcs3/issues/6)
