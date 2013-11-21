@@ -10,7 +10,8 @@ Thank you for supporting RPCS3!
 * Implement post-drawing, vfsDir (and more): _[DH]_
 * Work in SPU: _Magn3s1um_
 * Add support for compressed SDATA files: _Hykem_
-* Add support for PSARC containers: _AlexAltea_
+* Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
+* Add a call stack panel for the debugger: _AlexAltea_
 
 
 ### Medium term goals
