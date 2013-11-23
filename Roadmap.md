@@ -7,10 +7,11 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing, vfsDir (and more): _[DH]_
+* Implement post-drawing, vfsDir and RawSPU: _[DH]_
 * Work in SPU: _Magn3s1um_
 * Add support for compressed SDATA files: _Hykem_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
+* Add unimplemented GCM commands: _AlexAltea_
 
 
 ### Medium term goals
