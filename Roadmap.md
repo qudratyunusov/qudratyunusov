@@ -11,7 +11,7 @@ Thank you for supporting RPCS3!
 * Work in SPU: _Magn3s1um_
 * Add support for compressed SDATA files: _Hykem_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
-* Add unimplemented GCM commands: _AlexAltea_
+* Add unimplemented GCM commands and cellGame functions: _AlexAltea_
 
 
 ### Medium term goals
