@@ -19,7 +19,7 @@ Thank you for supporting RPCS3!
 * cellFs: Add/Improve the handling of streams and folders.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Change PKG installation directory to dev_hdd0/game.
-* Implement PRX loader. (Related: http://psx-scene.com/forums/f338/prx-loader-v1-02-w-source-user-118916/)
+* Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Implement more lv2 SysCalls.
 * Find bugs and fix them.
 
