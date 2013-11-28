@@ -7,11 +7,11 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing, vfsDir and RawSPU: _[DH]_
-* Work in SPU: _Magn3s1um_
+* Implement post-drawing, vfsDir and SPU: _[DH]_
 * Add support for compressed SDATA files: _Hykem_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Add unimplemented GCM commands and cellGame functions: _AlexAltea_
+* Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
 
 
 ### Medium term goals
@@ -19,9 +19,9 @@ Thank you for supporting RPCS3!
 * cellFs: Add/Improve the handling of streams and folders.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Change PKG installation directory to dev_hdd0/game.
+* Implement PRX loader. (Related: http://psx-scene.com/forums/f338/prx-loader-v1-02-w-source-user-118916/)
 * Implement more lv2 SysCalls.
 * Find bugs and fix them.
-* Add PRX support.
 
 
 ### Long term goals
