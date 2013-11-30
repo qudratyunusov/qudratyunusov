@@ -9,6 +9,7 @@ Thank you for supporting RPCS3!
 ### Short term goals
 * Implement post-drawing, vfsDir and improve SPU: _[DH]_
 * Add support for compressed SDATA files: _Hykem_
+* Work in SPU: _NekotekinaHito_ (_Magn3s1um:_ Have you uncommited changes?)
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Add unimplemented GCM commands and cellFont functions: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
