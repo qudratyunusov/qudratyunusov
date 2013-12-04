@@ -21,7 +21,8 @@ Thank you for supporting RPCS3!
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Change PKG installation directory to dev_hdd0/game.
 * Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
-* Implement more lv2 SysCalls.
+* Implement more lv2 SysCalls. Specifically:
+    * 82, 86, 87 used by games like Diablo 3.
 * Find bugs and fix them.
 
 
