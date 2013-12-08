@@ -19,7 +19,6 @@ Thank you for supporting RPCS3!
 * cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * cellFs: Add/Improve the handling of streams and folders.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
-* Change PKG installation directory to dev_hdd0/game.
 * Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Implement more lv2 SysCalls. Specifically:
     * 82, 86, 87 used by games like Diablo 3.
