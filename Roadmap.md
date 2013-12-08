@@ -16,7 +16,6 @@ Thank you for supporting RPCS3!
 
 
 ### Medium term goals
-* cellPad: Implement cellPadGetInfo.
 * cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * cellFs: Add/Improve the handling of streams and folders.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
