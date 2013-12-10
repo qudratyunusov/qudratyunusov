@@ -7,11 +7,11 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing, vfsDir and improve SPU: _[DH]_
+* Implement post-drawing, shaders, recompiler, vfsDir and improve SPU: _[DH]_
 * Add support for compressed SDATA files: _Hykem_
 * Work in SPU: _NekotekinaHito_ (_Magn3s1um:_ Have you uncommited changes?)
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
-* Add unimplemented GCM commands and cellFont functions: _AlexAltea_
+* Implement cellFont: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
 
 
@@ -19,6 +19,7 @@ Thank you for supporting RPCS3!
 * cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * cellFs: Add/Improve the handling of streams and folders.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
+* Add unimplemented GCM commands.
 * Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Implement more lv2 SysCalls. Specifically:
     * 82, 86, 87 used by games like Diablo 3.
