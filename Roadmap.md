@@ -21,6 +21,7 @@ Thank you for supporting RPCS3!
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Add unimplemented GCM commands.
 * Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
+* Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Implement more lv2 SysCalls. Specifically:
     * 82, 86, 87 used by games like Diablo 3.
 * Find bugs and fix them.
