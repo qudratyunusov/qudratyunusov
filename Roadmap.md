@@ -7,11 +7,11 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing, shaders, recompiler, vfsDir and improve SPU: _[DH]_
+* Implement post-drawing, shaders, PPU recompiler, vfsDir and improve SPU: _[DH]_
 * Add support for compressed SDATA files: _Hykem_
 * Work in SPU: _NekotekinaHito_ (_Magn3s1um:_ Have you uncommited changes?)
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
-* Implement cellFont: _AlexAltea_
+* Implement cellFont and RSX Debugger: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
 
 
@@ -28,6 +28,6 @@ Thank you for supporting RPCS3!
 
 
 ### Long term goals
-* Implement PSGL.
-* Implement a JIT compiler for PPU / SPU.
+* Add support for PSGL.
+* Implement a dynamic recompiler for SPU.
 * Fix wxWidgets 2.8.12 problem (See https://github.com/DHrpcs3/rpcs3/issues/6)
