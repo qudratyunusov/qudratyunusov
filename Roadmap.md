@@ -22,8 +22,10 @@ Thank you for supporting RPCS3!
 * Add unimplemented GCM commands.
 * Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
+* Implement new module functions. Specifically:
+    * cellPamf: cellPamfGetHeaderSize used by games like _Disgaea 3: Absence of Justice_.
 * Implement more lv2 SysCalls. Specifically:
-    * 82, 86, 87 used by games like Diablo 3.
+    * 82, 86, 87 used by games like _Diablo 3_.
 * Find bugs and fix them.
 
 
