@@ -34,4 +34,5 @@ Thank you for supporting RPCS3!
 ### Long term goals
 * Add support for PSGL.
 * Implement a dynamic recompiler for SPU.
+* Improve the _Restart_ function: Close all opened file handlers and uninitialize modules.
 * Fix wxWidgets 2.8.12 problem (See https://github.com/DHrpcs3/rpcs3/issues/6)
