@@ -9,7 +9,7 @@ Thank you for supporting RPCS3!
 ### Short term goals
 * Implement post-drawing, shaders, PPU recompiler, vfsDir and improve SPU: _[DH]_
 * Add support for compressed SDATA files: _Hykem_
-* Work in SPU: _NekotekinaHito_ (_Magn3s1um:_ Have you uncommited changes?)
+* Work in SPU and cellPamf: _NekotekinaHito_ (_Magn3s1um:_ Have you uncommited changes?)
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Implement cellFont and RSX Debugger: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
@@ -17,15 +17,16 @@ Thank you for supporting RPCS3!
 
 ### Medium term goals
 * cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
-* cellFs: Add/Improve the handling of streams and folders.
+* cellFs: Add/Improve the handling of streams.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Add unimplemented GCM commands.
 * Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
+* Implement a User Account Manager: Generate and manage the directories like: */dev_hdd0/home/00000001/*.
 * Fix the `read: reading from stdout or stderr (fd 1 & 2) not allowed` error of some homebrews like _SNES9x for PS3_.
 * Fix the `libpng error: IHDR: CRC error` error present in many homebrews like _Cubicle Shooter City_.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Implement new module functions. Specifically:
-    * cellPamf: cellPamfGetHeaderSize used by games like _Disgaea 3: Absence of Justice_.
+    * cellPamf: Used by games like _Disgaea 3: Absence of Justice_.
 * Implement more lv2 SysCalls. Specifically:
     * 82, 86, 87 used by games like _Diablo 3_.
 * Find bugs and fix them.
@@ -34,5 +35,7 @@ Thank you for supporting RPCS3!
 ### Long term goals
 * Add support for PSGL.
 * Implement a dynamic recompiler for SPU.
+* Implement Trophies Manager (requires a User Account Manager first).
+* cellFs: Add/Improve the handling of folders (requires vfsDir first).
 * Improve the _Restart_ function: Close all opened file handlers and uninitialize modules.
 * Fix wxWidgets 2.8.12 problem (See https://github.com/DHrpcs3/rpcs3/issues/6)
