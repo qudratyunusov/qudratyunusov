@@ -16,8 +16,8 @@ Thank you for supporting RPCS3!
 
 
 ### Medium term goals
-* cellFs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
-* cellFs: Add/Improve the handling of streams.
+* sys_fs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
+* sys_fs: Add/Improve the handling of streams.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Add unimplemented GCM commands.
 * Implement PRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
@@ -36,6 +36,11 @@ Thank you for supporting RPCS3!
 * Add support for PSGL.
 * Implement a dynamic recompiler for SPU.
 * Implement Trophies Manager (requires a User Account Manager first).
-* cellFs: Add/Improve the handling of folders (requires vfsDir first).
+* sys_fs: Add/Improve the handling of folders (requires vfsDir first).
+* Prepare PS3 Autotests, for automated functionality tests in new revisions:
+    * PPU, SPU, RawSPU tests.
+    * File tests: Open, Read, Write, Close with sys_fs.
+    * Modules and lv2 SysCalls tests.
+    * Vertex/Fragment recompilers tests.
 * Improve the _Restart_ function: Close all opened file handlers and uninitialize modules.
 * Fix wxWidgets 2.8.12 problem (See https://github.com/DHrpcs3/rpcs3/issues/6)
