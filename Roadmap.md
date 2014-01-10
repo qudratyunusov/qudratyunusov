@@ -34,7 +34,7 @@ Thank you for supporting RPCS3!
 
 ### Long term goals
 * Add support for PSGL.
-* Implement a dynamic recompiler for SPU.
+* Implement a recompiler for SPU.
 * Implement Trophies Manager (requires a User Account Manager first).
 * sys_fs: Add/Improve the handling of folders (requires vfsDir first).
 * Prepare _PS3 Autotests_, for automated functionality tests in new revisions:
