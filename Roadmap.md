@@ -25,6 +25,7 @@ Thank you for supporting RPCS3!
 * Fix the `read: reading from stdout or stderr (fd 1 & 2) not allowed` error of some homebrews like _SNES9x for PS3_.
 * Fix the `libpng error: IHDR: CRC error` error present in many homebrews like _Cubicle Shooter City_.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
+* Implement an ID Manager debugger. (Useful for debugging VFS, and other ID based items)
 * Implement new module functions. Specifically:
     * cellPamf: Used by games like _Disgaea 3: Absence of Justice_.
 * Implement more lv2 SysCalls. Specifically:
