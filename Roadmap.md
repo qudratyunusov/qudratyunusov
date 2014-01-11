@@ -38,6 +38,7 @@ Thank you for supporting RPCS3!
 * Implement a recompiler for SPU.
 * Implement Trophies Manager (requires a User Account Manager first).
 * sys_fs: Add/Improve the handling of folders (requires vfsDir first).
+* Add support for loading and running ELFs from the command line (first step to automated tests).
 * Prepare _PS3 Autotests_, for automated functionality tests in new revisions:
     * PPU, SPU, RawSPU tests.
     * File tests: Open, Read, Write, Close with sys_fs.
