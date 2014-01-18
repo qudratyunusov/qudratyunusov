@@ -7,7 +7,7 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing, shaders, PPU recompiler, vfsDir and improve SPU: _[DH]_
+* Implement post-drawing, shaders, a new ID Manager, PPU recompiler, vfsDir and improve SPU: _[DH]_
 * Add support for compressed SDATA files: _Hykem_
 * Work in SPU and cellPamf: _NekotekinaHito_ (_Magn3s1um:_ Have you uncommited changes?)
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
@@ -25,7 +25,6 @@ Thank you for supporting RPCS3!
 * Fix the `read: reading from stdout or stderr (fd 1 & 2) not allowed` error of some homebrews like _SNES9x for PS3_.
 * Fix the `libpng error: IHDR: CRC error` error present in many homebrews like _Cubicle Shooter City_.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
-* Implement an ID Manager debugger. (Useful for debugging VFS, and other ID based items)
 * Implement new module functions. Specifically:
     * cellPamf: Used by games like _Disgaea 3: Absence of Justice_.
 * Implement more lv2 SysCalls. Specifically:
@@ -37,6 +36,7 @@ Thank you for supporting RPCS3!
 ### Long term goals
 * Add support for PSGL.
 * Implement a recompiler for SPU.
+* Implement an ID Manager debugger: Useful for debugging VFS, and other ID based items. (requires a new ID Manager first).
 * Implement Trophies Manager (requires a User Account Manager first).
 * sys_fs: Add/Improve the handling of folders (requires vfsDir first).
 * Add support for loading and running ELFs from the command line (first step to automated tests).
