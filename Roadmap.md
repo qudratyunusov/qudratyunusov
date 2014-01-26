@@ -29,6 +29,7 @@ Thank you for supporting RPCS3!
     * cellPamf: Used by games like _Disgaea 3: Absence of Justice_.
 * Implement more lv2 SysCalls. Specifically:
     * 82, 86, 87 used by games like _Diablo 3_.
+    * 350 used by games like _PixelJunk Eden_.
 * Implement core dumps.
 * Find bugs and fix them.
 
