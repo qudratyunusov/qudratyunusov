@@ -13,7 +13,7 @@
 **How can I decrypt SELF files? Why do I get the `scetool: Cound not load keys` error?**
 > All the commercial games and the signed homebrew have their main executable encrypted (SELF) and it's usually named: *EBOOT.BIN*. In order to run these games, RPCS3 needs a key to decrypt them. Due to copyright reasons, you have to obtain a **legal** copy of the SELF decryption keys and place them in a folder named "*data*" next to the RPCS3 executable in a format that is readable for *scetool*. In the end, you should have three files inside this folder named: "*keys*", "*ldr_curves*" and "*vsh_curves*".
 
-**Will RPCS3 be ported to platform X?
+**Will RPCS3 be ported to platform X?**
 > As long as this platform is powerful enough to emulate the PlayStation 3, yes, there is a high chance that RPCS3 will be ported there. However, at the moment we only target Windows and Linux.
 
 **Will RPCS3 include feature X?**
