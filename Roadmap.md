@@ -10,6 +10,7 @@ Thank you for supporting RPCS3!
 * Implement post-drawing, shaders, a new ID Manager, PPU recompiler, vfsDir and improve SPU: _[DH]_
 * Add support for compressed SDATA files: _Hykem_
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
+* Work in memory and GCM & RSX: _elisha464_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Implement RSX Debugger: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
