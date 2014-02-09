@@ -14,6 +14,7 @@ Thank you for supporting RPCS3!
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Implement RSX Debugger: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
+* Update wxWidgets 2.8.12 to wxWidgets 3: _Bigpet_
 
 
 ### Medium term goals
