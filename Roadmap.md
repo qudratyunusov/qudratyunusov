@@ -8,13 +8,13 @@ Thank you for supporting RPCS3!
 ***
 ### Short term goals
 * Implement post-drawing, shaders, a new ID Manager, PPU recompiler, vfsDir and improve SPU: _[DH]_
-* Add support for compressed SDATA files: _Hykem_
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
 * Work in memory and GCM & RSX: _elisha464_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Implement RSX Debugger: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
 * Update wxWidgets 2.8.12 to wxWidgets 3: _Bigpet_
+* Implement a User Account Manager: Generate and manage the directories like: */dev\_hdd0/home/00000001/*: _Oil_
 
 
 ### Medium term goals
@@ -23,7 +23,6 @@ Thank you for supporting RPCS3!
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Add unimplemented GCM commands.
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
-* Implement a User Account Manager: Generate and manage the directories like: */dev_hdd0/home/00000001/*.
 * Fix the `read: reading from stdout or stderr (fd 1 & 2) not allowed` error of some homebrews like _SNES9x for PS3_.
 * Fix the `libpng error: IHDR: CRC error` error present in many homebrews like _Cubicle Shooter City_.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
