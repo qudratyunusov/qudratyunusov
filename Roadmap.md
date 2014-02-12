@@ -13,7 +13,7 @@ Thank you for supporting RPCS3!
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Implement RSX Debugger: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
-* Update wxWidgets 2.8.12 to wxWidgets 3: _Bigpet_
+* Work in cellHttp, cellSsl and cellSpurs modules: _Bigpet_
 * Implement a User Account Manager: Generate and manage the directories like: */dev\_hdd0/home/00000001/*: _Oil_
 
 
@@ -49,4 +49,3 @@ Thank you for supporting RPCS3!
     * Modules and lv2 SysCalls tests.
     * Vertex/Fragment recompilers tests.
 * Improve the _Restart_ function: Close all opened file handlers and uninitialize modules.
-* Fix wxWidgets 2.8.12 problem (See https://github.com/DHrpcs3/rpcs3/issues/6)
