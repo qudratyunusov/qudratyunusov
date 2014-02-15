@@ -16,6 +16,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * Module functions and lv2 SysCalls:
     * Handle file accesses using *VFS* functions.
     * Return defined error codes. That is, use `return CELL_OK;` instead of `return 0;`.
+    * Do **not** delete the entries in *rpcs3/Emu/SysCalls/FuncList.cpp* after implenting a function.
 * Use `mem*_t` arguments instead of `u32 *_addr`.
     * Pointers to `u8`, `u16`, `u32`, `u64` are respectively `mem8_t`, `mem16_t`, `mem32_t`, `mem64_t`.
     * Pointers to the datatype `foo` are `mem_ptr_t<foo>`.
