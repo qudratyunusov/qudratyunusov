@@ -49,4 +49,4 @@ Thank you for supporting RPCS3!
     * File tests: Open, Read, Write, Close with sys_fs.
     * Modules and lv2 SysCalls tests.
     * Vertex/Fragment recompilers tests.
-* Improve the _Restart_ function: Close all opened file handlers and uninitialize modules.
+* Improve the _Restart_ function: Some games still change their behaviour after restarting.
