@@ -19,6 +19,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
     * Do **not** delete the entries in *rpcs3/Emu/SysCalls/FuncList.cpp* after implenting a function.
 * Use `mem*_t` arguments instead of `u32 *_addr`.
     * Pointers to `u8`, `u16`, `u32`, `u64` are respectively `mem8_t`, `mem16_t`, `mem32_t`, `mem64_t`.
-    * Pointers to the datatype `foo` are `mem_ptr_t<foo>`.
+    * Pointers to the datatype `T` are `mem_ptr_t<T>`.
+    * Pointers to the function `T (*)(t1 a1, t2 a2)` are `mem_func_ptr_t<T (*)(t1 a1, t2 a2)>`
 * Allocate memory with *MemoryAllocator*.
     * Don't forget to switch endianness: That is, allocate `u32` with `MemoryAllocator<be_t<u32>>`
