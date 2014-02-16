@@ -7,7 +7,7 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing, shaders, a new ID Manager, PPU recompiler, vfsDir and improve SPU: _[DH]_
+* Implement post-drawing, shaders decompiler and PPU x64 recompiler: _DH_
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
 * Work in memory and GCM & RSX: _elisha464_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
