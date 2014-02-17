@@ -13,7 +13,6 @@ Thank you for supporting RPCS3!
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Implement RSX Debugger: _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
-* Work in cellHttp, cellSsl and cellSpurs modules: _Bigpet_
 * Implement a User Account Manager: Generate and manage the directories like: */dev\_hdd0/home/00000001/*: _Oil_
 
 
