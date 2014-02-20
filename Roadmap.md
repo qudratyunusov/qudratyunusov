@@ -21,6 +21,7 @@ Thank you for supporting RPCS3!
 * sys_fs: Add/Improve the handling of streams.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Add unimplemented GCM commands.
+* Implement loading SPU code from encrypted file.
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Fix the `read: reading from stdout or stderr (fd 1 & 2) not allowed` error of some homebrews like _SNES9x for PS3_.
 * Fix the `libpng error: IHDR: CRC error` error present in many homebrews like _Cubicle Shooter City_.
