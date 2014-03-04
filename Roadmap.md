@@ -11,7 +11,7 @@ Thank you for supporting RPCS3!
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
 * Work in memory and GCM & RSX: _elisha464_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
-* Implement RSX Debugger: _AlexAltea_
+* Implement RSX Debugger and [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
 * Implement a User Account Manager: Generate and manage the directories like: */dev\_hdd0/home/00000001/*: _Oil_
 
@@ -45,9 +45,4 @@ Thank you for supporting RPCS3!
 * Implement Trophies Manager (requires a User Account Manager first).
 * sys_fs: Add/Improve the handling of folders (requires vfsDir first).
 * Add support for loading and running ELFs from the command line (first step to automated tests).
-* Prepare _PS3 Autotests_, for automated functionality tests in new revisions:
-    * PPU, SPU, RawSPU tests.
-    * File tests: Open, Read, Write, Close with sys_fs.
-    * Modules and lv2 SysCalls tests.
-    * Vertex/Fragment recompilers tests.
 * Improve the _Restart_ function: Some games still change their behaviour after restarting.
