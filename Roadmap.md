@@ -34,8 +34,10 @@ Thank you for supporting RPCS3!
 * Implement more lv2 SysCalls. Specifically (ordered from more to less important):
     * 350 used by games like _PixelJunk Eden_.
     * 82, 86, 87 used by games like _Diablo 3_.
-* Implement core dumps.
 * Find bugs and fix them.
+    * Add PPU instructions _lswi_ and _stswi_
+    * Fix PPU instructions that are broken according to [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/), like the Vector extensions.
+* Implement core dumps.
 
 
 ### Long term goals
