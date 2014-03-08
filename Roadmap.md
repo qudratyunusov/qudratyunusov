@@ -9,7 +9,6 @@ Thank you for supporting RPCS3!
 ### Short term goals
 * Implement post-drawing, shaders decompiler and PPU x64 recompiler: _DH_
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
-* Work in memory and GCM & RSX: _elisha464_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Implement RSX Debugger and [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
 * Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
@@ -20,7 +19,7 @@ Thank you for supporting RPCS3!
 * sys_fs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * sys_fs: Add/Improve the handling of streams.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
-* Add unimplemented GCM commands.
+* Work in RSX and add unimplemented GCM commands.
 * Implement loading SPU code from encrypted file.
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Fix the `read: reading from stdout or stderr (fd 1 & 2) not allowed` error of some homebrews like _SNES9x for PS3_.
