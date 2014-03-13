@@ -22,7 +22,6 @@ Thank you for supporting RPCS3!
 * Work in RSX and add unimplemented GCM commands.
 * Implement loading SPU code from encrypted file.
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
-* Fix the `read: reading from stdout or stderr (fd 1 & 2) not allowed` error of some homebrews like _SNES9x for PS3_.
 * Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
 * Fix the ds4x.ppu.elf sample: KeyUp events are not properly handled in cellPad.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
