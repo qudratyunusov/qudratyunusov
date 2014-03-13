@@ -10,15 +10,15 @@ Thank you for supporting RPCS3!
 * Implement post-drawing, shaders decompiler and PPU x64 recompiler: _DH_
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
-* Implement RSX Debugger and [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
-* Alternative Qt based GUI and replace wxWidgets datatypes with the ones of std: _xsacha_
-* Implement a User Account Manager: Generate and manage the directories like: */dev\_hdd0/home/00000001/*: _Oil_
+* Improve RSX Debugger and [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
+* Work in Audio: */dev\_hdd0/home/00000001/*: _Oil_
 
 
 ### Medium term goals
 * sys_fs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * sys_fs: Add/Improve the handling of streams.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
+* Replace wxWidgets datatypes inside the emulator with std ones if possible.
 * Work in RSX and add unimplemented GCM commands.
 * Implement loading SPU code from encrypted file.
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
