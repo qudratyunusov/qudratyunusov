@@ -12,7 +12,7 @@ Thank you for supporting RPCS3!
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * Improve RSX Debugger and [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
-* Work in Audio: */dev\_hdd0/home/00000001/*: _Oil_
+* Work in Audio: _Oil_
 
 
 ### Medium term goals
