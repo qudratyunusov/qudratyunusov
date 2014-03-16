@@ -28,6 +28,7 @@ Thank you for supporting RPCS3!
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Implement new module functions. Specifically (ordered from more to less important):
+    * cellSpurs
     * sys_net: Used by games like _Pinballistik_.
 * Implement more lv2 SysCalls. Specifically (ordered from more to less important):
     * 150, 154, 151 used by games like _NBA Unrivaled [NPUB30146]_.
