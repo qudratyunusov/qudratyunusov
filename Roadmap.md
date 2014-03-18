@@ -34,7 +34,8 @@ Thank you for supporting RPCS3!
     * 150, 154, 151 used by games like _NBA Unrivaled [NPUB30146]_.
     * 84, 88 used by games like _NBA Unrivaled [NPUB30146]_.
     * 177 used by games like _Puzzle Chronicles [NPUB30076]_.
-    * 631 used by games like _Prince of Persia Classic [NPUB30031]_.
+    * 631 used by games like _Prince of Persia Classic [NPUB30031]_. (Is this function really relevant?)
+    * 831 which is cellFsChmod. (Is this function really relevant?)
 * Find bugs and fix them.
     * Add PPU instructions _lswi_ and _stswi_
     * Fix PPU instructions that are broken according to [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/), like some Vector extensions and FPU stuff.
