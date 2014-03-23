@@ -28,7 +28,7 @@ Thank you for supporting RPCS3!
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Implement new module functions. Specifically (ordered from more to less important):
-    * cellSpurs
+    * **cellSpurs**. (Contact other developers before doing so).
     * sys_net: Used by games like _Pinballistik_.
 * Implement more lv2 SysCalls. Specifically (ordered from more to less important):
     * 150, 154, 151 used by games like _NBA Unrivaled [NPUB30146]_.
@@ -37,7 +37,6 @@ Thank you for supporting RPCS3!
     * 631 used by games like _Prince of Persia Classic [NPUB30031]_. (Is this function really relevant?)
     * 834 which is cellFsChmod. (Is this function really relevant?)
 * Find bugs and fix them.
-    * Add PPU instructions _lswi_ and _stswi_
     * Fix PPU instructions that are broken according to [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/), like some Vector extensions and FPU stuff.
 * Implement core dumps.
 
