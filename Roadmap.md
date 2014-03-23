@@ -20,7 +20,7 @@ Thank you for supporting RPCS3!
 * sys_fs: Add/Improve the handling of streams.
 * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Replace wxWidgets datatypes inside the emulator with std ones if possible.
-* Work in RSX and add unimplemented GCM commands.
+* **Work in RSX and add unimplemented GCM commands**.
 * Implement loading SPU code from encrypted file.
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
