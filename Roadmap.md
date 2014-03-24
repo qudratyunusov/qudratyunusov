@@ -11,7 +11,7 @@ Thank you for supporting RPCS3!
 * Crypto Engine: _Hykem_
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
-* Improve RSX Debugger and [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
+* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
 * Work in Audio: _Oil_
 
 
@@ -22,6 +22,7 @@ Thank you for supporting RPCS3!
 * Replace wxWidgets datatypes inside the emulator with std ones if possible.
 * **Work in RSX and add unimplemented GCM commands**.
 * Implement loading SPU code from encrypted file.
+* Improve RSX Debugger: Add frame stepping (pause the emulator and advance just one frame).
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
 * Fix the ds4x.ppu.elf sample: KeyUp events are not properly handled in cellPad.
