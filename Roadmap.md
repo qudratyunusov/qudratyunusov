@@ -17,8 +17,6 @@ Thank you for supporting RPCS3!
 
 ### Medium term goals
 * sys_fs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
-* sys_fs: Add/Improve the handling of streams.
-* cellJpgDec: Allow to downscale JPG images while decoding them.
 * Replace wxWidgets datatypes inside the emulator with std ones if possible.
 * **Work in RSX and add unimplemented GCM commands**.
 * Implement loading SPU code from encrypted file.
@@ -30,7 +28,7 @@ Thank you for supporting RPCS3!
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Implement new module functions. Specifically (ordered from more to less important):
     * **cellSpurs**. (Contact other developers before doing so).
-    * sys_net: Used by games like _Pinballistik_.
+    * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Implement more lv2 SysCalls. Specifically (ordered from more to less important):
     * 150, 154, 151 used by games like _NBA Unrivaled [NPUB30146]_.
     * 84, 88 used by games like _NBA Unrivaled [NPUB30146]_.
@@ -46,7 +44,4 @@ Thank you for supporting RPCS3!
 * Add support for PSGL.
 * Implement a recompiler for SPU.
 * Implement an ID Manager debugger: Useful for debugging VFS, and other ID based items. (requires a new ID Manager first).
-* Implement Trophies Manager (requires a User Account Manager first).
-* sys_fs: Add/Improve the handling of folders (requires vfsDir first).
-* Add support for loading and running ELFs from the command line (first step to automated tests).
 * Improve the _Restart_ function: Some games still change their behaviour after restarting.
