@@ -8,7 +8,7 @@ Thank you for supporting RPCS3!
 ***
 ### Short term goals
 * Implement post-drawing, shaders decompiler and PPU x64 recompiler: _DH_
-* Crypto Engine: _Hykem_
+* Crypto Engine, EDATA loader and cellSpurs: _Hykem_
 * Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
 * Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
 * [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
