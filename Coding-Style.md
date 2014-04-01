@@ -10,7 +10,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * Put curly-brackets (`{` and `}`) on the next line.
 * Try to eliminate all compiler warnings from your code.
 * Try to use C++ standard data types whenever it's possible (e.g. _std::string_ instead of _wxString_).
-* Comment *every* hack you do, *every* block of code you comment out and *every* improvable code.
+* Comment *every* hack you do, *every* snippet you comment out and *every* improvable code.
 
 ***
 ### Emulator coding style
