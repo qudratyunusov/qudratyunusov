@@ -8,10 +8,11 @@ Thank you for supporting RPCS3!
 ***
 ### Short term goals
 * Implement post-drawing, shaders decompiler and PPU x64 recompiler: _DH_
+* Work on an asmjit-based PPU recompiler: _jfhs_
+* Splitting RPCS3s project in two projects (GUI + Core): _Bigpet_
 * Crypto Engine, EDATA loader and cellSpurs: _Hykem_
-* Work in cellPamf, cellDmux and threads, mutexes, events: _NekotekinaHito_
-* Add support for PSARC containers: _AlexAltea_ (Stopped: Can someone send me an ELF that loads PSARCs?)
-* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
+* Work in cellDmux, Audio and asmjit-based SPU recompiler: _NekotekinaHito_
+* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/) and PSARC containers: _AlexAltea_ (Can someone confirm me if PSARC files are handled properly?)
 * Work in Audio: _Oil_
 
 
@@ -27,7 +28,6 @@ Thank you for supporting RPCS3!
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Implement new module functions. Specifically (ordered from more to less important):
-    * **cellSpurs**. (Contact other developers before doing so).
     * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Implement more lv2 SysCalls. Specifically (ordered from more to less important):
     * 150, 154, 151 used by games like _NBA Unrivaled [NPUB30146]_.
