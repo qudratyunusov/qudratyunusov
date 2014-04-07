@@ -42,6 +42,5 @@ Thank you for supporting RPCS3!
 
 ### Long term goals
 * Add support for PSGL.
-* Implement a recompiler for SPU.
 * Implement an ID Manager debugger: Useful for debugging VFS, and other ID based items. (requires a new ID Manager first).
 * Improve the _Restart_ function: Some games still change their behaviour after restarting.
