@@ -25,7 +25,7 @@ Thank you for supporting RPCS3!
 * Improve Memory Viewer: There are bugs in text representation.
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
-* Fix the ds4x.ppu.elf sample: KeyUp events are not properly handled in cellPad.
+* Fix *Arkedo Series 02 Swap*: KeyUp events are not properly handled in cellPad.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Improve PSF Loader in order to make *PARAM.SFO files* given the parameters.
