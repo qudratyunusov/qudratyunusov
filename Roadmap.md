@@ -26,6 +26,7 @@ Thank you for supporting RPCS3!
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
 * Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
 * Fix the errors when trying opening files in folders with special characters like '™'.
+* Fix the missing TTY log when reloading a game.
 * Fix *Arkedo Series 02 Swap*: KeyUp events are not properly handled in cellPad.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
