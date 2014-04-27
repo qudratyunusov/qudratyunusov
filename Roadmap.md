@@ -12,7 +12,7 @@ Thank you for supporting RPCS3!
 * Splitting RPCS3s project in two projects (GUI + Core): _Bigpet_
 * Crypto Engine, EDATA loader and cellSpurs: _Hykem_
 * Work in cellDmux, Audio and asmjit-based SPU recompiler: _NekotekinaHito_
-* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/) and PSARC containers: _AlexAltea_ (Can someone confirm me if PSARC files are handled properly?)
+* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_ (Can someone confirm me if PSARC files are handled properly?)
 * Work in Audio: _Oil_
 
 
@@ -27,7 +27,6 @@ Thank you for supporting RPCS3!
 * Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
 * Fix the errors when trying opening files in folders with special characters like '™'.
 * Fix the missing TTY log when reloading a game.
-* Fix *Arkedo Series 02 Swap*: KeyUp events are not properly handled in cellPad.
 * Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Improve PSF Loader in order to make *PARAM.SFO files* given the parameters.
@@ -39,8 +38,7 @@ Thank you for supporting RPCS3!
     * 177 used by games like _Puzzle Chronicles [NPUB30076]_.
     * 631 used by games like _Prince of Persia Classic [NPUB30031]_. (Is this function really relevant?)
     * 834 which is cellFsChmod. (Is this function really relevant?)
-* Find bugs and fix them.
-    * Fix PPU instructions that are broken according to [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/), like some Vector extensions and FPU stuff.
+* Find bugs, wrong [autotests](https://github.com/DHrpcs3/ps3autotests/) or read the current [issues](https://github.com/DHrpcs3/rpcs3/issues) and fix them.
 * Implement core dumps.
 
 
