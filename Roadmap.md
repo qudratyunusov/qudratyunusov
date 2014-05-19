@@ -40,6 +40,7 @@ Thank you for supporting RPCS3!
     * 834 which is cellFsChmod. (Is this function really relevant?)
 * Find bugs, wrong [autotests](https://github.com/DHrpcs3/ps3autotests/) or read the current [issues](https://github.com/DHrpcs3/rpcs3/issues) and fix them.
 * Implement core dumps.
+* Fix infinite loop: *cellCameraReadEx* -> ... ->  *cellGemUpdateFinish* in games like *NPEA00282*.
 
 
 ### Long term goals
