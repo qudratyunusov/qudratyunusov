@@ -39,7 +39,7 @@ For the implementation of the interpreter it would probably be best to refrain f
 
 
 ####Misc
-(Some of this information can be deleted, or at least properly organized).
+(Some of this information can be deleted, or at least it should be properly organized).
 * `sizeof(char)` = 1 (= 8 bits)
 * `sizeof(short)` = 2
 * `sizeof(int)` = 4
