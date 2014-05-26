@@ -12,7 +12,7 @@ Thank you for supporting RPCS3!
 * Splitting RPCS3s project in two projects (GUI + Core): _Bigpet_
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
 * Work in cellDmux, Audio and asmjit-based SPU recompiler: _NekotekinaHito_
-* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_ (Can someone confirm me if PSARC files are handled properly?)
+* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
 * Work in Audio: _Oil_
 
 
@@ -26,7 +26,6 @@ Thank you for supporting RPCS3!
 * Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
 * Fix the errors when trying opening files in folders with special characters like '™'.
 * Fix the missing TTY log when reloading a game.
-* Enable sorting by Title / Serial / etc. in the panel "_Game List_".
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Improve PSF Loader in order to make *PARAM.SFO files* given the parameters.
 * Implement new module functions. Specifically (ordered from more to less important):
