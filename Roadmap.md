@@ -18,7 +18,6 @@ Thank you for supporting RPCS3!
 
 ### Medium term goals
 * sys_fs: Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
-* Replace wxWidgets datatypes inside the emulator with std ones if possible.
 * **Work in RSX and add unimplemented GCM commands**.
 * Implement loading SPU code from encrypted file.
 * Improve RSX Debugger: Add frame stepping (pause the emulator and advance just one frame).
