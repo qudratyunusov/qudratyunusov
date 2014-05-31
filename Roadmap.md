@@ -12,7 +12,6 @@ Thank you for supporting RPCS3!
 * Splitting RPCS3s project in two projects (GUI + Core): _Bigpet_
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
 * Implementing RSX commands and working in the OpenGL backen: _raven02_
-* [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
 * Rewriting the shader recompiler: _nohbdy_
 
 
