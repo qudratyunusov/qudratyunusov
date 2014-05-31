@@ -7,13 +7,13 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing and PPU recompiler: _DH_
-* Work on an asmjit-based PPU recompiler: _jfhs_
+* Implement post-drawing and PPU recompiler: _[DH]_ (?)
+* Work on an asmjit-based PPU recompiler: _jfhs_ (?)
 * Splitting RPCS3s project in two projects (GUI + Core): _Bigpet_
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
 * Work in cellDmux, Audio and asmjit-based SPU recompiler: _NekotekinaHito_
 * [PS3 Autotests](https://github.com/DHrpcs3/ps3autotests/): _AlexAltea_
-* Work in Audio: _Oil_
+* Rewriting the shader recompiler: _nohbdy_
 
 
 ### Medium term goals
