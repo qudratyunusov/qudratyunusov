@@ -1,20 +1,11 @@
-#### What is RPCS3?
-RPCS3 is an open-source Sony PlayStation 3 emulator for Windows written in C++. It currently runs only small homebrew applications. The source code for RPCS3 is hosted at: https://github.com/DHrpcs3/rpcs3/
+#### What is RPCS3 and where can I get it?
+* RPCS3 is an open-source Sony PlayStation 3 emulator for Windows and Linux written in C++. It currently runs only small homebrew applications. The source code for RPCS3 is hosted at [GitHub](https://github.com/DHrpcs3/rpcs3/). There won't be [official releases](https://github.com/DHrpcs3/rpcs3/releases) for some time, but in the meantime you can grab the lastest compiled revisions at [EmuNewz](http://www.emunewz.net/forum/forumdisplay.php?fid=199).
 
-#### Where can I get it?
-There is more than one place to download RPCS3 builds. We recommend getting it at: https://github.com/DHrpcs3/rpcs3/releases
+#### What are the hardware requirements I need to run it?
+* The requirements for running RPCS3 are still not fully known and may change a lot in its current development stage. The absolute minimum requirements for running the program are 64-bit OS, a modern CPU that supports SSE2 (and SSE4 for the recompiler) and a OpenGL 3.3 compatible graphics card (integrated GPUs such as the *Intel HD Graphics* series are known to have problems).
 
-#### What do I need to run it?
-The requirements for running RPCS3 are still not fully known and may change a lot in its current development stage. The absolute minimum requirements for running the program are a modern CPU that supports SSE and a OpenGL 3.3 compatible graphics card.
+#### Does RPCS3 support commercial games? When will it support them?
+* **No**. RPCS3 cannot run commercial games yet because it's in an early stage of development. A lot of features required to run commercial games still have not been implemented. Commercial games will be supported when the hardware/firmware emulation is accurate enough to run them. It all depends on the amount of developers working on this project, their skills, and free time, etc. so ignore any estimates and guesses you find out there.
 
-#### Why doesn't RPCS3 support commercial games? Will it support them in the future?
-RPCS3 cannot run commercial games yet because it's in an early stage of development. A lot of features required to run commercial games still have not been implemented. Commercial games will be supported when the hardware emulation is accurate enough to run them.
-
-#### Will RPCS3 be ported to platform X?
-As long as this platform is powerful enough to emulate the PlayStation 3, then it is very likely. However, at the moment we only target Windows and Linux.
-
-#### Will RPCS3 include feature X?
-If that feature is feasible and requested by enough people, we will probably agree and implement it. However, for now, we consider the emulator itself our biggest priority rather than all the other secondary features (language selector, higher rendering resolutions, PlayStation Move support, etc.).
-
-#### How many time will you need until RPCS3 boots a commercial game successfully?
-You can safely ignore any estimation you find on the Internet: There is no accurate answer for this. It all depends on the amount of developers working on this project, their skills, and free time among many other parameters.
+#### Will RPCS3 be ported to platform X? Will it include feature Y?
+* As long as the platform is powerful enough to emulate the PlayStation 3, probably yes. However, at the moment we only target Windows and Linux. The same applies to features, if they are reasonable and requested by enough people, we will probably agree and implement it. However, for now, we consider the emulator itself our biggest priority rather than all the other secondary features (multiple languages, higher rendering resolutions, PlayStation Move support, etc.).
