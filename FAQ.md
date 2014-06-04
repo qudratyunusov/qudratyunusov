@@ -9,3 +9,6 @@
 
 #### Will RPCS3 be ported to platform X? Will it include feature Y?
 * As long as the platform is powerful enough to emulate the PlayStation 3, probably yes. However, at the moment we only target Windows and Linux. The same applies to features, if they are reasonable and requested by enough people, we will probably agree and implement it. However, for now, we consider the emulator itself our biggest priority rather than all the other secondary features (multiple languages, higher rendering resolutions, PlayStation Move support, etc.).
+
+#### I'd like to make a patch/develop/contribute to the project.
+* That's awesome, contributions are welcome! Please start by [forking the project](https://github.com/DHrpcs3/rpcs3/fork), then read the wiki pages (specially [Coding Style](https://github.com/DHrpcs3/rpcs3/wiki/Coding-Style) and [Developer Information](https://github.com/DHrpcs3/rpcs3/wiki/Developer-Information)), find something you want to add or improve (broken games, bugs, missing features, [Roadmap](https://github.com/DHrpcs3/rpcs3/wiki/Roadmap) stuff, etc.), work on it, test your changes and send a pull request. Feel free to ask any developers on [EmuNewz](http://emunewz.net/forum/forumdisplay.php?fid=162) or IRC if you have questions.
