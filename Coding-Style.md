@@ -24,3 +24,5 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
     * Pointers to the function `T (*)(t1 a1, t2 a2)` are `mem_func_ptr_t<T (*)(t1 a1, t2 a2)>`
 * Allocate memory with *MemoryAllocator*.
     * Don't forget to switch endianness: That is, allocate `u32` with `MemoryAllocator<be_t<u32>>`
+* Switch endianness on compile time if possible:
+    * When comparing the type `be_t<u32> x` with the constant `y`, use: `x.ToBE()` and `se32(y)` respectively to gain speed by switching the endianness of the constant in compilation time.
