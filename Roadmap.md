@@ -7,7 +7,7 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing and PPU recompiler: _[DH]_ (?)
+* Implement post-drawing, shaders recompiler and Xbyak-based PPU recompiler: _[DH]_
 * Work on an asmjit-based PPU recompiler: _jfhs_ (?)
 * Splitting RPCS3s project in two projects (GUI + Core): _Bigpet_
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
