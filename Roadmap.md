@@ -21,7 +21,6 @@ Thank you for supporting RPCS3!
 * Implement loading SPU code from encrypted file.
 * Improve RSX Debugger: Add frame stepping (pause the emulator and advance just one frame).
 * Implement PRX/SPRX loader. (See also: PRX Loader v1.02, libkirk / kirk_engine, etc.)
-* Fix the `libpng error: incorrect data check` error present in many homebrews like _Cubicle Shooter City_.
 * Fix the errors when trying opening files in folders with special characters like '™'.
 * Fix the missing TTY log when reloading a game.
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
