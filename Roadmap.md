@@ -12,7 +12,8 @@ Thank you for supporting RPCS3!
 * Splitting RPCS3s project in two projects (GUI + Core): _Bigpet_
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
 * Implementing RSX commands and working in the OpenGL backen: _raven02_
-* Rewriting the shader recompiler: _nohbdy_
+* Implementing PRX loader: _AlexAltea_ (Will push it after July)
+* Rewriting the shader recompiler: _nohbdy_ (?)
 
 
 ### Medium term goals
