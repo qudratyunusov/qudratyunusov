@@ -39,5 +39,6 @@ Thank you for supporting RPCS3!
 
 ### Long term goals
 * Add support for PSGL.
+* Add a User Manager to manage folders like: `dev_hdd0/home/00000001`
 * Improve the _Restart_ function: Some games still change their behaviour after restarting.
 * Implement an new ID Manager debugger for debugging different types of objects: PRX, VFS, Threads, etc. (Will be done in the PRX Loader).
