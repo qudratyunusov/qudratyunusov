@@ -25,6 +25,7 @@ Thank you for supporting RPCS3!
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Improve PSF Loader in order to make *PARAM.SFO files* given the parameters.
 * Implement new module functions. Specifically (ordered from more to less important):
+    * cellGameCreateGameData: Handle game data installations.
     * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Implement more lv2 SysCalls. Specifically (ordered from more to less important):
     * 150, 154, 151 used by games like _NBA Unrivaled [NPUB30146]_.
