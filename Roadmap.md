@@ -11,8 +11,8 @@ Thank you for supporting RPCS3!
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
 * Implementing PRX/SPRX loader (~ PRX Loader v1.02, libkirk / kirk_engine): _AlexAltea_ (Will finish it in August)
 * CLI commands for RPCS3: _Bigpet_
-* Implementing RSX commands and working in the OpenGL backen: _raven02_
-* Rewriting the shader recompiler: _nohbdy_ (?)
+* Implementing RSX commands: _raven02_
+* cellSync: _Nekotekina_
 
 
 ### Medium term goals
@@ -20,7 +20,6 @@ Thank you for supporting RPCS3!
 * **Work in RSX and add unimplemented GCM commands**.
 * Implement loading SPU code from encrypted file.
 * Improve RSX Debugger: Add frame stepping (pause the emulator and advance just one frame).
-* Implement PRX/SPRX loader. 
 * Fix the errors when trying opening files in folders with special characters like '™'.
 * Reverse cache files in /dev_hdd1/. Ask _BlackDaemon_ to get them.
 * Improve PSF Loader in order to make *PARAM.SFO files* given the parameters.
@@ -39,7 +38,5 @@ Thank you for supporting RPCS3!
 
 
 ### Long term goals
-* Add support for PSGL.
-* Add a User Manager to manage folders like: `dev_hdd0/home/00000001`
+* Add a User Manager to manage folders like: `dev_hdd0/home/00000001`.
 * Improve the _Restart_ function: Some games still change their behaviour after restarting.
-* Implement an new ID Manager debugger for debugging different types of objects: PRX, VFS, Threads, etc. (Will be done in the PRX Loader).
