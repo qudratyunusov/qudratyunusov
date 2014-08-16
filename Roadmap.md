@@ -7,7 +7,7 @@ Thank you for supporting RPCS3!
 
 ***
 ### Short term goals
-* Implement post-drawing, shaders recompiler and Xbyak-based PPU recompiler: _[DH]_ (?)
+* Rewriting VP/FP recompiler and work in a Xbyak-based PPU recompiler: _[DH]_ (?)
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
 * Implementing PRX/SPRX loader (~ PRX Loader v1.02, libkirk / kirk_engine): _AlexAltea_ (Will finish it in August)
 * CLI commands for RPCS3: _Bigpet_
