@@ -10,8 +10,6 @@ Thank you for supporting RPCS3!
 * Rewriting VP/FP recompiler and work in a Xbyak-based PPU recompiler: _[DH]_ (?)
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
 * Implementing PRX/SPRX loader (~ PRX Loader v1.02, libkirk / kirk_engine): _AlexAltea_ (Will finish it in August)
-* CLI commands for RPCS3: _Bigpet_
-* Implementing RSX commands: _raven02_
 * cellSync: _Nekotekina_
 
 
