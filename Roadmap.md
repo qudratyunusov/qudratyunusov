@@ -9,7 +9,6 @@ Thank you for supporting RPCS3!
 ### Short term goals
 * Rewriting VP/FP recompiler and work in a Xbyak-based PPU recompiler: _[DH]_ (?)
 * Improved memory manager and PPU interpreter: _Hykem_ (Crypto Engine, EDATA loader and cellSpurs paused)
-* Implementing PRX/SPRX loader (~ PRX Loader v1.02, libkirk / kirk_engine): _AlexAltea_
 * cellSync: _Nekotekina_
 
 
