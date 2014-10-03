@@ -11,6 +11,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * Try to eliminate all compiler warnings from your code.
 * Try to use C++ standard data types whenever it's possible (e.g. _std::string_ instead of _wxString_).
 * Comment *every* hack you do, *every* snippet you comment out and *every* improvable code.
+* If you have to comment or place a commented code snippet, include the reasons to do that in the comment.
 
 ***
 ### Emulator coding style
