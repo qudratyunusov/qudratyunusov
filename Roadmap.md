@@ -32,6 +32,7 @@ Thank you for supporting RPCS3!
 * Find bugs, wrong [autotests](https://github.com/DHrpcs3/ps3autotests/) or read the current [issues](https://github.com/DHrpcs3/rpcs3/issues) and fix them.
 * Implement core dumps.
 * Fix infinite loop: *cellCameraReadEx* -> ... ->  *cellGemUpdateFinish* in games like *NPEA00282*.
+  NOTE: This is probably the way game requests info from the camera and processes it.
 
 
 ### Long term goals
