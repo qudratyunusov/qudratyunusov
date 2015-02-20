@@ -46,6 +46,7 @@ For the implementation of the interpreter it would probably be best to refrain f
 * `sizeof(long)` = 4
 * `sizeof(long long)` = 8
 * `sizeof(size_t)` = 4
+* `sizeof(sys_memory_container_t)` = 4
 * `sizeof(void*)` = 4
 
 Reading from invalid addresses / Trying to execute code from invalid addresses (e.g. stack) / Trying to write to invalid addresses (e.g. functions) makes the application exit on real PS3s.
