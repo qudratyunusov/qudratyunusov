@@ -23,7 +23,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
     * Use `s8`, `s16`, `s32`, `s64` for integral signed types.
     * Use `u8`, `u16`, `u32`, `u64` for unsigned types.
     * Use `float`, `double` for floating point numbers.
-    * Use `bool` as is; `char` for representing UTF-8 string character.
+    * Use `b8` for `bool`; `char` for representing UTF-8 string character.
     * Don't use `be_t<>` in function arguments/results, they are already little-endian.
     * But don't forget that dereferencing vm::ptr for PS3 leads to big-endian values.
 * Use `vm::ptr<>` arguments instead of `pointers`.
