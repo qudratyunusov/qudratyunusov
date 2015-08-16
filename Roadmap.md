@@ -21,14 +21,19 @@ Thank you for supporting RPCS3!
 * Examine PPU/SPU/ARMv7 stack structure. Restore the "callstack" in the debugger using the information from the real thread's stack, using SP register. Catching it from branch instructions was: 1) wrong 2) slow.
 * Improve `vm::reservation_op`: use TSX intrinsics if supported (by CPUID).
 * Eliminate `std::this_thread` `sleep_for()` and `yield()` usage in most places, because it's ineffective or even wrong.
+* Implement "Load liblv2.prx" option correctly.
 
 
 ## Medium term goals
+* Correctly load EXPORT table of main PPU executable.
+* Implement variable import/export support (VNIDs) for PPU.
+* Improve all PRX-related things.
 * Improve debugger, fix bugs.
 * Implement static AOT PPU recompiler.
 * Implement AOT SPU recompiler.
 * Implement block-based ARMv7 disassembler.
 * Implement static AOT ARMv7 recompiler.
+* Implement variable import support (VNIDs) for ARMv7.
 * Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * Improve RSX and add unimplemented GCM commands.
 * Implement loading SPU code from encrypted file.
