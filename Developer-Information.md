@@ -21,9 +21,8 @@ Best wishes and happy coding!
 
 ### HLE
 * [http://www.psdevwiki.com/ps3/](http://www.psdevwiki.com/ps3/)
-* Module SysCalls: Ask other developers.
-* lv2 SysCalls: [http://www.psdevwiki.com/ps3/LV2\_Functions\_and\_Syscalls](http://www.psdevwiki.com/ps3/LV2_Functions_and_Syscalls) (A bit incomplete)
-* lv2 SysCalls: Ask other developers.
+* LV2 SysCalls: Ask other developers. [http://www.psdevwiki.com/ps3/LV2\_Functions\_and\_Syscalls](http://www.psdevwiki.com/ps3/LV2_Functions_and_Syscalls) (A bit incomplete)
+* Modules: Ask other developers. Basically optional HLE implementaions of prx modules found in `/dev_flash/sys/external/`.
 
 
 ## Information
@@ -35,7 +34,7 @@ This flag writes to the `OV` and `SO` (overflow and summary overflow) bits of th
 
 If we find some software that has some handwritten assembly that use those instructions we'll need to implement it (or just for completeness). A good reference for XER bits can be found in [PowerPC Microprocessor Family: The Programmer's Reference Guide ](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/852569B20050FF778525699600741775) chapter 1.3 and other linked references.
 
-For the implementation of the interpreter it would probably be best to refrain from x86 assembly or compiler intrinsics like `__readeflags` to determine a overflow. Probably something from the [answers to this SO question](http://stackoverflow.com/questions/199333/best-way-to-detect-integer-overflow-in-c-c) is what we should consider.
+Probably something from the [answers to this SO question](http://stackoverflow.com/questions/199333/best-way-to-detect-integer-overflow-in-c-c) is what we could consider.
 
 
 ####Misc
