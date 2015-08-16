@@ -19,6 +19,8 @@ Thank you for supporting RPCS3!
 * Eliminate `delete`/`delete[]` operator usage. Eliminate `malloc`/`free` usage. Use `std::unique_ptr` instead.
 * Implement correct SPU segment loading in order to provide correct `sys_spu_image_import`, `sys_raw_spu_load`, `sys_spu_elf_get_information`, `sys_spu_elf_get_segments`, etc. implementations.
 * Examine PPU/SPU/ARMv7 stack structure. Restore the "callstack" in the debugger using the information from the real thread's stack, using SP register. Catching it from branch instructions was: 1) wrong 2) slow.
+* Improve `vm::reservation_op`: use TSX intrinsics if supported (by CPUID).
+* Eliminate `std::this_thread` `sleep_for()` and `yield()` usage in most places, because it's ineffective or even wrong.
 
 
 ## Medium term goals
@@ -38,6 +40,7 @@ Thank you for supporting RPCS3!
     * sys_fs_chmod (834)
 * Find bugs, wrong [autotests](https://github.com/DHrpcs3/ps3autotests/) or read the current [issues](https://github.com/DHrpcs3/rpcs3/issues) and fix them.
 * Implement core dumps.
+* Implement Priority-Based Scheduler for SPU Thread Groups.
 
 
 ## Long term goals
