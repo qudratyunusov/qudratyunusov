@@ -6,16 +6,32 @@ List of features that RPCS3 will support in the future and their corresponding s
 Thank you for supporting RPCS3!
 
 ***
-### Short term goals
-* Rewriting VP/FP recompiler: _[DH]_
+## Short term goals
+* Rewriting VP/FP recompiler. _[DH]_
+* Implement Priority-Based Scheduler for PPU Threads. _Nekotekina_
+* Move `vm::static_ptr_cast<>` and `vm::const_ptr_cast<>` to `vm::ps3` and `vm::psv` namespaces forcing endianness accordingly. `vm::reinterpret_ptr_cast<>` may be deleted, or may not be deleted.
+* Find an unused SPU "opcode" (11 most-significant bits) in order to be able to inject SPU hacks.
+* Correctly handle exceptions in `Emulator::Load()` and `Emulator::Stop()` functions. Not important.
+* Add basic types `u128` (unsigned 128-bit number), `s128` (signed 128-bit number), `v64` (vector 64-bit union), `v32` (vector 32-bit union).
+* Improve `be_t` and `le_t` types, make them perfect and literally shine. Any flaws are intolerable.
+* Filesystem: Process WinAPI/errno error codes if an error occured in system calls called through `fs::` functions. Set correct TLS error code. Throw an exception on unknown error. Reuse error codes when necessary, for example, in `sys_fs_open` implementation.
+* Cease to use `assert` in most places whenever an error may occur. Use exceptions.
+* Eliminate `delete`/`delete[]` operator usage. Eliminate `malloc`/`free` usage. Use `std::unique_ptr` instead.
+* Implement correct SPU segment loading in order to provide correct `sys_spu_image_import`, `sys_raw_spu_load`, `sys_spu_elf_get_information`, `sys_spu_elf_get_segments`, etc. implementations.
+* Examine PPU/SPU/ARMv7 stack structure. Restore the "callstack" in the debugger using the information from the real thread's stack, using SP register. Catching it from branch instructions was: 1) wrong 2) slow.
 
 
-### Medium term goals
+## Medium term goals
+* Improve debugger, fix bugs.
+* Implement static AOT PPU recompiler.
+* Implement AOT SPU recompiler.
+* Implement block-based ARMv7 disassembler.
+* Implement static AOT ARMv7 recompiler.
 * Implement SDATA loader, that is, read the contents of the SDATA file on the fly.
 * Improve RSX and add unimplemented GCM commands.
 * Implement loading SPU code from encrypted file.
 * Improve RSX Debugger: Add frame stepping (pause the emulator and advance just one frame).
-* Implement various HLE functions. Specifically (ordered from more to less important):
+* Implement HLE functions. Specifically (ordered from more to less important):
     * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Implement LV2 SysCalls. Specifically (ordered from more to less important):
     * 631 used by games like _Prince of Persia Classic [NPUB30031]_
@@ -24,5 +40,6 @@ Thank you for supporting RPCS3!
 * Implement core dumps.
 
 
-### Long term goals
+## Long term goals
 * Add a User Manager to manage folders like: `dev_hdd0/home/00000001`.
+* Implement a driver to use HPET (High Precision Event Timer) hardware in emulator if possible.
