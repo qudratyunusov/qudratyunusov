@@ -1,5 +1,7 @@
 If you are wondering about websites and documents in order to gather information about certain parts of the PlayStation 3 here is a nice list to start with. Probably more things should be added here, but for now it is a good compilation of useful sources. If what your are looking for isn't below, remember that Google is your friend. If it's not, remember that other RPCS3 developers are your friends too. Ask them!
 
+IRC channel: on #rpcs3 at Freenode
+
 Best wishes and happy coding!
 
 ---
