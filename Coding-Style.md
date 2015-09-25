@@ -17,29 +17,25 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 ***
 ### Emulator coding style
 * Module functions and lv2 syscalls:
-    * Handle file accesses using *VFS* functions.
+    * Access files using *VFS* functions.
     * Return defined error codes. That is, use `return CELL_OK;` instead of `return 0;`.
-    * Do **not** delete the entries in *rpcs3/Emu/SysCalls/FuncList.cpp* after implenting a function.
-* Use only limited number of types in function arguments and result type.
-    * Use `s8`, `s16`, `s32`, `s64` for integral signed types.
-    * Use `u8`, `u16`, `u32`, `u64` for unsigned types.
-    * Use `float`, `double` for floating point numbers. `f32` and `f64` are also available, but not widely used.
-    * Use `b8` for `bool`; `char` for representing UTF-8 string character.
+    * Do **not** modify the entries in *rpcs3/Emu/SysCalls/FuncList.cpp* after implenting a function.
+* Use only limited number of types as function arguments and result types.
+    * Use `s8`, `s16`, `s32`, `s64` for signed integral types. These are aliases to `std::int8_t`, `std::int16_t`, `std::int32_t`, `std::int64_t` respectively.
+    * Use `u8`, `u16`, `u32`, `u64` for unsigned integral types. These are aliases to `std::uint8_t`, `std::uint16_t`, `std::uint32_t`, `std::uint64_t` respectively.
+    * Use `f32` and `f64` for floating point numbers. These are aliases to `float` and `double`.
+    * Use `b8` instead of `bool`.
+    * Use `char` for UTF-8 string characters, usually as `vm::cptr<char>`. Don't treat char values as signed or unsigned numbers.
     * Don't use `be_t<>` in function arguments/results, they are already little-endian.
     * But don't forget that dereferencing vm::ptr for PS3 leads to big-endian values.
-* Use `vm::ptr<>` arguments instead of `pointers`.
-    * Pointers to the datatype `T` are `vm::ptr<T>`. For example, `void *buf` becomes `vm::ptr<void> buf`.
-    * Pointers to the datatype `const T` are `vm::ptr<const T>`. For example, `const char *path` becomes `vm::ptr<const char> path`.
+* Use `vm::ptr<>` arguments for pointers.
+    * Pointer to the datatype `T` is `vm::ptr<T>`. For example, `void *buf` becomes `vm::ptr<void> buf`.
+    * Pointer to the datatype `const T` is `vm::cptr<T>`. For example, `const char *path` becomes `vm::cptr<char> path`.
     * Pointers to the function `T(T1 arg1, ...)` are `vm::ptr<T(T1 arg1, ...)>`.
-    * The function may be defined as `typedef T(func_name)(T1 arg1, ...);`, which becomes `vm::ptr<func_name>`.
-    * Notice that `vm::ptr<u32>` and `vm::ptr<be_t<u32>>` are equal, because `be_t<>` template is implicitly applied in `vm::ptr<>` for basic types. You always work with big endian values in ps3 virtual memory, excepting some very rare cases.
-* Allocate memory for temporary variables with *vm::var<>* or *vm::stackvar<>*.
-    * Don't forget to switch endianness: That is, allocate `u32` with `vm::stackvar<be_t<u32>>`
-* Switch endianness of constants on compile time if possible:
-    * When comparing `be_t<u32> x` with the constant `y`, use: `x.data()` and `se32(y)` respectively to gain speed by switching endianness on `y` in compilation time.
-    * `be_t<>.data()` method always returns the value of unsigned integer type (u16, u32, u64), as `se16()`, `se32()`, `se64()` do.
-    * You are not forced to do it, especially if it decreases readability too much or you are not sure.
-    * You can safely use only limited number of operations on raw big endian `.data()` or `se**()`: comparison with zero, logical bitwise `&`, `|`, `^` and `~`.
+    * The function may be defined as an alias: `using func_name = T(T1 arg1, ...);`, then used as `vm::ptr<func_name>`.
+    * Note that types `vm::ptr<u32>` and `vm::ptr<be_t<u32>>` are equal, because `be_t<>` template is implicitly applied in `vm::ptr<>` for basic types. You always work with big endian values in ps3 virtual memory, excepting some very rare cases.
+    * Pointers in PS3 memory must be big-endian: define them as `vm::bptr` or `vm::bcptr`.
+* Allocate memory for temporary variables with `vm::var<>`.
 * Don't forget logging at the top of every function. Print all its arguments with `%d` or `0x%x` (always use `0x%x` if not sure).
     * Don't forget `0x` in `0x%x`. It may be really confusing.
     * Use `moduleName->Todo()` and other associated methods.
