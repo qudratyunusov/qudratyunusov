@@ -19,23 +19,23 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * Module functions and lv2 syscalls:
     * Access files using *VFS* functions.
     * Return defined error codes. That is, use `return CELL_OK;` instead of `return 0;`.
-    * Do **not** modify the entries in *rpcs3/Emu/SysCalls/FuncList.cpp* after implenting a function.
+    * Do **not** modify the entries in *rpcs3/Emu/SysCalls/FuncList.cpp*.
 * Use only limited number of types as function arguments and result types.
     * Use `s8`, `s16`, `s32`, `s64` for signed integral types. These are aliases to `std::int8_t`, `std::int16_t`, `std::int32_t`, `std::int64_t` respectively.
     * Use `u8`, `u16`, `u32`, `u64` for unsigned integral types. These are aliases to `std::uint8_t`, `std::uint16_t`, `std::uint32_t`, `std::uint64_t` respectively.
     * Use `f32` and `f64` for floating point numbers. These are aliases to `float` and `double`.
-    * Use `b8` instead of `bool`.
+    * Use `b8` instead of `bool`. This type is special.
     * Use `char` for UTF-8 string characters, usually as `vm::cptr<char>`. Don't treat char values as signed or unsigned numbers.
-    * Don't use `be_t<>` in function arguments/results, they are already little-endian.
-    * But don't forget that dereferencing vm::ptr for PS3 leads to big-endian values.
-* Use `vm::ptr<>` arguments for pointers.
+    * Function arguments and results use native endianness.
+* Use `vm::ptr<>` arguments for PS3 memory pointers.
     * Pointer to the datatype `T` is `vm::ptr<T>`. For example, `void *buf` becomes `vm::ptr<void> buf`.
     * Pointer to the datatype `const T` is `vm::cptr<T>`. For example, `const char *path` becomes `vm::cptr<char> path`.
-    * Pointers to the function `T(T1 arg1, ...)` are `vm::ptr<T(T1 arg1, ...)>`.
-    * The function may be defined as an alias: `using func_name = T(T1 arg1, ...);`, then used as `vm::ptr<func_name>`.
+    * Pointer to the function `T(T1 arg1, ...)` is `vm::ptr<T(T1 arg1, ...)>`.
+    * The function may be defined as an alias `using func_name = T(T1 arg1, ...);` and used as `vm::ptr<func_name>`.
     * Note that types `vm::ptr<u32>` and `vm::ptr<be_t<u32>>` are equal, because `be_t<>` template is implicitly applied in `vm::ptr<>` for basic types. You always work with big endian values in ps3 virtual memory, excepting some very rare cases.
+    * Usual pointers (`vm::ptr`) are native-endian itself, but don't forget that dereferencing vm::ptr leads to the PS3 memory which uses big-endian values by default (if it's not known explicitly that some specific value is little-endian).
     * Pointers in PS3 memory must be big-endian: define them as `vm::bptr` or `vm::bcptr`.
-* Allocate memory for temporary variables with `vm::var<>`.
+* Allocate memory for temporary variables with `vm::var<>`. Under construction.
 * Don't forget logging at the top of every function. Print all its arguments with `%d` or `0x%x` (always use `0x%x` if not sure).
     * Don't forget `0x` in `0x%x`. It may be really confusing.
     * Use `moduleName->Todo()` and other associated methods.
