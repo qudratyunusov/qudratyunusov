@@ -1,8 +1,8 @@
 #### What is RPCS3 and where can I get it?
-* RPCS3 is an open-source Sony PlayStation 3 emulator for Windows and Linux written in C++. It currently runs only small homebrew applications. The source code for RPCS3 is hosted at [GitHub](https://github.com/RPCS3/rpcs3/). There won't be [official releases](https://github.com/RPCS3/rpcs3/releases) for some time, but in the meantime you can grab the lastest compiled revisions at [EmuNewz](http://www.emunewz.net/forum/forumdisplay.php?fid=199).
+* RPCS3 is an open-source Sony PlayStation 3 emulator for Windows and Linux written in C++. It currently runs only small number of applications. The source code for RPCS3 is hosted at [GitHub](https://github.com/RPCS3/rpcs3/). You may look for [official releases](https://github.com/RPCS3/rpcs3/releases) or grab the latest compiled revisions [there]*https://github.com/Bigpet/rpcs3/releases/).
 
 #### What are the hardware requirements I need to run it?
-* The requirements for running RPCS3 are still not fully known and may change a lot in its current development stage. The absolute minimum requirements for running the program are 64-bit OS, a modern x86 CPU that supports SSE2 (and SSE4 for the recompiler) and a OpenGL 4.2 compatible graphics card (integrated GPUs such as the *Intel HD Graphics* don't work for now).
+* The requirements for running RPCS3 are still not fully known and may change a lot in its current development stage. The absolute minimum requirements for running the program are x86-64 OS, a modern x86 CPU that supports SSSE3 (and SSE4 for the recompiler) and a modern OpenGL 4.2 compatible graphics card. Integrated GPUs such as the *Intel HD Graphics* may not work correctly.
 
 #### Does RPCS3 support commercial games? When will it support them?
 * **No**. RPCS3 cannot run commercial games yet because it's in an early stage of development. A lot of features required to run commercial games still have not been implemented. Commercial games will be supported when the hardware/firmware emulation is accurate enough to run them. It all depends on the amount of developers working on this project, their skills, and free time, etc. so ignore any estimates and guesses you find out there.
@@ -18,4 +18,4 @@
   - Check if the issue is meaningful for the team (e.g. *GTAV doesn't work* is obvious and therefore useless).
   - Search older issues/threads to see if your issue was already submitted.
   - Please use an **understandable** English. It doesn't need to be perfect, but clear enough to understand your message.
-  - While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the `rpcs3.ini` / `rpcs3.log` files.
+  - While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the `RPCS3.log` file.
