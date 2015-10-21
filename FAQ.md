@@ -1,5 +1,5 @@
 #### What is RPCS3 and where can I get it?
-* RPCS3 is an open-source Sony PlayStation 3 emulator for Windows and Linux written in C++. It currently runs only small number of applications. The source code for RPCS3 is hosted at [GitHub](https://github.com/RPCS3/rpcs3/). You may look for [official releases](https://github.com/RPCS3/rpcs3/releases) or grab the latest compiled revisions [there]*https://github.com/Bigpet/rpcs3/releases/).
+* RPCS3 is an open-source Sony PlayStation 3 emulator for Windows and Linux written in C++. It currently runs only small number of applications. The source code for RPCS3 is hosted at [GitHub](https://github.com/RPCS3/rpcs3/). You may look for [official releases](https://github.com/RPCS3/rpcs3/releases) or grab the latest compiled revisions [there](https://github.com/Bigpet/rpcs3/releases/).
 
 #### What are the hardware requirements I need to run it?
 * The requirements for running RPCS3 are still not fully known and may change a lot in its current development stage. The absolute minimum requirements for running the program are x86-64 OS, a modern x86 CPU that supports SSSE3 (and SSE4 for the recompiler) and a modern OpenGL 4.2 compatible graphics card. Integrated GPUs such as the *Intel HD Graphics* may not work correctly.
