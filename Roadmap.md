@@ -7,12 +7,10 @@ Thank you for supporting RPCS3!
 
 ***
 ## Short term goals
-* Rewriting VP/FP recompiler. _[DH]_
+* Rewriting OpenGL renderer, VP/FP recompiler. _[DH]_
 * Implement Priority-Based Scheduler for PPU Threads. _Nekotekina_
-* Move `vm::static_ptr_cast<>` and `vm::const_ptr_cast<>` to `vm::ps3` and `vm::psv` namespaces forcing endianness accordingly. `vm::reinterpret_ptr_cast<>` may be deleted, or may not be deleted.
-* Find an unused SPU "opcode" (11 most-significant bits) in order to be able to inject SPU hacks.
 * Correctly handle exceptions in `Emulator::Load()` and `Emulator::Stop()` functions. Not important.
-* Add basic types `u128` (unsigned 128-bit number), `s128` (signed 128-bit number), `v64` (vector 64-bit union), `v32` (vector 32-bit union).
+* Add basic types `s128` (signed 128-bit number), `v64` (vector 64-bit union), `v32` (vector 32-bit union). Not important.
 * Improve `be_t` and `le_t` types, make them perfect and literally shine. Any flaws are intolerable.
 * Filesystem: Process WinAPI/errno error codes if an error occured in system calls called through `fs::` functions. Set correct TLS error code. Throw an exception on unknown error. Reuse error codes when necessary, for example, in `sys_fs_open` implementation.
 * Cease to use `assert` in most places whenever an error may occur. Use exceptions.
@@ -21,13 +19,14 @@ Thank you for supporting RPCS3!
 * Examine PPU/SPU/ARMv7 stack structure. Restore the "callstack" in the debugger using the information from the real thread's stack, using SP register. Catching it from branch instructions was: 1) wrong 2) slow.
 * Improve `vm::reservation_op`: use TSX intrinsics if supported (by CPUID).
 * Eliminate `std::this_thread` `sleep_for()` and `yield()` usage in most places, because it's ineffective or even wrong.
-* Implement "Load liblv2.prx" option correctly.
+* Eliminate wx dependencies from emucore.
 
 
 ## Medium term goals
+* Improve solution structure.
 * Correctly load EXPORT table of main PPU executable.
 * Implement variable import/export support (VNIDs) for PPU.
-* Improve all PRX-related things.
+* Improve all PRX-related things. Fix booting process in order to be compatible with liblv2. This includes TLS, correct module loading/unloading and various unimplemented syscalls.
 * Improve debugger, fix bugs.
 * Implement static AOT PPU recompiler.
 * Implement AOT SPU recompiler.
@@ -46,6 +45,7 @@ Thank you for supporting RPCS3!
 * Find bugs, wrong [autotests](https://github.com/DHrpcs3/ps3autotests/) or read the current [issues](https://github.com/DHrpcs3/rpcs3/issues) and fix them.
 * Implement core dumps.
 * Implement Priority-Based Scheduler for SPU Thread Groups.
+* Write tests.
 
 
 ## Long term goals
