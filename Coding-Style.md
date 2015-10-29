@@ -13,6 +13,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * Comment *every* hack you do, *every* snippet you comment out and *every* improvable code.
 * If you have to comment or place a commented code snippet, include the reasons to do that in the comment.
 * Don't use `/**/` for commenting out multiple lines. Use `//` on every line instead. In Visual Studio, for example, you can just select desired lines and use `Ctrl+K,C` combination to comment every line with `//`, `Ctrl+K,U` reverts this.
+* Ensure that the every source file you modify has the newline at the end of file. Every line ends with "newline" and the end of file must have "newline" too, GitHub usually warns about it.
 
 ***
 ### Emulator coding style
