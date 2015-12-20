@@ -5,7 +5,7 @@
 The requirements for running RPCS3 are still not fully known and may change a lot in its current development stage. The absolute minimum requirements for running the program are:
 * 64-bit OS
 * A modern x86 CPU that supports SSSE3 (SSE4.1 for PPU LLVM recompiler)
-* A modern DirectX 12 compatible graphics card (recommended) or a modern OpenGL 4.2 compatible graphics card. Integrated GPUs such as the *Intel HD Graphics* may not work correctly. In the future a Vulkan compatible graphics card may be needed.
+* A modern DirectX 12 compatible graphics card (recommended) or a modern OpenGL 4.5 (OpenGL 4.2+ may work) compatible graphics card. Integrated GPUs such as the *Intel HD Graphics* may not work correctly. In the future a Vulkan compatible graphics card may be needed.
 
 #### Does RPCS3 support commercial games? When will it support them?
 * **No**. RPCS3 cannot run commercial games yet because it's in an early stage of development. A lot of features required to run commercial games still have not been implemented. Commercial games will be supported when the hardware/firmware emulation is accurate enough to run them. It all depends on the amount of developers working on this project, their skills, and free time, etc. so ignore any estimates and guesses you find out there.
