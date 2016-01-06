@@ -22,3 +22,4 @@ The requirements for running RPCS3 are still not fully known and may change a lo
   - Search older issues/threads to see if your issue was already submitted.
   - Please use an **understandable** English. It doesn't need to be perfect, but clear enough to understand your message.
   - While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the `RPCS3.log` file.
+  - When reporting issues on the forum, read [how to report issues](http://www.emunewz.net/forum/showthread.php?tid=171465).
