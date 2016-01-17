@@ -39,10 +39,10 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * Allocate memory for temporary variables with `vm::var<>`. Under construction.
 * Don't forget logging at the top of every function. Print all its arguments with `%d` or `0x%x` (always use `0x%x` if not sure).
     * Don't forget `0x` in `0x%x`. It may be really confusing.
-    * Use `moduleName->Todo()` and other associated methods.
-    * Use `.Todo()` method for unimplemented functions.
-    * Use `.Error()` method to print error inside of function that may require user's attention. For example, some file is not found or some emulation option is not set correctly.
-    * Use `.Warning()` method for partially implemented functions which still have some unimplemented functionality.
-    * Use `.Notice()` method to print debug information unconditionally.
-    * Use `.Log()` method for well implemented functions.
+    * Use `moduleName.todo()` and other associated methods.
+    * Use `.todo()` method for unimplemented functions.
+    * Use `.error()` method to print error inside of function that may require user's attention. For example, some file is not found or some emulation option is not set correctly.
+    * Use `.warning()` method for partially implemented functions which still have some unimplemented functionality.
+    * Use `.notice()` method to print debug information unconditionally.
+    * Use `.log()` method for well implemented functions.
     * Don't return CELL_OK and other error codes if the function result type doesn't mean error code.
