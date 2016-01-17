@@ -9,6 +9,10 @@ Thank you for supporting RPCS3!
 ## Short term goals
 * Rewriting OpenGL renderer, VP/FP recompiler. _[DH]_
 * Implement Priority-Based Scheduler for PPU Threads. _Nekotekina_
+* Implement/rewrite HLE modules: _tambre_
+    * cellPngDec: Use libpng, proper decoding, other improvements, bugfixes
+    * cellJpgDec: Use a better library, bugfixes, other improvements
+    * cellFont: Use libtiff to properly decode and support font files
 * Correctly handle exceptions in `Emulator::Load()` and `Emulator::Stop()` functions. Not important.
 * Add basic types `s128` (signed 128-bit number), `v64` (vector 64-bit union), `v32` (vector 32-bit union). Not important.
 * Improve `be_t` and `le_t` types, make them perfect and literally shine. Any flaws are intolerable.
@@ -37,8 +41,6 @@ Thank you for supporting RPCS3!
 * Improve RSX and add unimplemented GCM commands.
 * Implement loading SPU code from encrypted file.
 * Improve RSX Debugger: Add frame stepping (pause the emulator and advance just one frame).
-* Implement HLE functions. Specifically (ordered from more to less important):
-    * cellJpgDec: Allow to downscale JPG images while decoding them.
 * Implement LV2 SysCalls. Specifically (ordered from more to less important):
     * 631 used by games like _Prince of Persia Classic [NPUB30031]_
     * sys_fs_chmod (834)
