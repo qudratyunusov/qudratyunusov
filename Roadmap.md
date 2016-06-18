@@ -9,7 +9,7 @@ Thank you for supporting RPCS3!
 ## Short term goals
 * Rewriting OpenGL renderer, VP/FP recompiler. _[DH]_
 * Implement Priority-Based Scheduler for PPU Threads. _Nekotekina_
-* Implement/rewrite HLE modules: _tambre_
+* Implement/rewrite HLE modules:
     * cellJpgDec: Use a better library, bugfixes, other improvements
     * cellFont: Use libtiff to properly decode and support font files
 * Correctly handle exceptions in `Emulator::Load()` and `Emulator::Stop()` functions. Not important.
