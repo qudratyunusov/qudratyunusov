@@ -4,7 +4,7 @@
 #### What are the hardware requirements I need to run it?
 The requirements for running RPCS3 are still not fully known and may change a lot in its current development stage. The absolute minimum requirements for running the program are:
 * 64-bit OS
-* A modern x86 CPU that supports SSSE3 (SSE4.1 for PPU LLVM recompiler)
+* A modern x86 CPU that supports SSSE3
 * A modern OpenGL 4.3 compatible graphics card. Integrated GPUs such as the *Intel HD Graphics* may not work correctly.
 * A modern DirectX 12 and Vulkan compatible graphics card is **highly** recommended.
 
