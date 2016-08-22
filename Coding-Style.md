@@ -18,9 +18,8 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 ***
 ### Emulator coding style
 * Module functions and lv2 syscalls:
-    * Access files using *VFS* functions.
+    * Access files converting path with `vfs::get` function.
     * Return defined error codes. That is, use `return CELL_OK;` instead of `return 0;`.
-    * Do **not** modify the entries in *rpcs3/Emu/SysCalls/FuncList.cpp*.
 * Use only limited number of types as function arguments and result types.
     * Use `s8`, `s16`, `s32`, `s64` for signed integral types. These are aliases to `std::int8_t`, `std::int16_t`, `std::int32_t`, `std::int64_t` respectively.
     * Use `u8`, `u16`, `u32`, `u64` for unsigned integral types. These are aliases to `std::uint8_t`, `std::uint16_t`, `std::uint32_t`, `std::uint64_t` respectively.
