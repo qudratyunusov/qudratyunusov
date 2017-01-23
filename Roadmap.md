@@ -28,6 +28,7 @@
 * Implement savedata manager. Currently it doesn't have user interface.
 
 ## Long term goals
+* Support booting from original game discs.
 * Implement user manager.
 * Implement network functionality.
 * Implement every system module in the emulator. This will allow the emulator to work without the PS3 firmware.
