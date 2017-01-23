@@ -1,3 +1,5 @@
+This is non-exhaustive list of current goals.
+
 ## Short term goals
 * Implement PS3 firmware installer. Users only need to provide correct PS3UPDAT.PUP file and it will be automatically unpacked into /dev_flash.
 * Implement decryption on the fly. No more temporary files and additional steps. This affects, for example, EBOOT, SELF, SPRX, EDAT, and MSELF embedded files.
@@ -30,6 +32,10 @@
 ## Long term goals
 * Support booting from original game discs.
 * Implement user manager.
+* Support mic, camera, USB peripherals, etc.
 * Implement network functionality.
 * Implement every system module in the emulator. This will allow the emulator to work without the PS3 firmware.
 * Continue to improve speed, accuracy, and compatibility. This is a never-ending goal.
+
+## For developers
+* Fix undefined behaviour in bs_t
