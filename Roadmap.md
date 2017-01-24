@@ -28,6 +28,7 @@ This is non-exhaustive list of current goals.
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
 * Implement savedata manager. Currently it doesn't have user interface.
+* GUI: Use Qt instead of wxWidgets.
 
 ## Long term goals
 * Support booting from original game discs.
