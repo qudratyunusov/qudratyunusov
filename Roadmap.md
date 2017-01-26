@@ -24,11 +24,11 @@ This is non-exhaustive list of current goals.
 * Implement PPU executable chain-loading.
 * Improve solution structure, move and rename some files.
 * Improve SPRX loading and unloading. This increases compatibility a lot.
-* Improve embedded debugger.
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
 * Implement savedata manager. Currently it doesn't have user interface.
 * GUI: Use Qt instead of wxWidgets.
+* Implement precise PPU interpreter.
 
 ## Long term goals
 * Support booting from original game discs.
@@ -39,4 +39,7 @@ This is non-exhaustive list of current goals.
 * Continue to improve speed, accuracy, and compatibility. This is a never-ending goal.
 
 ## For developers
-* Fix undefined behaviour in bs_t
+* Fix undefined behaviour in bf_t (signed shift).
+* Implement MFC_DMA_TAG_CMD_STALL_NOTIFY_EVENT and other SPU events.
+* Return `error_code` from syscalls and functions to enable error reporting.
+* Improve embedded debugging tools (CPU, RSX, Kernel Explorer).
