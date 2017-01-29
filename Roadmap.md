@@ -1,4 +1,4 @@
-### This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
+This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
 * Implement PS3 firmware installer. Users only need to provide correct PS3UPDAT.PUP file and it will be automatically unpacked into /dev_flash.
@@ -44,3 +44,4 @@
 * Return `error_code` from syscalls and functions to enable error reporting.
 * Improve embedded debugging tools (CPU, RSX, Kernel Explorer).
 * Implement simple thread pool (Thread.cpp)
+* Implement MFC thread for SPU DMA and other time-critical tasks.
