@@ -45,3 +45,4 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve embedded debugging tools (CPU, RSX, Kernel Explorer).
 * Implement simple thread pool (Thread.cpp)
 * Implement MFC thread for SPU DMA and other time-critical tasks.
+* Fetch memory attributes in sys_memory_get_page_attribute.
