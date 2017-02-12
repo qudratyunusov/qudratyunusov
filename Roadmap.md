@@ -6,6 +6,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement SDAT decryption. No need to decrypt them manually. Currently some games may silently fail to boot.
 * New "Automatic LLE configuration" option (enabled by default). This will pick the most appropriate system modules (SPRX files) for a particular PS3 executable. It may be hard to pick them manually.
 * Cache compiled LLVM modules. You shouldn't recompile the same executable twice.
+* Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure Travis to automatically upload Linux binaries on GitHub.
 * Implement priority-based scheduler for PPU threads.
 * Investigate early crashes on Linux.
