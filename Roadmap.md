@@ -4,11 +4,10 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement PS3 firmware installer. Users only need to provide correct PS3UPDAT.PUP file and it will be automatically unpacked into /dev_flash.
 * Implement decryption on the fly. No more temporary files and additional steps. This affects, for example, EBOOT, SELF, SPRX, EDAT, and MSELF embedded files.
 * Implement SDAT decryption. No need to decrypt them manually. Currently some games may silently fail to boot.
-* New "Automatic LLE configuration" option (enabled by default). This will pick the most appropriate system modules (SPRX files) for a particular PS3 executable. It may be hard to pick them manually.
+* Implement "Automatic LLE configuration" option (enabled by default). This will pick the most appropriate system modules (SPRX files) for a particular PS3 executable. It may be hard to pick them manually.
 * Cache compiled LLVM modules. You shouldn't recompile the same executable twice.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure Travis to automatically upload Linux binaries on GitHub.
-* Implement priority-based scheduler for PPU threads.
 * Investigate early crashes on Linux.
 * Start to improve compatibility by fixing bugs and missing functionality.
 
@@ -47,3 +46,4 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement simple thread pool (Thread.cpp)
 * Implement MFC thread for SPU DMA and other time-critical tasks.
 * Fetch memory attributes in sys_memory_get_page_attribute.
+* Implement BPIP for synchronization primitives.
