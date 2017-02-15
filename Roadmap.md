@@ -8,7 +8,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Cache compiled LLVM modules. You shouldn't recompile the same executable twice.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure Travis to automatically upload Linux binaries on GitHub.
-* Investigate early crashes on Linux.
+* Investigate early crashes on Linux. Avoid using executable dir completely. Create dev_hdd0 and other dirs.
 * Start to improve compatibility by fixing bugs and missing functionality.
 
 ## Medium term goals
