@@ -1,14 +1,13 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
-* Implement PS3 firmware installer. Users only need to provide correct PS3UPDAT.PUP file and it will be automatically unpacked into /dev_flash.
-* Implement decryption on the fly. No more temporary files and additional steps. This affects, for example, EBOOT, SELF, SPRX, EDAT, and MSELF embedded files.
+* Implement decryption on the fly. No more temporary files and additional steps. This affects, for example, EBOOT, SELF, EDAT, and MSELF embedded files.
 * Implement SDAT decryption. No need to decrypt them manually. Currently some games may silently fail to boot.
 * Implement "Automatic LLE configuration" option (enabled by default). This will pick the most appropriate system modules (SPRX files) for a particular PS3 executable. It may be hard to pick them manually.
 * Cache compiled LLVM modules. You shouldn't recompile the same executable twice.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure Travis to automatically upload Linux binaries on GitHub.
-* Investigate early crashes on Linux. Avoid using executable dir completely. Create dev_hdd0 and other dirs.
+* Investigate Linux specific bugs. Avoid using executable dir completely.
 * Start to improve compatibility by fixing bugs and missing functionality.
 
 ## Medium term goals
@@ -47,3 +46,10 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement MFC thread for SPU DMA and other time-critical tasks.
 * Fetch memory attributes in sys_memory_get_page_attribute.
 * Implement BPIP for synchronization primitives.
+
+
+## Completed goals
+* Implemented priority-based scheduler for PPU threads. This is an important core change, fixing various crashes and freezes.
+* Implemented PS3 firmware installer. Users only need to provide correct PS3UPDAT.PUP file and it is automatically unpacked into /dev_flash.
+* Implemented SPRX decryption on the fly.
+* Fixed early crashes on Linux. Now also creates dev_hdd0 and other dirs.
