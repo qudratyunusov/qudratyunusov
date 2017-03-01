@@ -45,6 +45,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement MFC thread for SPU DMA and other time-critical tasks.
 * Fetch memory attributes in sys_memory_get_page_attribute.
 * Implement BPIP for synchronization primitives.
+* Implement minimalistic YAML adaptor in "C++11" style which preserves map element order.
 
 
 ## Completed goals
