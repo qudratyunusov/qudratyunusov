@@ -1,7 +1,8 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
-* Enable hardware acceleration for decryption (AES-NI). **(WIP by [cornytrace](https://github.com/cornytrace), [#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
+
+* Automatically add disc games running from external locations to the game list.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure Travis to automatically upload Linux binaries on GitHub.
 * Investigate Linux specific bugs. Avoid using executable dir completely.
@@ -23,6 +24,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement savedata manager. Currently it doesn't have user interface.
 * GUI: Use Qt instead of wxWidgets.
 * Implement precise PPU interpreter.
+* Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 
 ## Long term goals
 * Support booting from original game discs.
@@ -33,13 +35,10 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Continue to improve speed, accuracy, and compatibility. This is a never-ending goal.
 
 ## For developers
-* Fix undefined behaviour in bf_t (signed shift).
 * Implement MFC_DMA_TAG_CMD_STALL_NOTIFY_EVENT and other SPU events.
 * Return `error_code` from syscalls and functions to enable error reporting.
 * Improve embedded debugging tools (CPU, RSX, Kernel Explorer).
 * Implement simple thread pool (Thread.cpp)
-* Implement MFC thread for SPU DMA and other time-critical tasks.
-* Fetch memory attributes in sys_memory_get_page_attribute.
 * Implement BPIP for synchronization primitives.
 * Implement minimalistic YAML adaptor in "C++11" style which preserves map element order.
 
