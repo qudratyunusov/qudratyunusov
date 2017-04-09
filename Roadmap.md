@@ -13,7 +13,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
 * Enable Vulkan graphic renderer for Linux.
 * Add low-latency ASIO audio backend for Windows. With ASIO4ALL, it will work great on most modern hardware.
-* Add core audio backend for Linux.
 * Implement LLVM recompiler backend for SPU. This is actually a tremendous amount of work to make it useful, but it will also give the very important speed improvement (unless the SPU is not used at all).
 * Improve LLVM flexibility. For example, it could scan game folder for all executables and SPRX modules and recompile them ahead of time.
 * Implement PPU executable chain-loading.
@@ -51,3 +50,4 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Cache compiled LLVM modules. You shouldn't recompile the same executable twice. **([#2432](https://github.com/RPCS3/rpcs3/pull/2432))**
 * Implemented "Automatic LLE configuration" option (enabled by default). This picks the most appropriate system modules (SPRX files). It may be hard to pick them manually. **([#2459](https://github.com/RPCS3/rpcs3/pull/2459))**
 * Implemented MSELF and SDAT decryption on the fly. No more temporary files and additional steps. Before some games silently failed to boot due to the presence of encrypted SDAT files. **([#2468](https://github.com/RPCS3/rpcs3/pull/2468))**
+* Added ALSA core audio backend for Linux. **([#2654](https://github.com/RPCS3/rpcs3/pull/2654))**
