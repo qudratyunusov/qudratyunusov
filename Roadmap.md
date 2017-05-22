@@ -2,16 +2,22 @@ This is a non-exhaustive list of current goals made possible with the support of
 
 ## Short term goals
 
+* Investigate game specific bugs like the overly bright bloom in Persona 5 or the overly dark lighting in Demon’s Souls.
+* Improve performance and compatibility of all renderers.
+* Enable Vulkan on Linux, which will bring a tremendous performance improvement for some games.
+* Implement missing functionality that will fix various bugs in different games. For example, the broken shadows in many games including Demon’s Souls depend on this task.
 * Automatically add disc games running from external locations to the game list.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
-* Configure Travis to automatically upload Linux binaries on GitHub.
+* Configure a buildbot to automatically upload Linux binaries.
 * Investigate Linux specific bugs. Avoid using executable dir completely.
 * Start to improve compatibility by fixing bugs and missing functionality.
 
 ## Medium term goals
+* GUI: Use Qt instead of wxWidgets. **([#2645](https://github.com/RPCS3/rpcs3/pull/2645))**
+* Properly support some PS3 features like MSAA that are lacking at the moment.
+* Implement RSX reports which are missing at the moment.
 * Improve audio and video decoders for better speed and compatibility.
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
-* Enable Vulkan graphic renderer for Linux.
 * Add low-latency ASIO audio backend for Windows. With ASIO4ALL, it will work great on most modern hardware.
 * Implement LLVM recompiler backend for SPU. This is actually a tremendous amount of work to make it useful, but it will also give the very important speed improvement (unless the SPU is not used at all).
 * Improve LLVM flexibility. For example, it could scan game folder for all executables and SPRX modules and recompile them ahead of time.
@@ -21,11 +27,12 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
 * Implement savedata manager. Currently it doesn't have user interface.
-* GUI: Use Qt instead of wxWidgets.
 * Implement precise PPU interpreter.
 * Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 
 ## Long term goals
+* Enable higher rendering resolution to play games at any resolution, for example 4k instead of 720p in Demon’s Souls or Persona 5.
+* Enable extra graphics options to support extra rendering features, such as custom anti-aliasing modes.
 * Support booting from original game discs.
 * Implement user manager.
 * Support mic, camera, USB peripherals, etc.
@@ -51,3 +58,4 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implemented "Automatic LLE configuration" option (enabled by default). This picks the most appropriate system modules (SPRX files). It may be hard to pick them manually. **([#2459](https://github.com/RPCS3/rpcs3/pull/2459))**
 * Implemented MSELF and SDAT decryption on the fly. No more temporary files and additional steps. Before some games silently failed to boot due to the presence of encrypted SDAT files. **([#2468](https://github.com/RPCS3/rpcs3/pull/2468))**
 * Added ALSA core audio backend for Linux. **([#2654](https://github.com/RPCS3/rpcs3/pull/2654))**
+* Controller support: DualShock 4 native support. **([#2733](https://github.com/RPCS3/rpcs3/pull/2733), [#2792](https://github.com/RPCS3/rpcs3/pull/2792))**
