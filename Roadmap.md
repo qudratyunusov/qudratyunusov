@@ -13,7 +13,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Start to improve compatibility by fixing bugs and missing functionality.
 
 ## Medium term goals
-* GUI: Use Qt instead of wxWidgets. **([#2645](https://github.com/RPCS3/rpcs3/pull/2645))**
 * Properly support some PS3 features like MSAA that are lacking at the moment.
 * Implement RSX reports which are missing at the moment.
 * Improve audio and video decoders for better speed and compatibility.
@@ -59,3 +58,4 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implemented MSELF and SDAT decryption on the fly. No more temporary files and additional steps. Before some games silently failed to boot due to the presence of encrypted SDAT files. **([#2468](https://github.com/RPCS3/rpcs3/pull/2468))**
 * Added ALSA core audio backend for Linux. **([#2654](https://github.com/RPCS3/rpcs3/pull/2654))**
 * Controller support: DualShock 4 native support. **([#2733](https://github.com/RPCS3/rpcs3/pull/2733), [#2792](https://github.com/RPCS3/rpcs3/pull/2792))**
+* GUI: Use Qt instead of wxWidgets. **([#2645](https://github.com/RPCS3/rpcs3/pull/2645))**
