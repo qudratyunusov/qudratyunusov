@@ -2,9 +2,8 @@ This is a non-exhaustive list of current goals made possible with the support of
 
 ## Short term goals
 
-* Investigate game specific bugs like the overly bright bloom in Persona 5 or the overly dark lighting in Demon’s Souls.
+* Investigate game specific bugs like the overly bright bloom in Persona 5,
 * Improve performance and compatibility of all renderers.
-* Implement missing functionality that will fix various bugs in different games. For example, the broken shadows in many games including Demon’s Souls depend on this task.
 * Automatically add disc games running from external locations to the game list.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure a buildbot to automatically upload Linux binaries.
