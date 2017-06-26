@@ -44,17 +44,3 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement simple thread pool (Thread.cpp)
 * Implement BPIP for synchronization primitives.
 * Implement minimalistic YAML adaptor in "C++11" style which preserves map element order.
-
-
-## Completed goals
-* Implemented priority-based scheduler for PPU threads. This is an important core change, fixing various crashes and freezes. **([#2349](https://github.com/RPCS3/rpcs3/pull/2349))**
-* Implemented PS3 firmware installer. Users only need to provide correct PS3UPDAT.PUP file and it is automatically unpacked into /dev_flash. **([#2386](https://github.com/RPCS3/rpcs3/pull/2386), [#2398](https://github.com/RPCS3/rpcs3/pull/2398))**
-* Implemented SPRX decryption on the fly **([#2367](https://github.com/RPCS3/rpcs3/pull/2367))**.
-* Fixed early crashes on Linux. Now also creates dev_hdd0 and other dirs. **([#2423](https://github.com/RPCS3/rpcs3/pull/2423))**
-* Cache compiled LLVM modules. You shouldn't recompile the same executable twice. **([#2432](https://github.com/RPCS3/rpcs3/pull/2432))**
-* Implemented "Automatic LLE configuration" option (enabled by default). This picks the most appropriate system modules (SPRX files). It may be hard to pick them manually. **([#2459](https://github.com/RPCS3/rpcs3/pull/2459))**
-* Implemented MSELF and SDAT decryption on the fly. No more temporary files and additional steps. Before some games silently failed to boot due to the presence of encrypted SDAT files. **([#2468](https://github.com/RPCS3/rpcs3/pull/2468))**
-* Added ALSA core audio backend for Linux. **([#2654](https://github.com/RPCS3/rpcs3/pull/2654))**
-* Controller support: DualShock 4 native support. **([#2733](https://github.com/RPCS3/rpcs3/pull/2733), [#2792](https://github.com/RPCS3/rpcs3/pull/2792))**
-* GUI: Use Qt instead of wxWidgets. **([#2645](https://github.com/RPCS3/rpcs3/pull/2645))**
-* Enabled Vulkan on Linux, which brought a tremendous performance improvement for some games. **([#2842](https://github.com/RPCS3/rpcs3/pull/2842))**
