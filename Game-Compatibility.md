@@ -1,0 +1,27 @@
+## Game Compatibility
+We have a [game compatibility list on our website](https://rpcs3.net/compatibility).
+
+<br>
+
+### How to update the Compatibility List?
+_We track compatibility per Game ID, and not per Game Title. This means that, for example, a disc version and a digital version of the same game have to be reported on different threads and have separated entries on the list._
+
+**If the Game ID is already listed**: Click the Game ID on the compatibility list and you'll be redirected to the forum thread for it, where you can submit a new post. 
+
+**If the Game ID is not yet listed**: Go to our [Commercial Games Section](http://www.emunewz.net/forum/forumdisplay.php?fid=193) and open a new thread on the appropriate category, depending on your game's compatibility.
+
+**When submitting your report, you must follow the [Guidelines for Submitting Game Reports](http://www.emunewz.net/forum/showthread.php?tid=174376&pid=230739#pid230739).**
+
+The game will be added to the Compatibility List after your submission is reviewed.
+
+<br>
+
+### Monthly Statistics
+The following table contains the monthly amount of games per status in our compatibility list since its creation.
+
+|          | Playable | Ingame | Intro | Loadable | Nothing | Total | 
+| -------- | -------- | ------ | ----- | -------- | ------- | ----- |
+| Feb 2017 | 94       | 333    | 569   | 297      | 264     | 1557  |
+| Mar 2017 | 118      | 467    | 629   | 317      | 340     | 1871  |
+| Apr 2017 | 147      | 504    | 668   | 354      | 373     | 2046  |
+| May 2017 | 173      | 543    | 679   | 372      | 408     | 2175  |
