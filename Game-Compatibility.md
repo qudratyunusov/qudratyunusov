@@ -25,3 +25,4 @@ The following table contains the monthly amount of games per status in our compa
 | Mar 2017 | 118      | 467    | 629   | 317      | 340     | 1871  |
 | Apr 2017 | 147      | 504    | 668   | 354      | 373     | 2046  |
 | May 2017 | 173      | 543    | 679   | 372      | 408     | 2175  |
+| Jun 2017 | 216      | 557    | 744   | 409      | 442     | 2368  |
