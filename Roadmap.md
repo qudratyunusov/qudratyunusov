@@ -1,10 +1,7 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
-
-* Investigate game specific bugs like the overly bright bloom in Persona 5,
 * Improve performance and compatibility of all renderers.
-* Automatically add disc games running from external locations to the game list.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure a buildbot to automatically upload Linux binaries.
 * Investigate Linux specific bugs. Avoid using executable dir completely.
