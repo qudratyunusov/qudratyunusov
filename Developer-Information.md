@@ -1,20 +1,35 @@
-If you are wondering about websites and documents in order to gather information about certain parts of the PlayStation 3 here is a nice list to start with. Probably more things should be added here, but for now it is a good compilation of useful sources. If what your are looking for isn't below, remember that Google is your friend. If it's not, remember that other RPCS3 developers are your friends too. Ask them!
+If you are wondering about websites and documents in order to gather information about certain parts of the PlayStation 3 here is a nice list to start with. Probably more things should be added here, but for now it is a good compilation of useful sources. If what you are looking for isn't below, remember that Google is your friend. If it's not, remember that other RPCS3 developers are your friends too. Ask them!
 
-IRC channel: on #rpcs3 at Freenode
+**Developement channel:** #development at [RPCS3's Discord](https://discord.me/RPCS3)
+<br>
+Old IRC channel: #rpcs3 at freenode.net
 
 Best wishes and happy coding!
 
 ---
 
-## Links
+## Documentation
+You can find a **compendium of public documentation** released by IBM and Sony regarding Cell and the SPU at our website under [Download](https://rpcs3.net/download) which contains:
+- Cell Broadband Engine Architecture v1.01
+- Cell Broadband Engine Architecture v1.02 [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/1AEEE1270EA2776387257060006E61BA/$file/CBEA_v1.02_11Oct2007_pub.pdf)
+- Cell Broadband Engine Architecture C/C++ Language Extensions v2.2.1 [(Direct link @ ncsu.edu)](http://moss.csc.ncsu.edu/~mueller/cluster/ps3/C++_Language_Extensions_for_CBEA.v2.2.1.pdf)
+- Cell Broadband Engine Architecture C/C++ Language Extensions v2.3
+- Cell Broadband Engine Architecture C/C++ Language Extensions v2.5 [(Direct link @ sbg.ac.at)](http://www.cosy.sbg.ac.at/~rkutil/dsp08/Language_Extensions_for_CBEA_2.5.pdf)
+- Cell Broadband Engine Architecture C/C++ Language Extensions v2.6 [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/30B3520C93F437AB87257060006FFE5E/$file/Language_Extensions_for_CBEA_2.6.pdf)
+- Cell Broadband Engine Programming Handbook v1.1 [(Direct link @ ncsu.edu)](http://moss.csc.ncsu.edu/~mueller/cluster/ps3/CBE_Tutorial_v1.1_15June2006.pdf)
+- Cell Broadband Engine Programming Handbook v2.0 [(Direct link @ ncsu.edu)](http://moss.csc.ncsu.edu/~mueller/cluster/ps3/CBE_Tutorial_v2.0_15December2006.pdf)
+- Cell Broadband Engine Registers v1.5
+- Cell Broadband Engine Registers v1.5.1 [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/6ED822DD7E97D889872570B200607EEC/$file/CellBE_Registers_v1.51_18SEP2007.pdf)
+- Cell Broadband Engine Architecture SIMD Math Library Specification v1.0
+- Cell Broadband Engine Architecture SIMD Math Library Specification v1.2 [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/6BFB9899CEA5456800257360001938B3/$file/SIMD_Library_Specification_for_CBEA_1.2.pdf)
+- SPU Application Binary Interface Specification v1.6
+- SPU Application Binary Interface Specification v1.9 [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/02E544E65760B0BF87257060006F8F20/$file/SPU_ABI-Specification_1.9.pdf)
+- SPU Assembly Language Specification v1.4
+- SPU Assembly Language Specification v1.7 [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/EFA2B196893B550787257060006FC9FB/$file/SPU_Assembly_Language_Specification_1.7.pdf)
+- SPU Instruction Set Architecture v1.2 (IBM) [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/76CA6C7304210F3987257060006F2C44/$file/SPU_ISA_v1.2_27Jan2007_pub.pdf)
+- SPU Instruction Set Architecture v1.2 (Sony)
+- Preventing SPE Indefinite Stalls Resulting from Instruction Depletion in Cell Broadband Engine Processor v1.0 [(Direct link @ ibm.com)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/C5996EDB722D3A478725728E0074B465/$file/SPUstall_app_V1.0_26Feb2007.pdf)
 
-### Cell
-* [Cell Broadband Engine Architecture (Version 1.02 / October 11, 2007)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/1AEEE1270EA2776387257060006E61BA/$file/CBEA_v1.02_11Oct2007_pub.pdf)
-* [Cell Broadband Engine Programming Handbook (Version 1.12 / April 3, 2009)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/7A77CCDF14FE70D5852575CA0074E8ED/$file/CellBE_Handbook_v1.12_3Apr09_pub.pdf)
-* [Cell Broadband Engine Registers (Version 1.5 / April 2, 2007)](http://cell.scei.co.jp/pdf/CBE_Public_Registers_v15.pdf)
-* [SPU Application Binary Interface Specification (Version 1.9 / July 18, 2008)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/02E544E65760B0BF87257060006F8F20/$file/SPU_ABI-Specification_1.9.pdf)
-* [SPU Assembly Language Specification (Version 1.7 / July 18, 2008)](https://www-01.ibm.com/chips/techlib/techlib.nsf/techdocs/EFA2B196893B550787257060006FC9FB/$file/SPU_Assembly_Language_Specification_1.7.pdf)
-* [SPU Instruction Set Architecture (Version 1.2 / January 27, 2007)](http://cell.scei.co.jp/pdf/SPU_ISA_v12.pdf)
 
 ### RSX
 * RSX Commands: [http://www.psdevwiki.com/ps3/RSXFIFOCommands](http://www.psdevwiki.com/ps3/RSXFIFOCommands) (Partially incomplete)
@@ -27,10 +42,12 @@ Best wishes and happy coding!
 * Modules: Ask other developers. Basically optional HLE implementaions of prx modules found in `/dev_flash/sys/external/`.
 
 
+---
+
+
 ## Information
 
-####Misc
-(Some of this information can be deleted, or at least it should be properly organized).
+_(Some of this information can be deleted, or at least it should be properly organized)_
 * `sizeof(char)` = 1 (= 8 bits)
 * `sizeof(short)` = 2
 * `sizeof(int)` = 4
