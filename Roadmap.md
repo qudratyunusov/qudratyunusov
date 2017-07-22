@@ -1,11 +1,9 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
-* Improve performance and compatibility of all renderers.
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Configure a buildbot to automatically upload Linux binaries.
 * Investigate Linux specific bugs. Avoid using executable dir completely.
-* Start to improve compatibility by fixing bugs and missing functionality.
 
 ## Medium term goals
 * Properly support some PS3 features like MSAA that are lacking at the moment.
@@ -21,7 +19,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
 * Implement savedata manager. Currently it doesn't have user interface.
-* Implement precise PPU interpreter.
+* Implement (the rest of) precise PPU Interpreter.
 * Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 
 ## Long term goals
@@ -32,7 +30,11 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Support mic, camera, USB peripherals, etc.
 * Implement network functionality.
 * Implement every system module in the emulator. This will allow the emulator to work without the PS3 firmware.
-* Continue to improve speed, accuracy, and compatibility. This is a never-ending goal.
+
+## Never-ending goals
+* Improve game compatibility by fixing bugs and missing functionality.
+* Continue to improve emulation speed and accuracy.
+* Improve performance and compatibility of all renderers.
 
 ## For developers
 * Implement MFC_DMA_TAG_CMD_STALL_NOTIFY_EVENT and other SPU events.
