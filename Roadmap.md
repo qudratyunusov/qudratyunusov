@@ -2,8 +2,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 
 ## Short term goals
 * Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
-* Configure a buildbot to automatically upload Linux binaries.
-* Investigate Linux specific bugs. Avoid using executable dir completely.
 
 ## Medium term goals
 * Properly support some PS3 features like MSAA that are lacking at the moment.
