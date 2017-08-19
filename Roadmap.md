@@ -6,6 +6,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve fatal error dialog. (Nekotekina)
 * Implement sys_net syscalls. (Nekotekina)
 * Implement remaining syscalls for liblv2. (Nekotekina)
+* Fix RawSPU registers. (Nekotekina)
 
 ## September 2017
 * Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
