@@ -8,9 +8,9 @@ _We track compatibility per Game ID, and not per Game Title. This means that, fo
 
 **If the Game ID is already listed**: Click the Game ID on the compatibility list and you'll be redirected to the forum thread for it, where you can submit a new post. 
 
-**If the Game ID is not yet listed**: Go to our [Commercial Games Section](http://www.emunewz.net/forum/forumdisplay.php?fid=193) and open a new thread on the appropriate category, depending on your game's compatibility.
+**If the Game ID is not yet listed**: Go to our [Commercial Games Section](https://forums.rpcs3.net/forum-4.html) and open a new thread on the appropriate category, depending on your game's compatibility.
 
-**When submitting your report, you must follow the [Guidelines for Submitting Game Reports](http://www.emunewz.net/forum/showthread.php?tid=174376&pid=230739#pid230739).**
+**When submitting your report, you must follow the [Guidelines for Submitting Game Reports](https://forums.rpcs3.net/thread-196671.html).**
 
 The game will be added to the Compatibility List after your submission is reviewed.
 
@@ -26,3 +26,4 @@ The following table contains the monthly amount of games per status in our compa
 | Apr 2017 | 147      | 504    | 668   | 354      | 373     | 2046  |
 | May 2017 | 173      | 543    | 679   | 372      | 408     | 2175  |
 | Jun 2017 | 216      | 557    | 744   | 409      | 442     | 2368  |
+| Jul 2017 | 278      | 588    | 747   | 410      | 446     | 2469  |
