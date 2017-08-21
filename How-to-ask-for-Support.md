@@ -10,7 +10,7 @@
 * **Pack up your log files.** Copy pasta from the emulator's log window onto a new text file doesn't count, as that's merely a resume from what's happening. Use a compressing tool such as [**7-Zip**](http://www.7-zip.org/) to compress the **RPCS3.log** and **TTY.log** files to a .7z or .zip file after closing the emulator.
 
 ### Submitting your support request:
-* Go to the [**Support section of our forums**](http://www.emunewz.net/forum/forumdisplay.php?fid=172) and start a new thread or post in an existing one if it discusses the same problem. 
+* Go to the [**Support section of our forums**](https://forums.rpcs3.net/forum-18.html) and start a new thread or post in an existing one if it discusses the same problem. 
 * Attach the compressed file containing the logs. If it surpasses the file size limit, upload the log on file sharing websites such as [**MEGA**](https://mega.co.nz/) or [**MediaFire**](https://www.mediafire.com/) and link it on your request.
 * Include screenshots if you believe they help clarifying your problem. Upload them as attachments to the post or upload them to image sharing websites like [**Imgur**](http://imgur.com/) and link them on your request.
 * Provide basic system information. CPU, GPU, OS, RAM and Video Drivers' version are usually enough.
