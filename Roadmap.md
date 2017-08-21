@@ -7,6 +7,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement sys_net syscalls. (Nekotekina)
 * Implement remaining syscalls for liblv2. (Nekotekina)
 * Fix RawSPU registers. (Nekotekina)
+* Improvements to the shader generation and cache system (kd-11)
 
 ## September 2017
 * Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
@@ -14,10 +15,12 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
+* Upgrade pixel pipeline emulation (fragment shaders, textures and framebuffers) (kd-11)
+* Lay the groundwork for arbitrary render setups and high resolution modes (kd-11)
 
 ## Medium term goals
-* Properly support some PS3 features like MSAA that are lacking at the moment.
-* Implement RSX reports which are missing at the moment.
+* Enable higher rendering resolution to play games at any resolution, for example 4k instead of 720p in Demon’s Souls or Persona 5.
+* Properly support MSAA.
 * Improve audio and video decoders for better speed and compatibility.
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
 * Add low-latency ASIO audio backend for Windows. With ASIO4ALL, it will work great on most modern hardware.
@@ -32,8 +35,8 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 
 ## Long term goals
-* Enable higher rendering resolution to play games at any resolution, for example 4k instead of 720p in Demon’s Souls or Persona 5.
 * Enable extra graphics options to support extra rendering features, such as custom anti-aliasing modes.
+* Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog
 * Build PPU/SPU interpreters at runtime using LLVM.
 * Support booting from original game discs.
 * Implement user manager.
