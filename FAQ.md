@@ -18,7 +18,7 @@ Windows only software requirements:
 
 ### Does RPCS3 support commercial games? When will it support the game I want to play?
 **Yes, some**. You can currently play dozens of titles on RPCS3! However, most titles don't work yet because the emulator is in an early stage of development and a lot of features required to run those haven't been implemented yet. 
-Check out the [Compatibility List](https://rpcs3.net/compatibility) or the [Forums](http://www.emunewz.net/forum/forumdisplay.php?fid=172) to see if there's any information on the game you want to play. More games will be supported when the hardware/firmware emulation is accurate enough to run them. It all depends on the amount of developers working on this project, their skills, and free time, etc. Ignore any estimates and guesses you find out there.
+Check out the [Compatibility List](https://rpcs3.net/compatibility) or the [Forums](https://forums.rpcs3.net) to see if there's any information on the game you want to play. More games will be supported when the hardware/firmware emulation is accurate enough to run them. It all depends on the amount of developers working on this project, their skills, and free time, etc. Ignore any estimates and guesses you find out there.
 
 ---
 
@@ -67,7 +67,7 @@ If you have any questions, hit us up on our [Discord Server](https://discord.me/
 ---
 
 ### There is some issue/feedback/comment that I want to report.
-Good, you can do it through the [GitHub Issue Tracker](https://github.com/RPCS3/rpcs3/issues) (development-related issues) or the [Forums](http://www.emunewz.net/forum/forumdisplay.php?fid=172) (general questions, support and commercial/homebrew games discussion). Please follow this guidelines before sending anything:
+Good, you can do it through the [GitHub Issue Tracker](https://github.com/RPCS3/rpcs3/issues) (development-related issues) or the [Forums](https://forums.rpcs3.net) (general questions, support and commercial/homebrew games discussion). Please follow this guidelines before sending anything:
 - Check if your system matches all the system minimum requirements;
 - Check if the issue is meaningful for the team (e.g. The Last of Us doesn't work is obvious and therefore useless);
 - Search older issues/forum threads to see if your issue was already submitted;
