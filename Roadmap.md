@@ -2,10 +2,9 @@ This is a non-exhaustive list of current goals made possible with the support of
 
 ## August 2017
 * Add "Clear LLVM cache" function.
-* Fix log appearance at RPCS3 startup. (Nekotekina)
 * Improve fatal error dialog. (Nekotekina)
 * Implement sys_net syscalls. (Nekotekina)
-* Implement remaining syscalls for liblv2. (Nekotekina)
+* Implement remaining syscalls for liblv2 compatibility. (Nekotekina)
 * Fix RawSPU registers. (Nekotekina)
 * Improvements to the shader generation and cache system (kd-11)
 
@@ -33,6 +32,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement savedata manager. Currently it doesn't have user interface.
 * Implement (the rest of) precise PPU Interpreter.
 * Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
+* Implement config tristate in GUI for per-game configurations.
 
 ## Long term goals
 * Enable extra graphics options to support extra rendering features, such as custom anti-aliasing modes.
