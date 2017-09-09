@@ -1,19 +1,15 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
-## August 2017
-* Add "Clear LLVM cache" function.
-* Improve fatal error dialog. (Nekotekina)
-* Implement sys_net syscalls. (Nekotekina)
-* Implement remaining syscalls for liblv2 compatibility. (Nekotekina)
-* Fix RawSPU registers. (Nekotekina)
-* Improvements to the shader generation and cache system (kd-11)
-
 ## September 2017
+* Add "Clear LLVM cache" function.
+* Implement sys_net syscalls. (Nekotekina)
+* Implement sys_process syscalls for liblv2 compatibility. (Nekotekina)
 * Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
 * Fix parent of root in VFS. (Nekotekina)
 * Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
+* Improvements to the shader generation and cache system (kd-11)
 * Upgrade pixel pipeline emulation (fragment shaders, textures and framebuffers) (kd-11)
 * Lay the groundwork for arbitrary render setups and high resolution modes (kd-11)
 
