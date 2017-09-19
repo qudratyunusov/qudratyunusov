@@ -3,7 +3,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 ## September 2017
 * Add "Clear LLVM cache" function.
 * Implement sys_net syscalls. (Nekotekina)
-* Implement sys_process syscalls for liblv2 compatibility. (Nekotekina)
 * Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
 * Fix parent of root in VFS. (Nekotekina)
 * Remove obstacles for ASLR support. (Nekotekina)
