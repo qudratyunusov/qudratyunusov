@@ -13,7 +13,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Lay the groundwork for arbitrary render setups and high resolution modes (kd-11)
 
 ## Medium term goals
-* Enable higher rendering resolution to play games at any resolution, for example 4k instead of 720p in Demon’s Souls or Persona 5.
+* Enable higher rendering resolution to play games at any resolution, for example 4K.
 * Properly support MSAA.
 * Improve audio and video decoders for better speed and compatibility.
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
