@@ -35,9 +35,7 @@ Playing games online with real PlayStation 3 systems would require the user to c
 ---
 
 ### Can I play local-multiplayer games with RPCS3?
-We currently do not have support for multiple controllers in RPCS3 just yet, but we plan to in the future once we're farther in development. The foundation for multiple controllers is already there, but it just isn't priority for now. 
-
-Similarly to how the a PlayStation 3 has support for up to 7 concurrent controllers, we plan to replicate that feature in its entirety.
+Local-multiplayer is completely possible. We support up to 7 concurrent controllers (just like the PlayStation 3) with a flexible system: these controllers can be mixed so that one player uses the keyboard, while a 2nd one uses a gamepad. This setting is found under the menu Configuration > Pads.
 
 ---
 
