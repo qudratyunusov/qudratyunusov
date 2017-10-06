@@ -2,7 +2,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 
 ## October 2017
 * Add "Clear LLVM cache" function.
-* Implement sys_net syscalls. (Nekotekina)
 * Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
 * Fix parent of root in VFS. (Nekotekina)
 * Remove obstacles for ASLR support. (Nekotekina)
@@ -18,19 +17,17 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Add low-latency ASIO audio backend for Windows. With ASIO4ALL, it will work great on most modern hardware.
 * Implement LLVM recompiler backend for SPU. This is actually a tremendous amount of work to make it useful, but it will also give the very important speed improvement (unless the SPU is not used at all).
 * Improve LLVM flexibility. For example, it could scan game folder for all executables and SPRX modules and recompile them ahead of time.
-* Implement PPU executable chain-loading.
 * Improve solution structure, move and rename some files.
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
 * Implement savedata manager. Currently it doesn't have user interface.
-* Implement (the rest of) precise PPU Interpreter.
 * Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 * Implement config tristate in GUI for per-game configurations.
 * Improvements to the shader generation and cache system
+* Implement parametrized PPU Interpreter reusing current LLVM IR generator, remove original hard-coded PPU Interpreter and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. The same extends to SPU.
 
 ## Long term goals
 * Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog
-* Build PPU/SPU interpreters at runtime using LLVM.
 * Support booting from original game discs.
 * Implement user manager.
 * Support mic, camera, USB peripherals, etc.
