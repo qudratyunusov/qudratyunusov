@@ -7,7 +7,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
-* Enable higher rendering resolution to play games at any resolution, for example 4K. (kd-11)
 * Properly support MSAA. (kd-11)
 * Improve SPU instruction accuracy for Fast Interpreter and ASMJIT (kd-11)
 
