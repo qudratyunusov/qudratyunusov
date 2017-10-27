@@ -19,11 +19,11 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve solution structure, move and rename some files.
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
-* Implement savedata manager. Currently it doesn't have user interface.
 * Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 * Implement config tristate in GUI for per-game configurations.
 * Improvements to the shader generation and cache system
 * Implement parametrized PPU Interpreter reusing current LLVM IR generator, remove original hard-coded PPU Interpreter and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. The same extends to SPU.
+* Implement Trophy Manager UI.
 
 ## Long term goals
 * Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog
