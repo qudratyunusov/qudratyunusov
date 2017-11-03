@@ -11,6 +11,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Restructure texture cache and optimize rsx performance (kd-11)
 * Properly support render-to-cubemap for realtime reflections (kd-11)
 * Properly support MSAA (kd-11)
+* Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog (kd-11)
 
 ## Medium term goals
 * Improve SPU instruction accuracy for Fast Interpreter and ASMJIT
@@ -28,7 +29,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement parametrized PPU Interpreter reusing current LLVM IR generator, remove original hard-coded PPU Interpreter and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. The same extends to SPU.
 
 ## Long term goals
-* Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog
 * Support booting from original game discs.
 * Implement user manager.
 * Support mic, camera, USB peripherals, etc.
