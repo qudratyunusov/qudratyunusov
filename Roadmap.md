@@ -1,16 +1,19 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
-## October 2017
+## November 2017
 * Add "Clear LLVM cache" function.
 * Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
 * Fix parent of root in VFS. (Nekotekina)
 * Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
-* Properly support MSAA. (kd-11)
-* Improve SPU instruction accuracy for Fast Interpreter and ASMJIT (kd-11)
+* Implement vulkan zcull (kd-11)
+* Restructure texture cache and optimize rsx performance (kd-11)
+* Properly support render-to-cubemap for realtime reflections (kd-11)
+* Properly support MSAA (kd-11)
 
 ## Medium term goals
+* Improve SPU instruction accuracy for Fast Interpreter and ASMJIT
 * Improve audio and video decoders for better speed and compatibility.
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
 * Add low-latency ASIO audio backend for Windows. With ASIO4ALL, it will work great on most modern hardware.
@@ -23,7 +26,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement config tristate in GUI for per-game configurations.
 * Improvements to the shader generation and cache system
 * Implement parametrized PPU Interpreter reusing current LLVM IR generator, remove original hard-coded PPU Interpreter and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. The same extends to SPU.
-* Implement Trophy Manager UI.
 
 ## Long term goals
 * Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog
