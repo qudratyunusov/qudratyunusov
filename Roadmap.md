@@ -1,7 +1,6 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## November 2017
-* Add "Clear LLVM cache" function.
 * Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
 * Fix parent of root in VFS. (Nekotekina)
 * Remove obstacles for ASLR support. (Nekotekina)
