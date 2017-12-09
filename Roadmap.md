@@ -6,11 +6,8 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
-* Implement vulkan zcull (kd-11)
-* Restructure texture cache and optimize rsx performance (kd-11)
-* Properly support render-to-cubemap for realtime reflections (kd-11)
-* Properly support MSAA (kd-11)
 * Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog (kd-11)
+* Fix remaining problems with texture readback (write color buffers) (kd-11)
 
 ## Medium term goals
 * Improve SPU instruction accuracy for Fast Interpreter and ASMJIT
