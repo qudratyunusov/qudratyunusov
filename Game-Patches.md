@@ -51,3 +51,76 @@ PPU-1105af0a4d6a4a1481930c6f3090c476cde06c4c:
 ```
 
 ---
+
+### Hatsune Miku: Project Diva F 2nd
+
+**60 FPS Patch** by [Brolijah](https://github.com/Brolijah)
+<br>
+**Notes:** Patch accelerates some game effects by 2x. Does not affect playability.
+```
+# Project DIVA F 2nd USA Disc 1.00 (Maybe also PSN?)
+PPU-092c43e2bcacccfe3cdc22b0ab8062b91d4e1cf9: # BLUS31431 ver. 1.00
+  - [be32, 0x0423C8, 0x3F800000]
+  - [be16, 0x6AF44E, 0x0001]
+  - [be16, 0x6AF46E, 0x0001]
+  - [be16, 0x6AF492, 0x0001]
+  - [be16, 0x6AF4B6, 0x0001]
+
+# Project DIVA F 2nd EUR PSN 1.00 (Maybe also Disc?)
+PPU-67e0e7c9b2a7a340c914a0d078e25aac1047e4d4: # NPEB02013 ver. 1.00
+  - [be32, 0x0423C8, 0x3F800000]
+  - [be16, 0x6AF44E, 0x0001]
+  - [be16, 0x6AF46E, 0x0001]
+  - [be16, 0x6AF492, 0x0001]
+  - [be16, 0x6AF4B6, 0x0001]
+
+# Project DIVA F 2nd ASIA Disc 1.00
+PPU-51d336edfa3774f2db83ed030611f462c097c40b: # BLAS50723 ver. 1.00
+  - [be32, 0x042390, 0x3F800000]
+  - [be16, 0x6AF0B6, 0x0001]
+  - [be16, 0x6AF0D6, 0x0001]
+  - [be16, 0x6AF0FA, 0x0001]
+  - [be16, 0x6AF11E, 0x0001]
+
+# Project DIVA F 2nd ASIA PSN 1.00
+PPU-c70b15d3f6694af74fa329dd4fc25fe28a59e9cc: # NPHB00671 ver. 1.00
+  - [be32, 0x042390, 0x3F800000]
+  - [be16, 0x6AF0B6, 0x0001]
+  - [be16, 0x6AF0D6, 0x0001]
+  - [be16, 0x6AF0FA, 0x0001]
+  - [be16, 0x6AF11E, 0x0001]
+
+# Project DIVA F 2nd JAP Disc & PSN 1.00 
+PPU-c3291f5919ca147ac854de10f7436f4ad494233f: # BLJM61079/NPJB00435 ver. 1.00
+  - [be32, 0x041F40, 0x3F800000]
+  - [be16, 0x6A48F6, 0x0001]
+  - [be16, 0x6A4916, 0x0001]
+  - [be16, 0x6A493A, 0x0001]
+  - [be16, 0x6A495E, 0x0001]
+
+# Project DIVA F 2nd JAP Disc 1.01
+PPU-058cf39c07fd13f100c1f6dc40a0ead9bf3ad51b: # BLJM61079 ver. 1.01
+  - [be32, 0x041F40, 0x3F800000]
+  - [be16, 0x6A48F6, 0x0001]
+  - [be16, 0x6A4916, 0x0001]
+  - [be16, 0x6A493A, 0x0001]
+  - [be16, 0x6A495E, 0x0001]
+
+# Project DIVA F 2nd JAP Disc 1.02
+PPU-8fc9f26ed77cc9237db0e6348dcf9d6c451b6220: # BLJM61079 ver. 1.02
+  - [be32, 0x041F40, 0x3F800000]
+  - [be16, 0x6A48F6, 0x0001]
+  - [be16, 0x6A4916, 0x0001]
+  - [be16, 0x6A493A, 0x0001]
+  - [be16, 0x6A495E, 0x0001]
+
+# Project DIVA F 2nd JAP PSN 1.02
+PPU-311fcd98af6adc5e64e6a833eb959f43b0976193: # NPJB00435 ver. 1.02
+  - [be32, 0x041F78, 0x3F800000]
+  - [be16, 0x6AB316, 0x0001]
+  - [be16, 0x6AB336, 0x0001]
+  - [be16, 0x6AB35A, 0x0001]
+  - [be16, 0x6AB380, 0x0001]
+```
+
+---
