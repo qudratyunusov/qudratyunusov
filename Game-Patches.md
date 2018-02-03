@@ -2,6 +2,8 @@
 
 This page lists the current existing community patches for RPCS3's game patching system. To use them, create a `patch.yml` file on RPCS3's root directory and add one or more of the following patches to it.
 
+**To get the PPU hash from your executable:** Boot the game once, open RPCS3.log afterwards with a text editor and search for 'PPU executable hash'. On that line, you'll find your executable's PPU hash, which you can then replace on game patches when required.
+
 ---
 
 
