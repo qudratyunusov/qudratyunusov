@@ -124,3 +124,17 @@ PPU-311fcd98af6adc5e64e6a833eb959f43b0976193: # NPJB00435 ver. 1.02
 ```
 
 ---
+
+### Persona 5
+
+**60 FPS Patch** by [TGEnigma](https://github.com/TGEnigma)
+<br>
+**Notes:** Patch accelerates fights and some game effects by 2x.
+```
+# Replace the PPU hash by the one from your executable
+PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
+  - [be32, 0x00010268, 0x9061009C] # set update rate to 60 -&gt; r3, 0xE0+var_44(r1)
+  - [be32, 0x008FC864, 0x60000000] # nop cellGcmSetSecondVFrequency
+```
+
+---
