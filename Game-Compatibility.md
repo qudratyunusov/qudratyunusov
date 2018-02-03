@@ -33,5 +33,6 @@ The following table contains the monthly amount of games per status in our compa
 | Nov 2017 | 569      | 969    | 998   | 333      | 141     | 3010  |
 | Dec 2017 | 783      | 1102   | 918   | 210      | 88      | 3101  |
 | 2018*    | 654      | 872    | 798   | 174      | 73      | 2571  |
+| Jan 2018 | 704      | 1036   | 693   | 157      | 41      | 2631  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
