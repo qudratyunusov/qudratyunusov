@@ -5,6 +5,7 @@
 * [FAQ](https://github.com/RPCS3/rpcs3/wiki/FAQ)
 * [Game Compatibility](https://github.com/RPCS3/rpcs3/wiki/Game-Compatibility)
 * [Game Documentation](https://github.com/RPCS3/rpcs3/wiki/Game-Documentation)
+* [Game Patches](https://github.com/RPCS3/rpcs3/wiki/Game-Patches)
 * [How to ask for Support](https://github.com/RPCS3/rpcs3/wiki/How-to-ask-for-Support)
 
 <br>
