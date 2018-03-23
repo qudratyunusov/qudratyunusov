@@ -1,7 +1,6 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
-* Rebuild LLVM cache for the firmware after its installation. (Nekotekina)
 * Fix parent of root in VFS. (Nekotekina)
 * Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
@@ -14,7 +13,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve audio and video decoders for better speed and compatibility.
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
 * Implement LLVM recompiler backend for SPU. This is actually a tremendous amount of work to make it useful, but it will also give the very important speed improvement (unless the SPU is not used at all).
-* Improve LLVM flexibility. For example, it could scan game folder for all executables and SPRX modules and recompile them ahead of time.
 * Improve solution structure, move and rename some files.
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
