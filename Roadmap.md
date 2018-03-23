@@ -6,6 +6,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
 * Fix some engine-specific rendering issues (kd-11)
+* Improve the shader decompiler/recompiler (kd-11)
 * Fix remaining problems with texture readback (write color buffers) (kd-11)
 
 ## Medium term goals
