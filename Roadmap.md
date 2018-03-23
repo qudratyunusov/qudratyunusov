@@ -6,7 +6,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
-* Native overlay API to allow custom UI to render within the GSFrame e.g SaveManager dialog (kd-11)
+* Fix some engine-specific rendering issues (kd-11)
 * Fix remaining problems with texture readback (write color buffers) (kd-11)
 
 ## Medium term goals
