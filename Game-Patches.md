@@ -139,4 +139,21 @@ PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
   - [be32, 0x008FC864, 0x60000000] # nop cellGcmSetSecondVFrequency
 ```
 
+**Disable HUD Elements** by [TGEnigma](https://github.com/TGEnigma)
+<br>
+**Notes:** Elements can disabled separately by adding/removing their respective lines from the patch.
+```
+p5_NoHudLite: &p5_NoHudLite
+    - [ be32, 0xDE4EC, 0x60000000 ] # mission list
+    - [ be32, 0xE83F4, 0x60000000 ] # place pict
+    - [ be32, 0xE5920, 0x60000000 ] # check
+    - [ be32, 0x69CC4, 0x38600001 ] # alert
+    - [ be32, 0x5F678, 0x60000000 ] # date
+    - [ be32, 0x38A0D0, 0x4838A186 ] # misc field hud
+    - [ be32, 0x28FBA0, 0x38600000 ] # party panel
+    - [ be32, 0x28FBA4, 0x4E800020 ] # party panel
+    - [ be32, 0xD6B48, 0x60000000 ] # mini map
+    - [ be32, 0xD6490, 0x60000000 ] # mini map
+```
+
 ---
