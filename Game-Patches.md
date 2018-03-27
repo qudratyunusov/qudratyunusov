@@ -143,7 +143,8 @@ PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
 <br>
 **Notes:** Elements can disabled separately by adding/removing their respective lines from the patch.
 ```
-p5_NoHudLite: &p5_NoHudLite
+# Replace the PPU hash by the one from your executable
+PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
     - [ be32, 0xDE4EC, 0x60000000 ] # mission list
     - [ be32, 0xE83F4, 0x60000000 ] # place pict
     - [ be32, 0xE5920, 0x60000000 ] # check
