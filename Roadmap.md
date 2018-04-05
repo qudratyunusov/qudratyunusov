@@ -1,8 +1,6 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
-* Fix parent of root in VFS. (Nekotekina)
-* Remove obstacles for ASLR support. (Nekotekina)
 * Improve PPU LLVM recompiler compatibility and speed. (Nekotekina)
 * Begin SPU LLVM. (Nekotekina)
 * Fix some engine-specific rendering issues (kd-11)
@@ -21,6 +19,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement config tristate in GUI for per-game configurations.
 * Improvements to the shader generation and cache system
 * Implement parametrized PPU Interpreter reusing current LLVM IR generator, remove original hard-coded PPU Interpreter and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. The same extends to SPU.
+* Remove obstacles for ASLR support. (Nekotekina)
 
 ## Long term goals
 * Support booting from original game discs.
