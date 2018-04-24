@@ -6,6 +6,7 @@
 * [Game Compatibility](https://github.com/RPCS3/rpcs3/wiki/Game-Compatibility)
 * [Game Documentation](https://github.com/RPCS3/rpcs3/wiki/Game-Documentation)
 * [Game Patches](https://github.com/RPCS3/rpcs3/wiki/Game-Patches)
+* [Graphics Driver Issues](https://github.com/RPCS3/rpcs3/wiki/Graphics-Driver-Issues)
 * [How to ask for Support](https://github.com/RPCS3/rpcs3/wiki/How-to-ask-for-Support)
 
 <br>
