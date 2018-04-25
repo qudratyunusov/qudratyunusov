@@ -27,7 +27,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 ### Mesa
 **OpenGL.**
-- No issues
+- The debug overlay is not visible
 
 **Vulkan.**
 - RADV: Performance is low in some titles
