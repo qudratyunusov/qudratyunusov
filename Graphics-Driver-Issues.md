@@ -16,6 +16,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 **Vulkan.**
 - Raster pattern requires 'Strict Mode' to be enabled to deal with framebuffer feedback loops, otherwise a diagonal line may be observed on screen between triangle edges.
 - Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects mesa drivers to some extent. Workaround implemented.
+- Fence reset can trigger a driver crash, epsecially on pre-GCN4 hardware. Workaround implemented.
 
 ### NVIDIA (proprietary)
 **OpenGL.**
@@ -30,5 +31,5 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - The debug overlay is not visible
 
 **Vulkan.**
-- RADV: Performance is low in some titles
+- RADV: Performance is very low in some titles.
 
