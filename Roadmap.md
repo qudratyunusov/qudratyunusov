@@ -8,7 +8,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Fix remaining problems with texture readback (write color buffers) (kd-11)
 
 ## Medium term goals
-* Improve SPU instruction accuracy for Fast Interpreter and ASMJIT
+* Improve SPU instruction accuracy for Fast Interpreter and ASMJIT, investigate vectorized software FP implementation.
 * Improve audio and video decoders for better speed and compatibility.
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
 * Improve solution structure, move and rename some files.
