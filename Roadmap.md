@@ -20,6 +20,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improvements to the shader generation and cache system
 * Implement parametrized PPU Interpreter reusing current LLVM IR generator, remove original hard-coded PPU Interpreter and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. The same extends to SPU.
 * Remove obstacles for ASLR support. (Nekotekina)
+* Rewrite signal handlers to improve reliability and support exceptions. (Nekotekina)
 
 ## Long term goals
 * Support booting from original game discs.
