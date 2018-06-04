@@ -135,7 +135,57 @@ PPU-311fcd98af6adc5e64e6a833eb959f43b0976193: # NPJB00435 ver. 1.02
 <br>
 **Patch URL:** https://pastebin.com/TFVsG6xF
 <br>
-<br>
+
+**Disable Blur Filter** by [TGEnigma](https://github.com/TGEnigma), [ruipin](https://github.com/ruipin), [kd-11](https://github.com/kd-11)
+```
+p5_DisableBlur: &p5_DisableBlur
+    - [ be32, 0x00FEE27A, 0x9E001700 ]
+    - [ be32, 0x00FEE27E, 0xC801001D ]
+    - [ be32, 0x00FEE282, 0x00000000 ]
+    - [ be32, 0x00FEE286, 0x00000000 ]
+    - [ be32, 0x00FEE28A, 0x1E810100 ]
+    - [ be32, 0x00FEE28E, 0xC800001D ]
+    - [ be32, 0x00FEE292, 0x00000000 ]
+    - [ be32, 0x00FEE296, 0x00000000 ]
+# Replace the PPU hash by the one from your executable
+PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
+   - [ load, p5_DisableBlur ]
+```
+
+
+**Disable Normal Distortion Filter (<=99% Alert & Velvet Room)** by [TGEnigma](https://github.com/TGEnigma), [ruipin](https://github.com/ruipin), [kd-11](https://github.com/kd-11)
+```
+p5_DisableDistortion: &p5_DisableDistortion
+    - [ be32, 0x00FE2E28, 0x9E001700 ]
+    - [ be32, 0x00FE2E2C, 0xC801001D ]
+    - [ be32, 0x00FE2E30, 0x00000000 ]
+    - [ be32, 0x00FE2E34, 0x00000000 ]
+    - [ be32, 0x00FE2E38, 0x1E810100 ]
+    - [ be32, 0x00FE2E3C, 0xC800001D ]
+    - [ be32, 0x00FE2E40, 0x00000000 ]
+    - [ be32, 0x00FE2E44, 0x00000000 ]
+# Replace the PPU hash by the one from your executable
+PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
+   - [ load, p5_DisableDistortion ]
+```
+
+
+**Disable Angery Distortion Filter (100% Alert)** by [TGEnigma](https://github.com/TGEnigma), [ruipin](https://github.com/ruipin), [kd-11](https://github.com/kd-11)
+```
+p5_Disable100PctDistortion: &p5_Disable100PctDistortion
+    - [ be32, 0x00FE31CC, 0x9E001700 ]
+    - [ be32, 0x00FE31D0, 0xC801001D ]
+    - [ be32, 0x00FE31D4, 0x00000000 ]
+    - [ be32, 0x00FE31D8, 0x00000000 ]
+    - [ be32, 0x00FE31DC, 0x1E810100 ]
+    - [ be32, 0x00FE31E0, 0xC800001D ]
+    - [ be32, 0x00FE31E4, 0x00000000 ]
+    - [ be32, 0x00FE31E8, 0x00000000 ]
+# Replace the PPU hash by the one from your executable
+PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
+   - [ load, p5_Disable100PctDistortion ]
+```
+
 
 **Disable HUD Elements** by [TGEnigma](https://github.com/TGEnigma)
 <br>
