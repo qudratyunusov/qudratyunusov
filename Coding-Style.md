@@ -6,6 +6,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
     * Globals: _g__*
     * Class members: _m__*
     * Statics: _s__*
+* Template parameter names: *CamelCase*, or just T, U, V...
 * Avoid `#defines`, use constant variables instead.
 * Put curly-brackets (`{` and `}`) on the next line.
 * Try to eliminate all compiler warnings from your code.
