@@ -30,5 +30,5 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - The debug overlay is not visible
 
 **Vulkan.**
-- RADV: No major remaining issues identified yet.
+- RADV: - Raster pattern requires 'Strict Mode' to be enabled to deal with framebuffer feedback loops, otherwise a diagonal line may be observed on screen between triangle edges.
 
