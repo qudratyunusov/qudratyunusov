@@ -4,7 +4,7 @@ We have a [game compatibility list on our website](https://rpcs3.net/compatibili
 <br>
 
 ### How to update the Compatibility List?
-_We track compatibility per Game ID, and not per Game Title. This means that, for example, a disc version and a digital version of the same game have to be reported on different threads and have separated entries on the list._
+_We track compatibility per Game IDs batched by Game Media, and not per Game Title. This means that the disc versions and the digital versions of the same game have separated entries on the list. Note that every single Game ID has to be reported on its respective forum thread, regardless of region and media._
 
 **If the Game ID is already listed**: Click the Game ID on the compatibility list and you'll be redirected to the forum thread for it, where you can submit a new post. 
 
