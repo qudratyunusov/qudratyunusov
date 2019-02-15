@@ -1,9 +1,8 @@
 This is a non-exhaustive list of current goals made possible with the support of our generous [patrons](https://www.patreon.com/Nekotekina).
 
 ## Short term goals
-* Improve SPU/PPU LLVM recompiler compatibility, add useful optimizations. (Nekotekina)
-* Use compression to store compiled PPU modules. (Nekotekina)
-* Rewrite SSSE3-using code using runtime compilation for better consistency. (Nekotekina)
+* Improve SPU/PPU LLVM recompiler compatibility, add more optimizations. (Nekotekina)
+* Implement parametrized PPU/SPU Interpreters reusing current LLVM IR generator, remove original hard-coded interpreters and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. (Nekotekina)
 * Fix some engine-specific rendering issues (kd-11)
 * Improve the shader decompiler/recompiler (kd-11)
 * Fix remaining problems with texture readback (write color buffers) (kd-11)
@@ -18,7 +17,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 * Implement config tristate in GUI for per-game configurations.
 * Improvements to the shader generation and cache system
-* Implement parametrized PPU/SPU Interpreters reusing current LLVM IR generator, remove original hard-coded interpreters and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. (Nekotekina)
 * Remove obstacles for ASLR support. (Nekotekina)
 * Rewrite signal handlers to improve reliability and support exceptions. (Nekotekina)
 
