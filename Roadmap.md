@@ -3,9 +3,10 @@ This is a non-exhaustive list of current goals made possible with the support of
 ## Short term goals
 * Improve SPU/PPU LLVM recompiler compatibility, add more optimizations. (Nekotekina)
 * Implement parametrized PPU/SPU Interpreters reusing current LLVM IR generator, remove original hard-coded interpreters and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. (Nekotekina)
-* Fix some engine-specific rendering issues (kd-11)
-* Improve the shader decompiler/recompiler (kd-11)
-* Fix remaining problems with texture readback (write color buffers) (kd-11)
+* Improve communication between surface and texture cache. (kd-11)
+* Support for variable sized framebuffers to prevent data losses due to data clipping in surface cache. (kd-11)
+* Support multisampled textures in the rendering pipeline to support MSAA and the other effects that go with that e.g alpha-to-coverage and alpha-to-one. (kd-11)
+* Integrate the base framework for GPU-side program decompiler. (kd-11, DH)
 
 ## Medium term goals
 * Improve SPU instruction accuracy for Fast Interpreter and ASMJIT, investigate vectorized software FP implementation.
