@@ -11,7 +11,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 ### AMD (proprietary)
 **OpenGL.**
 - glMultiDrawArrays is broken. Workaround implemented and problem reported to AMD. No replies yet.
-- glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested. Workaround implemented.
+- ~~glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested. Workaround implemented.~~ Fixed in driver version 19.4.3
 
 **Vulkan.**
 - Raster pattern requires 'Strict Mode' to be enabled to deal with framebuffer feedback loops, otherwise a diagonal line may be observed on screen between triangle edges.
