@@ -127,6 +127,24 @@ PPU-311fcd98af6adc5e64e6a833eb959f43b0976193: # NPJB00435 ver. 1.02
 
 ---
 
+### LittleBigPlanet 2
+
+
+**21:9 Patch** by [slashiee](https://github.com/slashiee)
+<br>
+**Notes:** This patch is only for the US PSN version of the game.
+<br>
+
+```
+# LittleBigPlanet 2 1.33 (NPUA80662)
+lbp2AspectRatio_133_NPUA80662: &lbp2AspectRatio_133_NPUA80662
+    - [ bef32, 0x00D9C8EC, 2.37037037 ]
+PPU-a74423ca913fc18e46cfe926db1d48e41f9858a9: # NPUA80662
+    - [ load, lbp2AspectRatio_133_NPUA80662 ]
+```
+
+---
+
 ### Persona 5
 
 **60 FPS Patch** by [TGEnigma](https://github.com/TGEnigma)
