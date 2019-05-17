@@ -6,7 +6,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - GLSL compiler is broken. There are likely other issues as well. This driver is unsupported by RPCS3.
 
 **Vulkan.**
-- Raster pattern requires 'Strict Mode' to be enabled to deal with framebuffer feedback loops, otherwise a diagonal line may be observed on screen between triangle edges.
+- No known problems at this time.
 
 ### AMD (proprietary)
 **OpenGL.**
@@ -14,7 +14,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - ~~glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested. Workaround implemented.~~ Fixed in driver version 19.4.3
 
 **Vulkan.**
-- Raster pattern requires 'Strict Mode' to be enabled to deal with framebuffer feedback loops, otherwise a diagonal line may be observed on screen between triangle edges.
 - Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects mesa drivers to some extent. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
 
 ### NVIDIA (proprietary)
@@ -31,5 +30,4 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - The debug overlay is not visible
 
 **Vulkan.**
-- RADV: Raster pattern requires 'Strict Mode' to be enabled to deal with framebuffer feedback loops, otherwise a diagonal line may be observed on screen between triangle edges.
 - Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects proprietary drivers. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
