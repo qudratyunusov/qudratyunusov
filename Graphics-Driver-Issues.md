@@ -23,8 +23,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 **Vulkan.**
 - FP precision issues with Nan/Inf values. Workaround implemented.
-- (Linux only) Problems with SPIRV, compiler does not properly read exponent style values (e.g 1.e-2 vs 0.01)
-- (Windows only) Driver may lock up if RPCS3 is in fullscreen and the present mode is not FIFO. Enable vsync in the emulator to help prevent this issue.
 
 ### Mesa
 **OpenGL.**
