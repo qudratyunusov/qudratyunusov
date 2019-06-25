@@ -26,7 +26,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 ### Mesa
 **OpenGL.**
-- The debug overlay is not visible
+- No known problems at this time.
 
 **Vulkan.**
 - Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects proprietary drivers. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
