@@ -145,6 +145,22 @@ PPU-a74423ca913fc18e46cfe926db1d48e41f9858a9: # NPUA80662
 
 ---
 
+### NieR
+
+
+**60 FPS Patch** by [Whatcookie](https://github.com/Whatcookie)
+<br>
+**Notes:** Use vSync if you have a 60hz display, otherwise use the builtin frame-limiter. Game speed will be unstable if you do not have a constant 30 or 60 FPS.
+```
+PPU-13950b2e29e05a115fe317815d3da9d2b2baee65: #BLUS30481/BLES00826
+- [ be32, 0x00f7c3b8, 0x386003e8 ] # li  r3, 3e8
+
+PPU-f098ee8410599c81c89f90d698340a078dc69a90: #BLJM60223
+- [ be32, 0x00f7cbcc, 0x386003e8 ] # li  r3, 3e8
+```
+
+---
+
 ### Persona 5
 
 **60 FPS Patch** by [TGEnigma](https://github.com/TGEnigma)
