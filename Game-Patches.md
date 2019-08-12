@@ -8,15 +8,29 @@ This page lists the current existing community patches for RPCS3's game patching
 
 
 ### Demon's Souls
-**60 FPS Patch** by [gibbed](https://github.com/gibbed) 
+**60 / 120 FPS Patch** by [Whatcookie](https://github.com/Whatcookie) 
 <br>
-**Notes:** Patch accelerates game by 2x.
+**Notes:** This patch MUST be used with the following settings: Clocks Scale: 200, Vblank Rate: 120
 ```
+# 1.0
+
 PPU-83681f6110d33442329073b72b8dc88a2f677172: #BLUS30443
-  - [be16, 0x25ED8, 0x981f]
+# OPTIONAL: Disable dynamic exposure (can turn off WCB for 20% faster performance)
+# Enable this if you experience flickering
+#  - [be16, 0x00025EDC, 0x981f]
+
+# Alter fixed timestep
+  - [ bef32, 0x018c8db4, 0.01666667 ] # for 60fps
+#  - [ bef32, 0x018c8db4, 0.00833334 ] # for 120fps
 
 PPU-5446a2645880eefa75f7e374abd6b7818511e2ef: #BLES00932
-  - [be16, 0x26AC0, 0x981f]
+# OPTIONAL: Disable dynamic exposure (can turn off WCB for 20% faster performance)
+# Enable this if you experience flickering
+#  - [be16, 0x00026AC4, 0x981f]
+
+# Alter fixed timestep
+  - [ bef32, 0x018c8f20, 0.01666667 ] # for 60fps
+#  - [ bef32, 0x0x18c8f20, 0.00833334 ] # for 120fps
 ```
 
 ---
