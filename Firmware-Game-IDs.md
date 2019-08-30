@@ -18,10 +18,10 @@ The PlayStation 3 Firmware contains several Game IDs on a few modules. This was 
 * NPEA00146 - Revenge of the Wounded Dragons
 
 **libspurs_jq**
-* BLUS30473
+* BLUS30473 - Tony Hawk: Ride
 * BLUS30325 - Tony Hawk: Ride
 * BLES00706 - Tony Hawk: Ride
-* BLES00768
+* BLES00768 - Tony Hawk: Ride
 * BLUS30509 - Dragon Age: Origins - Awakening
 * BLES00730 - Dragon Age: Origins
 * BLES00699 - Dragon Age: Origins
@@ -44,14 +44,14 @@ The PlayStation 3 Firmware contains several Game IDs on a few modules. This was 
 * BLJM61056 - Assassin's Creed IV: Black Flag
 * NPJB00408 - Assassin's Creed IV: Black Flag
 * NPJB00586 - Assassin's Creed IV: Black Flag: Freedom Cry
-* BCUS98242 - MotorStorm Apocalypse
-* NPUA80661 - MotorStorm Apocalypse
-* NPUA70139
-* NPUA70144
-* BCES00484 - MotorStorm Apocalypse
-* BCES01104 - MotorStorm Apocalypse
-* NPEA00315 - MotorStorm Apocalypse
-* NPHA80150
+* BCUS98242 - MotorStorm: Apocalypse
+* NPUA80661 - MotorStorm: Apocalypse
+* NPUA70139 - MotorStorm: Apocalypse Singleplayer Demo
+* NPUA70144 - MotorStorm: Apocalypse Multiplayer Demo
+* BCES00484 - MotorStorm: Apocalypse
+* BCES01104 - MotorStorm: Apocalypse
+* NPEA00315 - MotorStorm: Apocalypse
+* NPHA80150 - MotorStorm 3: Apocalypse Multiplayer Demo
 * NPHA80165 - MotorStorm 3: Apocalypse
 * BCAS20160 - MotorStorm 3: Apocalypse
 
