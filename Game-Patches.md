@@ -633,3 +633,21 @@ PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
 
 </details>
 
+
+
+### WipEout HD
+
+<details>
+<summary>
+<b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Digital v1.00 (EU)
+</summary>
+
+```
+PPU-0e95b58ae209a37060f3388434b59bcce8a708ab:
+  - [be32, 0x7E4190, 0x4017B9AA] # 21:9 Aspect Ratio
+  - [be32, 0x7EB4A4, 0x4017B9AA] # Render Fix
+```
+
+</details>
