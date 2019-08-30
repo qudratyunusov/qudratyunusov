@@ -19,7 +19,7 @@ This page lists the current existing community patches for RPCS3's game patching
 </summary>
 
 ```
-# 1.0
+# 1.0.1
 
 PPU-83681f6110d33442329073b72b8dc88a2f677172: #BLUS30443
 # OPTIONAL: Disable dynamic exposure (can turn off WCB for 20% faster performance)
@@ -37,7 +37,7 @@ PPU-5446a2645880eefa75f7e374abd6b7818511e2ef: #BLES00932
 
 # Alter fixed timestep
   - [ bef32, 0x018c8f20, 0.01666667 ] # for 60fps
-#  - [ bef32, 0x0x18c8f20, 0.00833334 ] # for 120fps
+#  - [ bef32, 0x018c8f20, 0.00833334 ] # for 120fps
 ```
 </details>
 
