@@ -635,6 +635,25 @@ PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
 
 
 
+### Red Dead Redemption 
+
+<details>
+<summary>
+<b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Digital (EU)
+</summary>
+
+```
+PPU-8a18a0314cade28526874128b253acd98863b83d:
+  - [be32, 0x474F24, 0x4017B9AA] # 21.9 Aspect Ratio
+  - [be32, 0x954B8, 0x4017B9AA] # 21.9 HUD fix for 21.9 AR
+```
+
+</details>
+
+
+
 ### WipEout HD
 
 <details>
