@@ -214,6 +214,20 @@ PPU-d626d9832ed48d1ff0d8d97e53a4e23df50cfae6:
 
 </details>
 
+<details>
+<summary>
+<b>60 FPS Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Disc (US)
+</summary>
+
+```
+PPU-d626d9832ed48d1ff0d8d97e53a4e23df50cfae6:
+  - [be32, 0x20D1016, 0x00000000] # 60fps
+```
+
+</details>
+
 
 
 ### LittleBigPlanet 2
