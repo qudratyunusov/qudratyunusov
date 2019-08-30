@@ -13,7 +13,6 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve solution structure, move and rename some files.
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
-* Enable hardware acceleration for decryption (AES-NI). **([#2457](https://github.com/RPCS3/rpcs3/pull/2457))**
 * Implement config tristate in GUI for per-game configurations.
 * Improvements to the shader generation and cache system
 * Remove obstacles for ASLR support. (Nekotekina)
