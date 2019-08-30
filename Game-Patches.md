@@ -13,7 +13,7 @@ This page lists the current existing community patches for RPCS3's game patching
 <summary>
 <b>60 / 120 FPS Patch</b> by <a href="https://github.com/Whatcookie" target="_blank">Whatcookie</a>
 <br>
-<b>Game versions:</b> Disc v1.00 (EU, US)
+<b>Game versions:</b> Disc (EU, US)
 <br>
 <b>Notes:</b> This patch MUST be used with the following settings: Clocks Scale: 200, Vblank Rate: 120
 </summary>
@@ -49,10 +49,11 @@ PPU-5446a2645880eefa75f7e374abd6b7818511e2ef: #BLES00932
 <summary>
 <b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
 <br>
-<b>Game versions:</b> Disc v1.00 (EU)
+<b>Game versions:</b> Disc (EU)
 </summary>
 
 ```
+# Genji: Days of the Blade [BCES00002]
 PPU-4aeb132cdf86d9c4ab20e48ae70cc823e455e05d:
   - [be32, 0x100FA8B0, 0x4017B9AA] # 21:9 
 ```
@@ -63,10 +64,11 @@ PPU-4aeb132cdf86d9c4ab20e48ae70cc823e455e05d:
 <summary>
 <b>60 FPS Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
 <br>
-<b>Game versions:</b> Disc v1.00 (EU)
+<b>Game versions:</b> Disc (EU)
 </summary>
 
 ```
+# Genji: Days of the Blade [BCES00002]
 PPU-4aeb132cdf86d9c4ab20e48ae70cc823e455e05d:
   - [be32, 0x100FA964, 0x00000000] # for 60fps
 ```
@@ -241,7 +243,7 @@ PPU-d626d9832ed48d1ff0d8d97e53a4e23df50cfae6:
 </summary>
 
 ```
-# LittleBigPlanet 2 1.33 (NPUA80662)
+# LittleBigPlanet 2 1.33 [NPUA80662]
 lbp2AspectRatio_133_NPUA80662: &lbp2AspectRatio_133_NPUA80662
     - [ bef32, 0x00D9C8EC, 2.37037037 ]
 PPU-a74423ca913fc18e46cfe926db1d48e41f9858a9: # NPUA80662
@@ -258,7 +260,7 @@ PPU-a74423ca913fc18e46cfe926db1d48e41f9858a9: # NPUA80662
 <summary>
 <b>60 FPS Patch</b> by <a href="https://github.com/Whatcookie" target="_blank">Whatcookie</a>
 <br>
-<b>Game versions:</b> Disc v1.00 (EU, JP, US)
+<b>Game versions:</b> Disc (EU, JP, US)
 <br>
 <b>Notes:</b> Use vSync if you have a 60hz display, otherwise use the builtin frame-limiter. Game speed will be unstable if you do not have a constant 30 or 60 FPS.
 </summary>
@@ -678,6 +680,7 @@ PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
 </summary>
 
 ```
+# Red Dead Redemption [NPEB00833]
 PPU-8a18a0314cade28526874128b253acd98863b83d:
   - [be32, 0x474F24, 0x4017B9AA] # 21.9 Aspect Ratio
   - [be32, 0x954B8, 0x4017B9AA] # 21.9 HUD fix for 21.9 AR
@@ -717,6 +720,7 @@ PPU-2f6778a8e97be84833e47ef273ff10cc2bd6809e:
 </summary>
 
 ```
+# WipEout HD [NPEA00057] v2.51
 PPU-0e95b58ae209a37060f3388434b59bcce8a708ab:
   - [be32, 0x7E4190, 0x4017B9AA] # 21:9 Aspect Ratio
   - [be32, 0x7EB4A4, 0x4017B9AA] # Render Fix
