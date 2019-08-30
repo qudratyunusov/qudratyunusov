@@ -690,6 +690,30 @@ PPU-8a18a0314cade28526874128b253acd98863b83d:
 
 
 
+### Sonic Adventure
+
+<details>
+<summary>
+<b>Fullscreen 16:9</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Digital (EU)
+</summary>
+
+```
+#  Sonic Adventure [NPEB00304] Fullscreen  16:9 rendering
+PPU-5fc2b4ea8ae9cd7a4247f28dc6af65ca1a6a9fa4:
+  - [be32, 0x05043F18, 0x3F400000]
+  - [be32, 0x00909260, 0x009B1604]
+  - [be32, 0x0090E5B0, 0x40A00000]
+  - [be32, 0x00909270, 0x40400000]
+  - [be32, 0x00909274, 0xC0400000]
+  - [be32, 0x00909278, 0xBF400000]
+```
+
+</details>
+
+
+
 ### Space Channel 5 Part 2
 
 <details>
