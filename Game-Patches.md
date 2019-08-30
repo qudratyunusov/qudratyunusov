@@ -641,7 +641,7 @@ PPU-d0b4d4ba47cab3d5d8328ade1af75f0ae4861488:
 <summary>
 <b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
 <br>
-<b>Game versions:</b> Digital v1.00 (EU)
+<b>Game versions:</b> Digital v2.51 (EU)
 </summary>
 
 ```
