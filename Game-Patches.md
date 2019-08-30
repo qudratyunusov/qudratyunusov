@@ -43,6 +43,24 @@ PPU-5446a2645880eefa75f7e374abd6b7818511e2ef: #BLES00932
 
 
 
+### Genji: Days of the Blade
+
+<details>
+<summary>
+<b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Disc v1.00 (EU)
+</summary>
+
+```
+PPU-4aeb132cdf86d9c4ab20e48ae70cc823e455e05d:
+  - [be32, 0x100FA8B0, 0x4017B9AA] # 21:9 
+```
+
+</details>
+
+
+
 ### Hatsune Miku: Project Diva F
 
 <details>
