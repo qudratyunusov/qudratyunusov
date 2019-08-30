@@ -197,6 +197,25 @@ PPU-311fcd98af6adc5e64e6a833eb959f43b0976193: # NPJB00435 ver. 1.02
 
 
 
+### Kingdom Hearts HD 1.5 ReMIX
+
+<details>
+<summary>
+<b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Disc (US)
+</summary>
+
+```
+PPU-d626d9832ed48d1ff0d8d97e53a4e23df50cfae6:
+  - [be32, 0xEB170, 0x3FAAAAAB] # VERT+ (21.9)
+  - [be32, 0xEB16C, 0x3FC00000] # ZOOM+ (21.9)
+```
+
+</details>
+
+
+
 ### LittleBigPlanet 2
 
 <details>
