@@ -687,6 +687,26 @@ PPU-8a18a0314cade28526874128b253acd98863b83d:
 
 
 
+### Space Channel 5 Part 2
+
+<details>
+<summary>
+<b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Digital (US)
+</summary>
+
+```
+# Space Channel 5 Part 2 [NPUB30353]
+PPU-2f6778a8e97be84833e47ef273ff10cc2bd6809e:
+  - [be32, 0x5839D4, 0x3F99999A] # ZOOM+ (21.9)
+  - [be32, 0x57EF84, 0x3F400000] # VERT+ (21.9)
+```
+
+</details>
+
+
+
 ### WipEout HD
 
 <details>
