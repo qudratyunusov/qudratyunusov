@@ -59,6 +59,20 @@ PPU-4aeb132cdf86d9c4ab20e48ae70cc823e455e05d:
 
 </details>
 
+<details>
+<summary>
+<b>60 FPS Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Disc v1.00 (EU)
+</summary>
+
+```
+PPU-4aeb132cdf86d9c4ab20e48ae70cc823e455e05d:
+  - [be32, 0x100FA964, 0x00000000] # for 60fps
+```
+
+</details>
+
 
 
 ### Hatsune Miku: Project Diva F
