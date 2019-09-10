@@ -254,6 +254,25 @@ PPU-a74423ca913fc18e46cfe926db1d48e41f9858a9: # NPUA80662
 
 
 
+### Metal Gear Solid 2 HD
+
+<details>
+<summary>
+<b>21:9 Patch</b> by <a href="https://github.com/Esppiral" target="_blank">Esppiral</a>
+<br>
+<b>Game versions:</b> Digital (EU)
+</summary>
+
+```
+# METAL GEAR SOLID 2 HD EDITION [NPEB00685]
+PPU-79c9f5ae14fe84851dca7bfe33f58bee3367730b:
+  - [be32, 0xDEE1B0, 0x3F100001] #INGAME 21:9 AR
+```
+
+</details>
+
+
+
 ### NieR
 
 <details>
