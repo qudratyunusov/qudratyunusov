@@ -46,3 +46,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
     * Use `.notice()` method to print debug information unconditionally.
     * Use `.log()` method for well implemented functions.
     * Don't return CELL_OK and other error codes if the function result type doesn't mean error code.
+
+***
+### Qt coding style
+* Don't concatenate translated strings. Use tr().arg() instead.
