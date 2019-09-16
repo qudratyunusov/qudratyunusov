@@ -49,4 +49,4 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 
 ***
 ### Qt coding style
-* Don't concatenate translated strings. Use tr().arg() instead.
+* Don't concatenate translated strings. Use `tr().arg()` instead.
