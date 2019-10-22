@@ -1,17 +1,17 @@
 ### What is RPCS3 and where can I get it?
 RPCS3 is an open-source Sony PlayStation 3 emulator for Windows and Linux written in C++. It is currently capable of booting and playing a decent amount of commercial games (see [Compatibility List](https://rpcs3.net/compatibility)), with many more to become playable with further development.
-The source code for RPCS3 is hosted here on [GitHub](https://github.com/RPCS3/rpcs3/). You may grab the latest compiled revisions for Windows from [AppVeyor](https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts).
+The source code for RPCS3 is hosted here on [GitHub](https://github.com/RPCS3/rpcs3/). You may grab the latest compiled revisions for Windows from [RPCS3.net](https://rpcs3.net/download).
 
 ---
 
 ### What are the system requirements I need to run it?
 The requirements for running RPCS3 are still not fully known and may change a lot during its current development stage. The absolute **minimum requirements** for running the program are:
 * **CPU:** An x64 CPU;
-* **GPU:** An OpenGL 4.3 capable graphics card. Integrated GPUs such as the *Intel HD Graphics* may not work correctly. A modern Vulkan compatible graphics card is **highly** recommended;
+* **GPU:** An OpenGL 4.3 capable graphics card. Integrated Intel GPUs such as the *Intel HD Graphics* may not work correctly and are not supported. A modern Vulkan compatible graphics card is **highly** recommended;
 * **OS:** Windows 7/8/10, Linux, BSD (Must be a 64-bits OS).
 
 Windows only software requirements: 
-* [Visual C++ Redistributable Packages for Visual Studio 2015](http://www.microsoft.com/en-us/download/details.aspx?id=48145);
+* [Visual C++ 2019 Redistributable](https://aka.ms/vs/16/release/VC_redist.x64.exe);
 * [DirectX End-User Runtime Web Installer](https://www.microsoft.com/en-us/download/details.aspx?id=35). 
 
 ---
