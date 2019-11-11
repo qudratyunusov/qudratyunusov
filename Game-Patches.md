@@ -43,6 +43,51 @@ PPU-5446a2645880eefa75f7e374abd6b7818511e2ef: #BLES00932
 
 
 
+### Drakengard 3
+
+<details>
+<summary>
+<b>60 / 120 FPS Patch</b> by <a href="https://github.com/Whatcookie" target="_blank">Whatcookie</a>
+<br>
+<b>Game versions:</b> Disc (AS, JP, US) and Digital (EU, US)
+<br>
+<b>Notes:</b> Need to also change Vblank frequency to 120 for 60FPS or 240 for 120FPS. Going over 120FPS is possible, but you will break physics a bit (lowering jump height) and make it impossible to lock-on to enemies when flying on the dragon.
+</summary>
+
+```
+# Min frametime is this value / 30
+# 0.125 / 30 is 4.1ms, so max FPS is 240
+# This game has a second framerate limiter based 
+# on Vblank, so set Vblank high to raise the framerate
+# Max FPS is Vblank / 2
+PPU-f2f7f7ea0444353884bb715152147c3a29f4e790: # Drakengard 3 [BLUS31197] v1.01
+  - [ bef32, 0x008edbcc, 0.12500000 ] # 240 max FPS
+
+PPU-2b393f064786e5895d5a576621deb4c9107a8f0b: # Drakengard 3 [BLUS31197] v1.00
+  - [ bef32, 0x008edc5c, 0.12500000 ] # 240 max FPS
+
+PPU-b18834a8f21cd29a091b287a66656a279ccba507: # Drakengard 3 [NPUB31251] v1.00
+  - [ bef32, 0x008ecf2c, 0.12500000 ] # 240 max FPS
+
+PPU-9c04f427625a0064282432e4edfefe9e0956c303: # Drakengard 3 [NPUB31251] v1.01
+  - [ bef32, 0x008ececc, 0.12500000 ] # 240 max FPS
+
+PPU-e1a44e5d3fb03a37f0445e92ed13abce8d6efdd4: # Drakengard 3 [NPEB01407]
+  - [ bef32, 0x008eceec, 0.12500000 ] # 240 max FPS
+
+PPU-a017576369165f3746730724c8ae762ed9bc64d8: # Drag-On Dragoon 3 [BLJM61043] v1.00
+  - [ bef32, 0x00939a14, 0.12500000 ] # 240 max FPS
+
+PPU-c09c496514f6dc591434575b04eb7c003826c11d: # Drag-On Dragoon 3 [BLJM61043] v1.04
+  - [ bef32, 0x008ed62c, 0.12500000 ] # 240 max FPS
+
+PPU-5eb979631fbbe531db5d20f0622dca5a8b64090e: # Drag-On Dragoon 3 [BCAS20311] v1.02
+  - [ bef32, 0x008edc5c, 0.12500000 ] # 240 max FPS
+```
+</details>
+
+
+
 ### Genji: Days of the Blade
 
 <details>
