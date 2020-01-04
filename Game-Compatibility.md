@@ -56,6 +56,7 @@ The following table contains the monthly amount of games per status in our compa
 | Sep 2019   | 1431     | 1255   | 280   | 14       | 2       | 2982  |
 | Oct 2019   | 1437     | 1256   | 277   | 13       | 2       | 2985  |
 | Nov 2019   | 1458     | 1269   | 280   | 6        | 2       | 3015  |
+| Dec 2019   | 1519     | 1228   | 274   | 7        | 2       | 3030  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
