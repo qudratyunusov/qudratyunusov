@@ -21,9 +21,11 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 ### NVIDIA (proprietary)
 **OpenGL.**
 - FP precision issues with Nan/Inf values. Workaround implemented.
+  NOTE: This is not a driver bug as it can be considered implementation-defined behavior.
 
 **Vulkan.**
 - FP precision issues with Nan/Inf values. Workaround implemented.
+  NOTE: This is not a driver bug as it can be considered implementation-defined behavior.
 
 ### Mesa
 **OpenGL.**
