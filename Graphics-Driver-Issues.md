@@ -10,7 +10,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 ### AMD (proprietary)
 **OpenGL.**
-- glMultiDrawArrays is broken. Workaround implemented and problem reported to AMD. No replies yet.<br>
+- glMultiDrawArrays is broken. Workaround implemented and problem reported to AMD. No replies yet. See [this report.](https://community.amd.com/message/2858799)<br>
   [NOTE] This seems to be undefined behavior in the spec. The gl_VertexID propagation behavior across MultiDrawArrays is not defined, i.e whether it should continue incrementing of reset to 0 on a new instance. However, due to the comparison with a loop of [first, count] and implied functional equivalence, this may be interpreted as a bug. Either way, RPCS3 provides a workaround using index lookups.
 - ~~glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested. Workaround implemented.~~ Fixed in driver version 19.4.3
 - ~~Critical bug with Adrenalin 2020 drivers (since 19.12.x series). OpenGL no longer works with proprietary AMD drivers. Issue reported to AMD, we're waiting for action from their side.~~ Fixed in driver version 20.1.4
@@ -31,5 +31,5 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 **Vulkan.**
 - Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects proprietary drivers. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
-- LLVM8 codegen is broken. Use mesa with LLVM9 codegen to avoid this issue. Padoka PPA has the updated LLVM9 drivers for ubuntu users. See [this bug report.](https://bugs.freedesktop.org/show_bug.cgi?id=110970)
+- ~~LLVM8 codegen is broken. Use mesa with LLVM9 codegen to avoid this issue. Padoka PPA has the updated LLVM9 drivers for ubuntu users. See [this bug report.](https://bugs.freedesktop.org/show_bug.cgi?id=110970)~~ Fixed in newer versions of mesa based on later LLVM versions.
 - If using the experimental Southern Islands amdgpu support, enabling MSAA may cause the emulator to crash. This is a limitation of the driver, disable MSAA to work around this issue.
