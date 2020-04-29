@@ -12,12 +12,11 @@ The requirements for running RPCS3 are still not fully known and may change a lo
 
 Windows only software requirements: 
 * [Visual C++ 2019 Redistributable](https://aka.ms/vs/16/release/VC_redist.x64.exe);
-* [DirectX End-User Runtime Web Installer](https://www.microsoft.com/en-us/download/details.aspx?id=35). 
 
 ---
 
 ### Does RPCS3 support commercial games? When will it support the game I want to play?
-**Yes, some**. You can currently play dozens of titles on RPCS3! However, most titles don't work yet because the emulator is in an early stage of development and a lot of features required to run those haven't been implemented yet. 
+**Yes, some**. You can currently play hundreds of titles on RPCS3! However, a lot of titles don't work yet because the emulator is in an early stage of development and a several of the features required to run those haven't been implemented yet. 
 Check out the [Compatibility List](https://rpcs3.net/compatibility) or the [Forums](https://forums.rpcs3.net) to see if there's any information on the game you want to play. More games will be supported when the hardware/firmware emulation is accurate enough to run them. It all depends on the amount of developers working on this project, their skills, and free time, etc. Ignore any estimates and guesses you find out there.
 
 ---
