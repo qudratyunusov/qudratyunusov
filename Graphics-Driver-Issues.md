@@ -80,3 +80,8 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Affected** drivers: Mesa 20.0.0, 20.0.1 <br>
 » **Workaround** used: [Explicitely injecting null subpass dependencies](https://github.com/RPCS3/rpcs3/pull/7909/commits/943cbb1e39fec9cc02ac6193e9b05482c4a36c92#diff-d0082402e2ea9309446e3dc7818f8394) (now removed) <br>
 » **Fixed** on: Mesa 20.0.2
+
+- **Normal:** [vkGetQueryPoolResults returns incorrect values when VK_QUERY_RESULT_PARTIAL_BIT is set on NVIDIA (Windows)](https://forums.developer.nvidia.com/t/vkgetquerypoolresults-returns-incorrect-values-when-vk-query-result-partial-bit-is-set/110137) <br>
+» **Affected** drivers: NVIDIA GeForce 442.59 and earlier <br>
+» **Workaround** used: [Keeping NVIDIA driver from using partial results](https://github.com/RPCS3/rpcs3/pull/7909/commits/c4f539a9cf43e946364a3931f6e5b8c36457d4b4#diff-c9e6fd1ef5ae3e53670d088d2961e556) (now removed) <br>
+» **Fixed** on: ~NVIDIA GeForce 442.74
