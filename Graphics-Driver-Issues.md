@@ -76,7 +76,7 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None, using RADV with LLVM instead of ACO <br>
 » **Fixed** on: Mesa 20.0.3
 
-- **Medium:** [Unnecessary implicit subpass dependencies caused performance regression on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2502) <br>
+- **Normal:** [Unnecessary implicit subpass dependencies caused performance regression on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2502) <br>
 » **Affected** drivers: Mesa 20.0.0, 20.0.1 <br>
 » **Workaround** used: [Explicitely injecting null subpass dependencies](https://github.com/RPCS3/rpcs3/pull/7909/commits/943cbb1e39fec9cc02ac6193e9b05482c4a36c92#diff-d0082402e2ea9309446e3dc7818f8394) (now removed) <br>
 » **Fixed** on: Mesa 20.0.2
