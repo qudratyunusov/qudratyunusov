@@ -1,10 +1,10 @@
 ## Welcome to RPCS3's wiki
 
 ### Index (GitHub Wiki)
-* [FAQ](https://github.com/RPCS3/rpcs3/wiki/FAQ)
 * [Game Compatibility](https://github.com/RPCS3/rpcs3/wiki/Game-Compatibility)
 * [Graphics Driver Issues](https://github.com/RPCS3/rpcs3/wiki/Graphics-Driver-Issues)
 * [How to ask for Support](https://github.com/RPCS3/rpcs3/wiki/How-to-ask-for-Support)
+* [FAQ (Outdated)](https://github.com/RPCS3/rpcs3/wiki/FAQ)
 
 ### Index (RPCS3 Wiki)
 * [Dumping PlayStation 3 games](https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games)
