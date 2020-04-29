@@ -5,6 +5,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » [AMD (Proprietary)](#amd-proprietary) <br>
 » [NVIDIA (Proprietary)](#nvidia-proprietary) <br>
 » [AMD (Mesa)](#amd-mesa) <br>
+» [Intel (Mesa)](#intel-mesa) <br>
 » [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
 
 
@@ -35,6 +36,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - FP precision issues with Nan/Inf values. Workaround implemented.<br>
   NOTE: This is not a driver bug as it can be considered implementation-defined behavior.
 
+
 ## AMD (Mesa) <a name="amd-mesa"/>
 **OpenGL**
 - _No known problems at this time_
@@ -43,6 +45,16 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects proprietary drivers. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
 - ~~LLVM8 codegen is broken. Use mesa with LLVM9 codegen to avoid this issue. Padoka PPA has the updated LLVM9 drivers for ubuntu users. See [this bug report.](https://bugs.freedesktop.org/show_bug.cgi?id=110970)~~ Fixed in newer versions of mesa based on later LLVM versions.
 - If using the experimental Southern Islands amdgpu support, enabling MSAA may cause the emulator to crash. This is a limitation of the driver, disable MSAA to work around this issue.
+- [Vertex explosion when using ACO shader compiler](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2848). Use LLVM instead until the issue is fixed.
+
+
+## Intel (Mesa) <a name="intel-mesa"/>
+**OpenGL**
+- _No known problems at this time_
+
+**Vulkan**
+- [Diagonal corruption line](https://gitlab.freedesktop.org/mesa/mesa/issues/2671). Enable Strict Rendering Mode in RPCS3.
+
 
 ---
 
