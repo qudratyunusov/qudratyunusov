@@ -66,15 +66,15 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None, not possible <br>
 » **Fixed** on: Radeon Software Adrenalin 20.1.4
 
-- **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
-» **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
-» **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
-» **Fixed** on: Radeon Software Adrenalin 19.4.3
-
 - **High:** [AMD RADV driver crash when using ACO due to unusual control flow (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2557) <br>
 » **Affected** drivers: Mesa 20.0.2 and earlier <br>
 » **Workaround** used: None, using RADV with LLVM instead of ACO <br>
 » **Fixed** on: Mesa 20.0.3
+
+- **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
+» **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
+» **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
+» **Fixed** on: Radeon Software Adrenalin 19.4.3
 
 - **Normal:** [Unnecessary implicit subpass dependencies caused performance regression on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2502) <br>
 » **Affected** drivers: Mesa 20.0.0, 20.0.1 <br>
