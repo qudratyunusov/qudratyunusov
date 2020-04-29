@@ -4,7 +4,8 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » [Intel (Proprietary)](#intel-proprietary) <br>
 » [AMD (Proprietary)](#amd-proprietary) <br>
 » [NVIDIA (Proprietary)](#nvidia-proprietary) <br>
-» [AMD (Mesa)](#amd-mesa)
+» [AMD (Mesa)](#amd-mesa) <br>
+» [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
 
 
 ## Intel (Proprietary) <a name="intel-proprietary"/>
@@ -45,7 +46,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 ---
 
-# Hall of Fame
+# Hall of Fame <a name="hall-of-fame"/>
 List of reported graphics driver bugs that are now fixed. We'd like to thank the developers who fixed these!
 
 - **CRITICAL:** [OpenGL no longer renders **any** game on **any** AMD GPU! (Windows)](https://community.amd.com/message/2949336) <br>
@@ -65,5 +66,5 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 
 - **Medium:** [Unnecessary implicit subpass dependencies caused performance regression on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2502) <br>
 » **Affected** drivers: Mesa 20.0.0, 20.0.1 <br>
-» **Workaround** used: [Explicitely injecting null subpass dependencies](https://github.com/RPCS3/rpcs3/pull/7909/commits/943cbb1e39fec9cc02ac6193e9b05482c4a36c92#diff-d0082402e2ea9309446e3dc7818f8394) <br>
+» **Workaround** used: [Explicitely injecting null subpass dependencies](https://github.com/RPCS3/rpcs3/pull/7909/commits/943cbb1e39fec9cc02ac6193e9b05482c4a36c92#diff-d0082402e2ea9309446e3dc7818f8394) (now removed) <br>
 » **Fixed** on: Mesa 20.0.2
