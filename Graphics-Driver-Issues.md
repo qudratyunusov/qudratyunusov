@@ -57,3 +57,13 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
 » **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
 » **Fixed** on: Radeon Software Adrenalin 19.4.3
+
+- **High:** [AMD RADV driver crash when using ACO due to unusual control flow (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2557) <br>
+» **Affected** drivers: Mesa 20.0.2 and earlier <br>
+» **Workaround** used: None, using RADV with LLVM instead of ACO <br>
+» **Fixed** on: Mesa 20.0.3
+
+- **Medium:** [Unnecessary implicit subpass dependencies caused performance regression on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2502) <br>
+» **Affected** drivers: Mesa 20.0.0, 20.0.1 <br>
+» **Workaround** used: [Explicitely injecting null subpass dependencies](https://github.com/RPCS3/rpcs3/pull/7909/commits/943cbb1e39fec9cc02ac6193e9b05482c4a36c92#diff-d0082402e2ea9309446e3dc7818f8394) <br>
+» **Fixed** on: Mesa 20.0.2
