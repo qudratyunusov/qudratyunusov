@@ -4,7 +4,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » [Intel (Proprietary)](#intel-proprietary) <br>
 » [AMD (Proprietary)](#amd-proprietary) <br>
 » [NVIDIA (Proprietary)](#nvidia-proprietary) <br>
-» [AMD (Mesa)](#amd-proprietary)
+» [AMD (Mesa)](#amd-mesa)
 
 
 ## Intel (Proprietary) <a name="intel-proprietary"/>
@@ -20,8 +20,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 **OpenGL**
 - glMultiDrawArrays is broken. Workaround implemented and problem reported to AMD. No replies yet. See [this report.](https://community.amd.com/message/2858799)<br>
   [NOTE] This seems to be undefined behavior in the spec. The gl_VertexID propagation behavior across MultiDrawArrays is not defined, i.e whether it should continue incrementing of reset to 0 on a new instance. However, due to the comparison with a loop of [first, count] and implied functional equivalence, this may be interpreted as a bug. Either way, RPCS3 provides a workaround using index lookups.
-- ~~glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested. Workaround implemented.~~ Fixed in driver version 19.4.3
-- ~~Critical bug with Adrenalin 2020 drivers (since 19.12.x series). OpenGL no longer works with proprietary AMD drivers. Issue reported to AMD, we're waiting for action from their side.~~ Fixed in driver version 20.1.4
 
 **Vulkan**
 - Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects mesa drivers to some extent. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
@@ -46,3 +44,16 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - If using the experimental Southern Islands amdgpu support, enabling MSAA may cause the emulator to crash. This is a limitation of the driver, disable MSAA to work around this issue.
 
 ---
+
+# Hall of Fame
+List of reported graphics driver bugs that are now fixed. We'd like to thank the developers who fixed these!
+
+- **CRITICAL:** [OpenGL no longer renders **any** game on **any** AMD GPU! (Windows)](https://community.amd.com/message/2949336) <br>
+» **Affected** drivers: Radeon Software Adrenalin 19.12.1, 19.12.2, 19.12.3, 20.1.1, 20.1.2, 20.1.3 <br>
+» **Workaround** used: None, not possible <br>
+» **Fixed** on: Radeon Software Adrenalin 20.1.4
+
+- **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
+» **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
+» **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
+» **Fixed** on: Radeon Software Adrenalin 19.4.3
