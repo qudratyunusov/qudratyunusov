@@ -15,6 +15,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: No <br>
 » **Reported**: No <br>
 » **Note**: Intel proprietary OpenGL drivers are unsupported by RPCS3 due to their poor state.
+
 - _There are likely other issues as well..._
 
 **Vulkan**
@@ -29,7 +30,9 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Note**: This seems to be undefined behavior in the spec. The gl_VertexID propagation behavior across MultiDrawArrays is not defined, i.e whether it should continue incrementing of reset to 0 on a new instance. However, due to the comparison with a loop of [first, count] and implied functional equivalence, this may be interpreted as a bug. Either way, RPCS3 provides a workaround using index lookups.
 
 **Vulkan**
-- Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects mesa drivers to some extent. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
+- Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
+» **Workaround** implemented: **Yes** (automatic) <br>
+» **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
 
 
 ## NVIDIA (Proprietary) <a name="nvidia-proprietary"/>
@@ -49,10 +52,22 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - _No known problems at this time_
 
 **Vulkan**
-- Primitive restart is 'broken'. This seems to be a GCN hardware bug as it also affects proprietary drivers. Workaround implemented. (confirmed - see [this commit](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d))
-- ~~LLVM8 codegen is broken. Use mesa with LLVM9 codegen to avoid this issue. Padoka PPA has the updated LLVM9 drivers for ubuntu users. See [this bug report.](https://bugs.freedesktop.org/show_bug.cgi?id=110970)~~ Fixed in newer versions of mesa based on later LLVM versions.
-- If using the experimental Southern Islands amdgpu support, enabling MSAA may cause the emulator to crash due to missing Vulkan Feature. This is a limitation of the driver, disable MSAA to work around this issue.
-- [Vertex explosion when using ACO shader compiler](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2848). Use LLVM instead until the issue is fixed.
+- [Vertex explosion when using ACO shader compiler](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2848) <br> 
+» **Workaround** implemented: No, not possible. Use RADV with LLVM instead until the issue is fixed. <br>
+» **Reported**: **Yes**, on 2020-04-26. Issue assigned. 
+
+- [Missing `shaderStorageImageMultisample` Vulkan feature support on GCN1 GPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2864) <br>
+» **Workaround** implemented: No, set MSAA to Disabled. If you really need MSAA, use the `amdvlk` driver. <br>
+» **Reported**: **Yes**, on 2020-04-30.
+
+- Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
+» **Workaround** implemented: **Yes** (automatic) <br>
+» **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
+
+- ~~[LLVM 8 generates broken code on Mesa](https://bugs.freedesktop.org/show_bug.cgi?id=110970)~~ <br>
+» **Workaround** implemented: No, use newer versions of Mesa that are based on LLVM 9 or above <br>
+» **Reported**: **Yes**, on 2019-06-22. Quick reply. <br>
+» **Note**: This is caused by a dependency (LLVM), and not a bug on the driver's implementation. <br>
 
 
 ## Intel (Mesa) <a name="intel-mesa"/>
