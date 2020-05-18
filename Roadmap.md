@@ -4,7 +4,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve SPU/PPU LLVM recompiler compatibility, add more optimizations. (Nekotekina)
 * Implement parametrized PPU/SPU Interpreters reusing current LLVM IR generator, remove original hard-coded interpreters and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. (Nekotekina)
 * Fix any remaining RSX regressions.
-* Integrate the base framework for GPU-side program decompiler. (kd-11, DH)
+* Improve the GPU-side program decompiler/interpreter. (kd-11)
 * Rework RSX <-> Cell synchronization framework to be more cohesive. (kd-11)
 
 ## Medium term goals
