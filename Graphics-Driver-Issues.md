@@ -56,10 +56,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: No, not possible. Use RADV with LLVM instead until the issue is fixed. <br>
 » **Reported**: **Yes**, on 2020-04-26. Issue assigned. 
 
-- [Missing `shaderStorageImageMultisample` Vulkan feature support on GCN1 GPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2864) <br>
-» **Workaround** implemented: No, set MSAA to Disabled or use `mesa-git`. <br>
-» **Reported**: **Yes**, on 2020-04-30. Was already fixed on `mesa-git`, fix will release on Mesa 20.1.0.
-
 - Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
 » **Workaround** implemented: **Yes** (automatic) <br>
 » **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
@@ -108,3 +104,8 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Affected** drivers: NVIDIA GeForce 442.59 and earlier <br>
 » **Workaround** used: [Keeping NVIDIA driver from using partial results](https://github.com/RPCS3/rpcs3/pull/7909/commits/c4f539a9cf43e946364a3931f6e5b8c36457d4b4#diff-c9e6fd1ef5ae3e53670d088d2961e556) (now removed) <br>
 » **Fixed** on: ~NVIDIA GeForce 442.74
+
+- **Normal:** [Missing `shaderStorageImageMultisample` Vulkan feature support on GCN1 GPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2864) <br>
+» **Workaround** implemented: None (disable MSAA on affected drivers) <br>
+» **Reported**: **Yes**, on 2020-04-30, issue was already fixed on mesa-git <br>
+» **Fixed** on: Mesa 20.1.0
