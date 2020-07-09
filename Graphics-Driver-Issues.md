@@ -68,7 +68,8 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 ## Intel (Mesa) <a name="intel-mesa"/>
 **OpenGL**
-- _No known problems at this time_
+- **i965** Driver: **Not supported.** Games won't render properly with it, it's very broken [[1]](https://www.youtube.com/watch?v=SSprkcc6NZM), [[2]](https://www.youtube.com/watch?v=0qjqblFDdFw), [[3]](https://www.youtube.com/watch?v=ZwKmYBMMdvE).
+- **iris** Driver: _No known problems at this time._
 
 **Vulkan**
 - [Diagonal corruption line](https://gitlab.freedesktop.org/mesa/mesa/issues/2671) <br>
