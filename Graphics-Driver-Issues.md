@@ -80,6 +80,10 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: None, use one of the shader modes that don't use the Shader Interpreter <br>
 » **Reported**: **Yes**, on 2020-08-02. Quickly replied. <br>
 
+- [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/3355) <br>
+» **Workaround** implemented: None, disable Anti-Aliasing <br>
+» **Reported**: **Yes**, on 2020-08-03. <br>
+
 ---
 
 # Hall of Fame <a name="hall-of-fame"/>
