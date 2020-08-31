@@ -76,13 +76,9 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: **Yes**, use Strict Rendering Mode <br>
 » **Reported**: **Yes**, on 2020-03-22. Quickly replied. <br>
 
-- [Crash when using ASync with Shader Interpreter or Shader Interpreter only shader modes](https://gitlab.freedesktop.org/mesa/mesa/-/issues/3351) <br>
-» **Workaround** implemented: None, use one of the shader modes that don't use the Shader Interpreter <br>
-» **Reported**: **Yes**, on 2020-08-02. Quickly replied. <br>
-
 - [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/3355) <br>
 » **Workaround** implemented: None, disable Anti-Aliasing <br>
-» **Reported**: **Yes**, on 2020-08-03. <br>
+» **Reported**: **Yes**, on 2020-08-03. No solution given from the driver developers, feature unsupported in hardware. <br>
 
 ---
 
