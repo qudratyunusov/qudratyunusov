@@ -95,6 +95,11 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None, using RADV with LLVM instead of ACO <br>
 » **Fixed** on: Mesa 20.0.3
 
+- **High:** Incorrectly rendered Vulkan shaders due to broken SPIR-V optimization on NVIDIA <br>
+» **Affected** drivers: NVIDIA Windows 452.06 and earlier, NVIDIA Linux 450.56.06 and earlier <br>
+» **Workaround** used: None <br>
+» **Fixed** on: NVIDIA Windows 452.28, NVIDIA Linux 450.56.11
+
 - **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
 » **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
 » **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
