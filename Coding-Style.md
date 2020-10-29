@@ -15,6 +15,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * If you have to comment or place a commented code snippet, include the reasons to do that in the comment.
 * Don't use `/**/` for commenting out multiple lines. Use `//` on every line instead. In Visual Studio, for example, you can just select desired lines and use `Ctrl+K,C` combination to comment every line with `//`, `Ctrl+K,U` reverts this.
 * Ensure that every source file you modify has the newline at the end of file. Every line ends with "newline" and the end of file must have "newline" too, GitHub usually warns about it.
+* Use brackets around multi-term ternary operator conditions especially if they occur with other code on the same line. `(x * y) + ((a > b)? c : d)` is more readable than `x * y + a > b? c : d`.
 
 ***
 ### Emulator coding style
