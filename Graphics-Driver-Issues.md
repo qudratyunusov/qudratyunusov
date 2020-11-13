@@ -52,10 +52,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - _No known problems at this time_
 
 **Vulkan**
-- [Vertex explosion when using ACO shader compiler](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2848) <br> 
-» **Workaround** implemented: No, not possible. Use RADV with LLVM instead until the issue is fixed. <br>
-» **Reported**: **Yes**, on 2020-04-26. Issue assigned. 
-
 - Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
 » **Workaround** implemented: **Yes** (automatic) <br>
 » **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
@@ -116,6 +112,11 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Fixed** on: ~NVIDIA GeForce 442.74
 
 - **Normal:** [Missing `shaderStorageImageMultisample` Vulkan feature support on GCN1 GPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2864) <br>
-» **Workaround** implemented: None (disable MSAA on affected drivers) <br>
-» **Reported**: **Yes**, on 2020-04-30, issue was already fixed on mesa-git <br>
+» **Affected** drivers: Mesa 20.0.8 and older <br>
+» **Workaround** used: None (disable MSAA on affected drivers) <br>
 » **Fixed** on: Mesa 20.1.0
+
+- **Normal:** [Vertex explosion when using ACO shader compiler on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2848) <br> 
+» **Affected** drivers: Mesa 20.2.1 and older <br>
+» **Workaround** used: None, not possible. Using the older shader compiler instead of ACO, which was the default prior to Mesa 20.2 <br>
+» **Fixed** on: Mesa 20.2.2
