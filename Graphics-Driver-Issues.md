@@ -34,6 +34,10 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: **Yes** (automatic) <br>
 » **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
 
+- [MSAA with sample shading disabled does not work on NAVI when using Vulkan](https://community.amd.com/t5/opengl-vulkan/msaa-with-sample-shading-disabled-does-not-work-on-navi-when/td-p/425122) <br>
+» **Workaround** implemented: **Yes** (automatic) <br>
+» **Note:** Forcefully enabling sampleRateShading for all pipelines and calculating the minimum ratio works around this problem
+
 
 ## NVIDIA (Proprietary) <a name="nvidia-proprietary"/>
 **OpenGL**
