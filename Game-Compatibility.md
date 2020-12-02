@@ -67,6 +67,7 @@ The following table contains the monthly amount of games per status in our compa
 | Aug 2020   | 1889     | 1049   | 214   | 8        | 2       | 3162  |
 | Sep 2020   | 1881     | 1056   | 205   | 9        | 2       | 3153  |
 | Oct 2020   | 1890     | 1065   | 204   | 8        | 3       | 3170  |
+| Nov 2020   | 1893     | 1067   | 203   | 8        | 3       | 3174  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
