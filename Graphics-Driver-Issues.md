@@ -100,6 +100,11 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None <br>
 » **Fixed** on: NVIDIA Windows 452.28, NVIDIA Linux 450.56.11
 
+- **High:** [Unexpectedly slower performance (-25%) when replacing VK_FORMAT_B8G8R8A8_UNORM with VK_FORMAT_R8G8B8A8_UNORM on NVIDIA](https://forums.developer.nvidia.com/t/unexpectedly-slower-performance-25-when-replacing-vk-format-b8g8r8a8-unorm-with-vk-format-r8g8b8a8-unorm/158374) <br>
+» **Affected** drivers: NVIDIA Windows 457.30 and earlier, NVIDIA Linux untested <br>
+» **Workaround** used: None <br>
+» **Fixed** on: NVIDIA Windows 457.51
+
 - **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
 » **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
 » **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
