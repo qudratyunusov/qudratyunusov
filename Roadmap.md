@@ -3,7 +3,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 ## Short term goals
 * Improve SPU/PPU LLVM recompiler compatibility, add more optimizations. (Nekotekina)
 * Implement parametrized PPU/SPU Interpreters reusing current LLVM IR generator, remove original hard-coded interpreters and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. (Nekotekina)
-* Fix any remaining RSX regressions.
+* Fix any remaining RSX regressions. (kd-11)
 * RSX header restructuring. (kd-11)
 * Zero-copy RSX DMA. (kd-11)
 * Rewrite texture cache. (kd-11)
