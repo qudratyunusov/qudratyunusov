@@ -11,16 +11,17 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Rework RSX <-> Cell synchronization framework to be more cohesive. (kd-11)
 
 ## Medium term goals
-* Improve SPU instruction accuracy for Fast Interpreter and ASMJIT, investigate vectorized software FP implementation.
-* Improve audio and video decoders for better speed and compatibility.
+* Improve SPU instruction accuracy, investigate vectorized software FP implementation. Integrate as an option for SPU LLVM. Remove SPU Precise.
 * Improve controller support. This includes emulated controllers (with mouse or keyboard) and real controllers as well.
 * Improve solution structure, move and rename some files.
 * Implement missing syscalls. Allow to LLE more system modules.
 * Write automatic tests to minimize bugs.
 * Implement config tristate in GUI for per-game configurations.
 * Improvements to the shader generation and cache system
-* Remove obstacles for ASLR support. (Nekotekina)
-* Rewrite signal handlers to improve reliability and support exceptions. (Nekotekina)
+* Swich to homebrew shared_ptr<> (Nekotekina)
+* Implement implicit event sending by invoking operator() with arguments for named_thread template, remove lf_queue and lf_fifo. (Nekotekina)
+* Get rid of RTTI (Nekotekina)
+* Improve internal profilers and statistic printers, at least ones in g_fxo. (Nekotekina)
 
 ## Long term goals
 * Support booting from original game discs.
@@ -35,9 +36,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Improve performance and compatibility of all renderers.
 
 ## For developers
-* Parse .eh_frame section in PPU analyser and use this information in LLVM recompiler.
 * Implement MFC_DMA_TAG_CMD_STALL_NOTIFY_EVENT and other SPU events.
 * Return `error_code` from syscalls and functions to enable error reporting.
 * Improve embedded debugging tools (CPU, RSX, Kernel Explorer).
-* Implement BPIP for synchronization primitives.
-* Cleanup the VS project files: reduce to two build types (Release and Debug), but both must use *Release* LLVM build. Debug build should include memory leak detection features.
+* Cleanup the VS project files: reduce to two build types (Release and Debug), but both must use *Release* LLVM build.
