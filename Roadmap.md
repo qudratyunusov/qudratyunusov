@@ -39,4 +39,3 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement MFC_DMA_TAG_CMD_STALL_NOTIFY_EVENT and other SPU events.
 * Return `error_code` from syscalls and functions to enable error reporting.
 * Improve embedded debugging tools (CPU, RSX, Kernel Explorer).
-* Cleanup the VS project files: reduce to two build types (Release and Debug), but both must use *Release* LLVM build.
