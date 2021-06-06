@@ -5,9 +5,8 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement parametrized PPU/SPU Interpreters reusing current LLVM IR generator, remove original hard-coded interpreters and make LLVM mandatory. Add options regulating its accuracy detached from the base choice of the Interpreter or the Recompiler. (Nekotekina)
 * Make journaling VFS layer or something that fits, properly implementing some missing features like case sensitivity. (Nekotekina)
 * Fix any remaining RSX regressions. (kd-11)
-* RSX header restructuring. (kd-11)
-* Zero-copy RSX DMA. (kd-11)
-* Rewrite texture cache. (kd-11)
+* Fix surface cache leaks. (kd-11)
+* Merge RCB+RDB and WCB+WDB and make the new 'Read Buffers' option enabled by default. (kd-11)
 * Rework RSX <-> Cell synchronization framework to be more cohesive. (kd-11)
 
 ## Medium term goals
@@ -22,6 +21,7 @@ This is a non-exhaustive list of current goals made possible with the support of
 * Implement implicit event sending by invoking operator() with arguments for named_thread template, remove lf_queue and lf_fifo. (Nekotekina)
 * Get rid of RTTI (Nekotekina)
 * Improve internal profilers and statistic printers, at least ones in g_fxo. (Nekotekina)
+* Merge texture cache and surface cache into one structure and remove bloat (kd-11)
 
 ## Long term goals
 * Support booting from original game discs.
