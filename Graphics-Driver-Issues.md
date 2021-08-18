@@ -76,12 +76,8 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - **iris** Driver: _No known problems at this time._
 
 **Vulkan**
-- [Diagonal corruption line](https://gitlab.freedesktop.org/mesa/mesa/issues/2671) <br>
-» **Workaround** implemented: **Yes**, use Strict Rendering Mode <br>
-» **Reported**: **Yes**, on 2020-03-22. Quickly replied. <br>
-
-- [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/3355) <br>
-» **Workaround** implemented: None, disable Anti-Aliasing <br>
+- [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs](https://gitlab.freedesktop.org/mesa/mesa/-/issues/3355) <br>
+» **Workaround** implemented: **Yes**, Anti-Aliasing (MSAA) will be disabled automatically by RPCS3 <br>
 » **Reported**: **Yes**, on 2020-08-03. No solution given from the driver developers, feature unsupported in hardware. <br>
 
 ---
