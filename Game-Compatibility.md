@@ -75,6 +75,7 @@ The following table contains the monthly amount of games per status in our compa
 | Apr 2021   | 1911     | 1064   | 199   | 9        | 3       | 3186  |
 | May 2021   | 1922     | 1058   | 199   | 9        | 3       | 3191  |
 | Jun 2021   | 1935     | 1058   | 206   | 6        | 3       | 3208  |
+| Jul 2021   | 1991     | 1014   | 195   | 6        | 3       | 3209  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
