@@ -78,7 +78,11 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 **Vulkan**
 - [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs](https://gitlab.freedesktop.org/mesa/mesa/-/issues/3355) <br>
 » **Workaround** implemented: **Yes**, Anti-Aliasing (MSAA) will be disabled automatically by RPCS3 <br>
-» **Reported**: **Yes**, on 2020-08-03. No solution given from the driver developers, feature unsupported in hardware. <br>
+» **Reported**: **Yes**, on 2020-08-03. Feature unsupported by hardware. <br>
+
+- [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426)
+» **Workaround** implemented: **Yes**, an alternative (slower) code path will be used instead <br>
+» **Reported**: **Yes**, on 2020-09-28. <br>
 
 ---
 
