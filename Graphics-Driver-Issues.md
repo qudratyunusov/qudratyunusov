@@ -80,7 +80,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: **Yes**, Anti-Aliasing (MSAA) will be disabled automatically by RPCS3 <br>
 » **Reported**: **Yes**, on 2020-08-03. Feature unsupported by hardware. <br>
 
-- [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426)
+- [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426) <br>
 » **Workaround** implemented: **Yes**, an alternative (slower) code path will be used instead <br>
 » **Reported**: **Yes**, on 2020-09-28. <br>
 
